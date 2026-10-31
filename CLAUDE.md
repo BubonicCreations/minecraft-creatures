@@ -2,11 +2,11 @@
 
 Minecraft **Bedrock** resource pack "Bubonic Creatures": realistic AI-made 3D mobs jointed for the game's own animations. Split off
 `../minecraft-reskin-project` on 2026-10-31. Player guide and commands: `README.md`. What failed, what works, the recipe for
-the next model: `docs/LESSONS-MOBS.md`.
+the next model: `docs/LESSONS-MOBS.md`; contracts: `docs/DESIGN-MOBS.md`.
 
 ## Commands
 - `~/.local/bin/uv run tools/build.py` (DEV) / `--deploy` / `--release`; everything runs from this folder (the tools use relative paths).
-- Tool code is `mcreskin` from `../minecraft-reskin-project` (`glbmodel.py`, `render.py`, build): its tests live there (`uv run pytest -q` there).
+- Mob code is `src/creatures/` here (`glbmodel.py`, `render.py`, the mob builders), tests with `uv run pytest -q`. The shared build (textures, PBR, lint, ComfyUI) is `mcreskin` from `../minecraft-reskin-project`, so the two folders sit side by side.
 
 ## Rules
 - Render each model and look at it before moving on (`tools/check.py`); the user asked for this, and earlier rounds that skipped it had to be redone. The user then judges in game.

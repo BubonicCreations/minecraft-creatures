@@ -1,0 +1,32 @@
+# Mob pilot (2026-10-26): seamless real materials for the mob_skin builder (cow, pig, zombie).
+# The builder keeps vanilla's colours and takes only each photo's relief (its variation around
+# its local mean), so a photo's own hue matters little; even lighting and no big shapes matter.
+# Run: uv run mcreskin generate recipes/mobs-pilot.yaml
+size: 1024
+seed_base: 2201
+models: {qwen: 2}
+negative: >-
+  perspective, depth of field, vignette, raking light, deep shadows, repeating pattern, grid of
+  tiles, frame, border, text, letters, watermark, signature, blurry, animal, face, eye
+style: >-
+  Orthographic close-up photograph taken perfectly straight-on, flat even overcast lighting with
+  uniform brightness at the left edge, centre and right edge, sharp focus everywhere,
+  photorealistic high-resolution texture scan, one continuous surface filling the whole image.
+
+textures:
+  mob_cow_hair_dark:
+    prompt: Texture of the short dense smooth hair coat of a dark brown cow, fine hairs all lying in the same direction.
+  mob_cow_hair_light:
+    prompt: Texture of the short dense smooth hair coat of a white cow, fine hairs all lying in the same direction.
+  mob_pig_skin:
+    prompt: Texture of pink pig skin with fine pores, faint wrinkles and a few sparse fine pale bristles.
+  mob_horn:
+    prompt: Texture of smooth pale cream cattle horn with fine lengthwise ridges and faint grey streaks.
+  mob_zombie_skin:
+    prompt: Texture of rotting grey-green human skin with blotchy discolouration, pores, small wrinkles and faint dark veins.
+  mob_cotton:
+    prompt: Texture of worn dirty woven cotton shirt fabric, a fine plain weave with a few small stains.
+  mob_denim:
+    prompt: Texture of worn blue denim fabric, a fine diagonal twill weave with faded patches.
+  mob_leather:
+    prompt: Texture of worn scuffed grey leather with fine grain and small creases.

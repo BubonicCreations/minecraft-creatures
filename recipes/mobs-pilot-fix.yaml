@@ -1,0 +1,23 @@
+# Mob pilot fixes (2026-10-26): naming the animal ("cow hair", "pig skin", "human skin") gave whole
+# faces, and stitched borders on leather; ask for a flat patch of the material itself.
+# Run: uv run mcreskin generate recipes/mobs-pilot-fix.yaml
+size: 1024
+seed_base: 2221
+models: {qwen: 2}
+style: >-
+  Orthographic macro photograph taken perfectly straight-on, flat even overcast lighting with
+  uniform brightness at the left edge, centre and right edge, sharp focus everywhere,
+  photorealistic high-resolution texture scan, one continuous surface filling the whole image,
+  no edges, no seams.
+
+textures:
+  mob_cow_hair_dark:
+    prompt: Texture of a flat hide rug of short dense dark brown hair, fine straight hairs all lying flat in one direction.
+  mob_cow_hair_light:
+    prompt: Texture of a flat hide rug of short dense white hair, fine straight hairs all lying flat in one direction.
+  mob_pig_skin:
+    prompt: Texture of a flat patch of smooth pale pink skin with fine pores, faint creases and a few sparse fine pale bristles.
+  mob_zombie_skin:
+    prompt: Texture of a flat patch of blotchy grey-green rotting skin with pores, small creases and faint dark veins.
+  mob_leather:
+    prompt: Texture of a flat sheet of worn scuffed grey leather with fine grain and small creases.

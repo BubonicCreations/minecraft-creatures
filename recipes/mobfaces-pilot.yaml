@@ -1,0 +1,34 @@
+# A picture per model face for the cow, pig and zombie (2026-10-26: mob_skin's materials "are not
+# great"; try the second method). Qwen repaints vanilla's own faces, so the layout stays.
+# Run 1 lesson: naming the animal or a garment on any face but the head front drew a whole cow,
+# pig, head, t-shirt or pair of jeans on it; at denoise 0.7 surfaces stayed blurry vanilla.
+# So only fronts name the animal (denoise 0.85); every other face is a texture prompt at 0.75.
+# Run 2: "short dark brown hair with white patches" came out as streaky human hair (cow: seeds
+# 2421/2422 with "a flat hide rug of short smooth dense fur" at 0.7). Picked: pig 2411, zombie 2412.
+# "The pink snout of a pig" drew a whole pig face on the snout (seen in game): name only the nose.
+# Run: uv run mcreskin mobfaces recipes/mobfaces-pilot.yaml   (then --pick TEXTURE SEED)
+seeds: {2411: 0.75, 2412: 0.75}
+style: >-
+  Photorealistic macro photograph seen perfectly straight-on, flat even soft lighting, sharp focus,
+  the surface fills the whole image edge to edge, no background, no object.
+
+textures:
+  entity/cow/cow_v2:
+    faces:
+      head.north: {prompt: "The face of a dark brown cow with white patches seen straight from the front, two dark eyes, short hair, filling the whole frame", denoise: 0.85}
+      head#1.north: {prompt: "The pink wet nose of a cow seen straight from the front, two nostrils, filling the whole frame", denoise: 0.85}
+      head#1.*: Close-up of smooth pink skin
+      body#1.*: Close-up of smooth pink skin with fine creases
+      "*": {prompt: "Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction", denoise: 0.7}
+  entity/pig/pig_v3:
+    faces:
+      head.north: {prompt: "The face of a pink pig seen straight from the front, two small eyes, pink skin with fine bristles, filling the whole frame", denoise: 0.85}
+      head#1.north: {prompt: "Extreme close-up of a flat round pink snout disc with two large dark oval nostrils, wet skin, filling the whole frame", denoise: 0.75}
+      "*": Close-up of pink skin with fine pale bristles and faint creases
+  entity/zombie/zombie:
+    faces:
+      head.north: {prompt: "The face of a bald rotting green-skinned zombie seen straight from the front, dark sunken eyes, a grim mouth, filling the whole frame", denoise: 0.85}
+      head.*: Close-up of rotting grey-green skin with pores, blotches and faint dark veins
+      body.*: Close-up of torn dirty cyan cotton fabric with frayed holes and stains
+      rightArm.*: Close-up of rotting grey-green skin with pores and blotches, and torn dirty cyan cotton fabric
+      rightLeg.*: Close-up of torn dirty blue denim fabric with frayed holes, and worn grey leather

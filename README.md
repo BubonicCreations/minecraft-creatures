@@ -24,7 +24,7 @@ because Minecraft won't import a version it already has.
 
 Every mob in the game: 88 with their own model, 102 more coats, types and professions, and 88 babies. Steve,
 Alex, NPCs and the gear animals wear (saddles, horse armour, harnesses) get the material reskin the mobs used to have. Blocks,
-items, player armour and objects like chests, beds, signs and boats stay in Bubonic Realism.
+items, player armour and objects like chests, beds, signs and boats are in Bubonic Realism.
 
 ## How a model is made
 
@@ -41,12 +41,24 @@ items, player armour and objects like chests, beds, signs and boats stay in Bubo
 | List everything in pack.yaml | `uv run tools/pack_entries.py` |
 | The ender dragon has its own conversion | `uv run tools/dragon.py <sheet.jpg>` |
 
+## Getting it running on another PC
+
+Building needs two repos side by side, because this one uses the shared build tool (`mcreskin`) from the block pack's repo. That repo is private: without access to it you can still install a finished pack, but not build one.
+
+```
+git clone git@github.com:BubonicCreations/minecraft-reskin-project.git
+git clone git@github.com:BubonicCreations/minecraft-creatures.git
+cd minecraft-creatures
+uv run tools/build.py --fetch-vanilla    # Mojang's reference pack, which the build compares against
+uv run tools/build.py --deploy           # about 20 minutes, then restart Minecraft
+uv run pytest -q
+```
+
 ## Layout
 
-`pack.yaml` (identity and texture list) · `art/models/mesh/` (each model's geometry, 2048 texture, entity file, render
-controller, animations) · `art/blocks/` (the grains of the material reskins) · `tools/` · `comfy/` (picture graphs).
-Git-ignored and only on the PC that made them: `work/` (pictures and GLBs, 3 GB), `art/models/mesh/*.glb`, `build/`, `dist/`.
+`pack.yaml` (identity and texture list) · `src/creatures/` (GLBs to jointed models, the mob renderer, the mob builders) · `tools/` · `tests/`
+· `art/models/mesh/` (each model's geometry, 2048 texture, entity file, render controller, animations) · `art/blocks/` (the grains of the material reskins)
+· `work/models3d/` (the GLBs from the 3D step and the cut-outs on black they were made from) · `comfy/` (the picture and 3D workflows)
+· `recipes/` and `tools/oldmobs.py` (the older face-picture method, kept for reference) · `docs/`.
 
-The build and the mesh code (`glbmodel.py`, `render.py`, the `mob_model` builder) are the `mcreskin` tool in the reskin project,
-which this repo uses from `../minecraft-reskin-project`: keep the two folders side by side. `vanilla` is a link to its copy of
-Mojang's reference pack.
+Not in git: rejected picture drafts and temporary files in `work/`, `art/models/mesh/*.glb` (`convert.py`'s copies of the GLBs), `build/`, `dist/`, `vanilla`.

@@ -1,0 +1,23 @@
+# Third fix (2026-10-26) of faces repainted in recipes/mobfaces-main-fix.yaml (s2502): "soft muzzle
+# with nostrils" gave horses a dog's nose, "tanned skin" on the wandering trader's blue hood gave
+# arms in sleeves, "a flat rotting leather hide" (zombie piglin) a hide lying on a white table, the
+# ghastling's underside lips. Two seeds each; the better one is copied over s2502.
+# Run: uv run mcreskin mobfaces recipes/mobfaces-main-fix3.yaml
+seeds: {2504: 0.75, 2505: 0.75}
+style: Photorealistic macro photograph seen perfectly straight-on, flat even soft lighting, sharp focus, the surface fills the whole image edge to edge, no background, no object.
+textures:
+  entity/horse2/horse_brown:
+    faces: {UMouth.north: "Extreme close-up of soft velvety short-haired skin around two large dark comma-shaped nostrils, filling the whole frame"}
+  entity/horse2/horse_zombie:
+    faces: {UMouth.north: "Extreme close-up of soft rotting short-haired skin around two large dark comma-shaped nostrils, filling the whole frame"}
+  entity/villager2/villager:
+    faces: {head.down: Close-up of a flat patch of tanned weathered skin with fine pores and short stubble}
+  entity/wandering_trader:
+    faces: {"head.[esw]*": Close-up of a flat swatch of coarse blue woven wool cloth with a few stains}
+  entity/piglin/zombie_piglin:
+    faces:
+      head.north: null
+      head#1.north: null
+      "head*": Close-up of the surface of a rotting pink and green leather hide with patches of exposed bone
+  entity/happy_ghast/ghastling:
+    faces: {body.down: Close-up of a flat sheet of soft smooth matte white rubber with fine creases}

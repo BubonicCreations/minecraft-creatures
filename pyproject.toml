@@ -5,8 +5,15 @@ description = "Bubonic Creatures: a Minecraft Bedrock resource pack of realistic
 requires-python = ">=3.12"
 dependencies = ["mcreskin"]
 
-[tool.uv]
-package = false
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["pytest>=9.1.1"]
 
 [tool.uv.sources]
-mcreskin = { path = "../minecraft-reskin-project", editable = true }  # the build and mesh tools live there
+mcreskin = { path = "../minecraft-reskin-project", editable = true }  # the shared build tool: textures, PBR, lint, ComfyUI
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

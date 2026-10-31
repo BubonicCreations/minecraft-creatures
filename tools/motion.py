@@ -10,9 +10,9 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw
 
-from mcreskin import glbmodel as G
+from creatures import glbmodel as G
 from mcreskin import imaging as I
-from mcreskin import render as R
+from creatures import render as R
 from mcreskin.build import PackBuilder
 
 sys.path.insert(0, str(Path(__file__).parent))

@@ -1,0 +1,284 @@
+# Repaints of recipes/mobfaces-main.yaml s2501 faces that grew stray faces (2026-10-26). Lesson:
+# "skin" and "creature" on a body face give human faces and torsos; "flat hide / leather / rubber /
+# cloth swatch" do not. Good faces are kept from s2501. Run: uv run mcreskin mobfaces recipes/mobfaces-main-fix.yaml
+seeds:
+  2502: 0.75
+style: Photorealistic macro photograph seen perfectly straight-on, flat even soft lighting, sharp focus, the surface fills the whole image edge to edge, no background, no object.
+textures:
+  entity/villager2/villager:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+      - nose.*
+    faces:
+      head.*: Close-up of a flat patch of tanned weathered skin with fine pores
+      helmet.*: Close-up of a flat patch of tanned weathered skin with fine pores
+      arms#2.*: Close-up of a flat patch of tanned weathered skin with fine pores
+      '*': Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+  entity/zombie_villager2/zombie-villager:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+      - head#1.north
+    faces:
+      head*: Close-up of a flat rotting grey-green leather hide with pores, blotches and faint dark veins
+      rightArm.*: Close-up of a flat rotting grey-green leather hide with pores, blotches and faint dark veins
+      '*': Close-up of a flat swatch of coarse torn dirty brown woven wool cloth with a few stains
+  entity/illager/evoker:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+    faces:
+      nose.north: &id001
+        prompt: Extreme close-up of the tip of a long large nose seen from the front, two nostrils at the bottom, weathered skin with fine pores, filling the whole frame
+        denoise: 0.75
+      head.*: Close-up of a flat patch of grey weathered skin with fine pores
+      nose.*: Close-up of a flat patch of grey weathered skin with fine pores
+      arms#2.*: Close-up of a flat patch of grey weathered skin with fine pores
+      '*': Close-up of a flat swatch of black woven wool cloth with a gold thread trim
+  entity/vindicator:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+    faces:
+      nose.north: *id001
+      head.*: Close-up of a flat patch of grey weathered skin with fine pores
+      nose.*: Close-up of a flat patch of grey weathered skin with fine pores
+      arms#2.*: Close-up of a flat patch of grey weathered skin with fine pores
+      '*': Close-up of a flat swatch of coarse dark grey-green woven wool cloth with a few stains
+  entity/pillager:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+    faces:
+      nose.north: *id001
+      head.*: Close-up of a flat patch of grey weathered skin with fine pores
+      nose.*: Close-up of a flat patch of grey weathered skin with fine pores
+      arms#2.*: Close-up of a flat patch of grey weathered skin with fine pores
+      '*': Close-up of a flat swatch of coarse dark brown woven wool cloth with a few stains
+  entity/witch:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+    faces:
+      head.*: Close-up of a flat patch of pale weathered skin with fine pores
+      '*': Close-up of a flat swatch of coarse dark purple woven wool cloth with a few stains
+  entity/wandering_trader:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+      - nose.north
+    faces:
+      head.*: Close-up of a flat patch of tanned weathered skin with fine pores
+      nose.*: Close-up of a flat patch of tanned weathered skin with fine pores
+      '*': Close-up of a flat swatch of coarse blue woven wool cloth with a few stains
+  entity/piglin/piglin:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+      - head#1.north
+    faces:
+      head*: Close-up of a flat pink leather hide with fine pale bristles and pores
+      '*ear*': Close-up of a flat pink leather hide with fine pale bristles and pores
+      '*arm.*': Close-up of a flat pink leather hide with fine pale bristles and pores
+      '*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+  entity/piglin/piglin_brute:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+      - head#1.north
+    faces:
+      head*: Close-up of a flat pink leather hide with fine pale bristles and pores
+      '*ear*': Close-up of a flat pink leather hide with fine pale bristles and pores
+      '*arm.*': Close-up of a flat pink leather hide with fine pale bristles and pores
+      body.*: Close-up of a flat swatch of black woven cloth with gold thread
+      '*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+  entity/piglin/zombie_piglin:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+      - head#1.north
+    faces:
+      head*: Close-up of a flat rotting pink and green leather hide with patches of exposed bone
+      '*ear*': Close-up of a flat rotting pink and green leather hide with patches of exposed bone
+      '*arm.*': Close-up of a flat rotting pink and green leather hide with patches of exposed bone
+      '*': Close-up of a flat swatch of worn torn brown leather with scuffs and creases
+  entity/zombie/drowned:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+    faces:
+      head.*: Close-up of a flat patch of wet teal rotting hide with algae
+      hat.*: Close-up of a flat patch of wet teal rotting hide with algae
+      '*Arm.*': Close-up of a flat patch of wet teal rotting hide with algae
+      '*': Close-up of a flat swatch of torn wet brown cloth with algae
+  entity/zombie/husk:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+    faces:
+      head.*: Close-up of a flat patch of dry sandy cracked hide
+      rightArm.*: Close-up of a flat patch of dry sandy cracked hide
+      body.*: Close-up of a flat swatch of coarse torn dirty brown woven wool cloth with a few stains
+      '*': Close-up of a flat swatch of coarse torn dirty dark woven wool cloth with a few stains
+  entity/enderman/enderman:
+    keep:
+      from: 2501
+      faces: []
+    faces:
+      head.north:
+        prompt: Close-up of a flat sheet of smooth matte black leather with two glowing purple slit-shaped eyes
+        denoise: 0.75
+      '*': Close-up of a flat sheet of smooth matte black leather with a faint purple sheen
+  entity/ghast/ghast:
+    keep:
+      from: 2501
+      faces:
+      - body.[!n]*
+      - tentacles*
+    faces:
+      body.north:
+        prompt: A flat white ghostly mask with two closed eyes drawn as short dark lines and a small dark open mouth, smooth pale wrinkled surface, filling the whole frame
+        denoise: 0.8
+  entity/happy_ghast/happy_ghast:
+    keep:
+      from: 2501
+      faces: []
+    faces:
+      body.north:
+        prompt: A flat soft white mask with two small dark closed eyes drawn as curved lines and faint pink cheeks, smooth pale surface, filling the whole frame
+        denoise: 0.8
+      '*': Close-up of a flat sheet of soft smooth matte white rubber with fine creases
+  entity/happy_ghast/ghastling:
+    keep:
+      from: 2501
+      faces: []
+    faces:
+      body.north:
+        prompt: A flat soft white mask with two small dark closed eyes drawn as curved lines and faint pink cheeks, smooth pale surface, filling the whole frame
+        denoise: 0.8
+      '*': Close-up of a flat sheet of soft smooth matte white rubber with fine creases
+  entity/hoglin/hoglin:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+      - head#1.north
+    faces:
+      head#1.*: Close-up of a flat pink leather hide with fine pale bristles and pores
+      '*': Close-up of a flat hide rug of coarse stiff bristles, the bristles all lying in one direction
+  entity/zoglin/zoglin:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+      - head#1.north
+    faces:
+      '*': Close-up of a flat rotting hide rug of coarse stiff bristles with patches of raw pink flesh
+  entity/dolphin:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+      - nose.north
+    faces:
+      '*': Close-up of a flat sheet of smooth wet glossy grey rubber with faint fine wrinkles and small speckles
+  entity/warden/warden:
+    keep:
+      from: 2501
+      faces: []
+    faces:
+      '*': Close-up of a flat sheet of wet dark teal leather with deep folds and faint glowing cyan spots
+  entity/frog/temperate_frog:
+    keep:
+      from: 2501
+      faces: []
+    faces:
+      '*': Close-up of a flat sheet of smooth wet glossy rubber with faint fine wrinkles and small speckles
+  entity/axolotl/axolotl_lucy:
+    keep:
+      from: 2501
+      faces:
+      - head.north
+    faces:
+      '*gills*': Close-up of soft frilly pink gill fronds
+      '*': Close-up of a flat sheet of smooth wet glossy pink rubber with faint fine wrinkles and small speckles
+  entity/illager/ravager:
+    keep:
+      from: 2501
+      faces:
+      - '[!h]*'
+      - head.[!n]*
+      - head#*
+      - horns*
+    faces:
+      head.north:
+        prompt: The face of a huge grey bull-like beast with a broad flat snout, small dark eyes and thick leathery skin seen straight from the front, filling the whole frame
+        denoise: 0.85
+  entity/horse2/horse_brown:
+    keep:
+      from: 2501
+      faces:
+      - '[!HU]*'
+      - Head.[!n]*
+      - HeadSaddle*
+      - UMouth.[!n]*
+    faces:
+      Head.north: Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+      UMouth.north: Extreme close-up of a flat soft muzzle end with two large dark nostril slits and short fine hair, filling the whole frame
+  entity/horse2/donkey:
+    keep:
+      from: 2501
+      faces:
+      - '[!HU]*'
+      - Head.[!n]*
+      - HeadSaddle*
+      - UMouth.[!n]*
+    faces:
+      Head.north: Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+      UMouth.north: Extreme close-up of a flat soft muzzle end with two large dark nostril slits and short fine hair, filling the whole frame
+  entity/horse2/mule:
+    keep:
+      from: 2501
+      faces:
+      - '[!HU]*'
+      - Head.[!n]*
+      - HeadSaddle*
+      - UMouth.[!n]*
+    faces:
+      Head.north: Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+      UMouth.north: Extreme close-up of a flat soft muzzle end with two large dark nostril slits and short fine hair, filling the whole frame
+  entity/horse2/horse_skeleton:
+    keep:
+      from: 2501
+      faces:
+      - '[!HU]*'
+      - Head.[!n]*
+      - HeadSaddle*
+      - UMouth.[!n]*
+    faces:
+      Head.north: Close-up of old porous bone with fine cracks and pits
+      UMouth.north: Close-up of old porous bone with fine cracks and pits
+  entity/horse2/horse_zombie:
+    keep:
+      from: 2501
+      faces:
+      - '*Saddle*'
+      - Bag1.*
+      - Mane.*
+      - Tail*
+    faces:
+      UMouth.north: Extreme close-up of a flat soft muzzle end with two large dark nostril slits and short fine hair, filling the whole frame
+      '*': Close-up of a flat rotting hide rug of short matted fur with patches of bare grey-green skin

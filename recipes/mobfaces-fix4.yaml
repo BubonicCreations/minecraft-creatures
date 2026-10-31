@@ -1,0 +1,685 @@
+# 2026-10-26 after the first model renders (mcreskin render): fronts with a snout or nose box painted
+# as one picture, the villagers and sheep on their adult models, eyes, and masks for non-human faces.
+# Written by work/fix4recipe.py.
+denoise: 0.75
+seeds:
+- 2701
+style: Photorealistic macro photograph seen perfectly straight-on, flat even soft lighting, sharp focus, the surface fills the whole image edge to edge, no background, no object.
+textures:
+  entity/wolf/wolf:
+    front:
+      bone: head
+      prompt: The face of a grey wolf, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#3.north
+    faces:
+      head.north:
+        prompt: The face of a grey wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#*.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/fox/fox:
+    front:
+      bone: head
+      prompt: The face of a red fox, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+      - head#3.north
+    faces:
+      head.north:
+        prompt: The face of a red fox seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#*.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/polar_bear:
+    front:
+      bone: head
+      prompt: The face of a white polar bear, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+    faces:
+      head.north:
+        prompt: The face of a white polar bear seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#*.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda:
+    front:
+      bone: head
+      prompt: The face of a giant panda, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+    faces:
+      head.north:
+        prompt: The face of a giant panda seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#*.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/llama/llama_creamy:
+    front:
+      bone: head
+      prompt: The face of a cream llama, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+    faces:
+      head.north:
+        prompt: The face of a cream llama seen straight from the front, filling the whole frame
+        denoise: 0.85
+      chest*: Close-up of weathered wooden planks
+      '*': Close-up of a flat fleece of dense curly wool
+  entity/cat/tabby:
+    front:
+      bone: head
+      prompt: The face of a brown tabby cat, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+      - head#3.north
+    faces:
+      head.north:
+        prompt: The face of a brown tabby cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#*.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/piglin/piglin:
+    front:
+      bone: head
+      prompt: The face of a humanoid pig with pink skin, small eyes and tusks, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+      - head#3.north
+      - leftear.north
+      - rightear.north
+    faces:
+      head.north:
+        prompt: The face of a humanoid pig with pink skin, small eyes and tusks seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#*.north: Extreme close-up of a flat round pink snout disc with two large dark oval nostrils, wet skin, filling the whole frame
+      '*ear*': Close-up of pink skin with fine bristles
+      '*': Close-up of pink skin with fine bristles, and worn brown leather
+  entity/piglin/piglin_brute:
+    front:
+      bone: head
+      prompt: The face of a scarred humanoid pig with pink skin, small eyes and tusks, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+      - head#3.north
+      - leftear.north
+      - rightear.north
+    faces:
+      head.north:
+        prompt: The face of a scarred humanoid pig with pink skin, small eyes and tusks seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#*.north: Extreme close-up of a flat round pink snout disc with two large dark oval nostrils, wet skin, filling the whole frame
+      '*ear*': Close-up of pink skin with fine bristles
+      '*': Close-up of pink skin with fine bristles, and black woven cloth with gold thread
+  entity/piglin/zombie_piglin:
+    front:
+      bone: head
+      prompt: The face of a rotting humanoid pig with exposed bone and green flesh, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+      - head#3.north
+      - leftear.north
+      - rightear.north
+    faces:
+      head.north:
+        prompt: The face of a rotting humanoid pig with exposed bone and green flesh seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#*.north: Extreme close-up of a flat round pink snout disc with two large dark oval nostrils, wet skin, filling the whole frame
+      '*': Close-up of rotting pink and green skin with exposed bone, and worn brown leather
+  entity/illager/evoker:
+    front:
+      bone: head
+      prompt: The face of a grey-skinned man with a long nose and thick black eyebrows, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - nose.north
+    faces:
+      head.north:
+        prompt: The face of a grey-skinned man with a long nose and thick black eyebrows seen straight from the front, filling the whole frame
+        denoise: 0.85
+      nose.north: Extreme close-up of a long large nose, weathered skin with fine pores, filling the whole frame
+      '*': Close-up of grey weathered skin with fine pores, and black woven wool cloth with gold thread trim
+  entity/pillager:
+    front:
+      bone: head
+      prompt: The face of a grey-skinned man with a long nose and thick black eyebrows, a grim look, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - nose.north
+    faces:
+      head.north:
+        prompt: The face of a grey-skinned man with a long nose and thick black eyebrows, a grim look seen straight from the front, filling the whole frame
+        denoise: 0.85
+      nose.north: Extreme close-up of a long large nose, weathered skin with fine pores, filling the whole frame
+      '*': Close-up of grey weathered skin, and dark brown woven wool cloth
+  entity/vindicator:
+    front:
+      bone: head
+      prompt: The face of a grey-skinned man with a long nose and thick black eyebrows, an angry look, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - nose.north
+    faces:
+      head.north:
+        prompt: The face of a grey-skinned man with a long nose and thick black eyebrows, an angry look seen straight from the front, filling the whole frame
+        denoise: 0.85
+      nose.north: Extreme close-up of a long large nose, weathered skin with fine pores, filling the whole frame
+      '*': Close-up of grey weathered skin, and dark grey-green woven wool cloth
+  entity/wandering_trader:
+    front:
+      bone: head
+      prompt: The face of an old man with a long nose and a blue hood, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - helmet.north
+      - brim.north
+      - nose.north
+    faces:
+      head.north:
+        prompt: The face of an old man with a long nose and a blue hood seen straight from the front, filling the whole frame
+        denoise: 0.85
+      nose.north: Extreme close-up of a long large nose, weathered skin with fine pores, filling the whole frame
+      '*': Close-up of weathered skin, blue woven wool cloth and worn leather
+  entity/zombie_villager2/zombie-villager:
+    front:
+      bone: head
+      prompt: The face of a bald undead man with rotting green skin and a long nose, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - helmet.north
+      - brim.north
+    faces:
+      head.north:
+        prompt: The face of a bald undead man with rotting green skin and a long nose seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#*.north: Extreme close-up of a long large nose, weathered skin with fine pores, filling the whole frame
+      '*': Close-up of rotting grey-green skin with pores and blotches, and torn dirty cloth
+  entity/chicken/chicken:
+    front:
+      bone: head
+      prompt: The face of a white chicken, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - comb.north
+      - beak.north
+    faces:
+      head.north:
+        prompt: The face of a white chicken seen straight from the front, filling the whole frame
+        denoise: 0.85
+      beak.*: Extreme close-up of a short pointed yellow beak, filling the whole frame
+      comb.*: Close-up of soft red fleshy skin
+      '*': Close-up of a flat layer of small soft overlapping feathers in neat rows
+  entity/dolphin:
+    front:
+      bone: head
+      prompt: The face of a grey dolphin, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - nose.north
+    faces:
+      head.north:
+        prompt: The face of a grey dolphin seen straight from the front, filling the whole frame
+        denoise: 0.85
+      nose.north: Extreme close-up of a smooth grey rubbery rounded snout, filling the whole frame
+      '*': Close-up of smooth wet glossy rubbery skin with faint fine wrinkles and small speckles
+  entity/parrot/parrot_red_blue:
+    front:
+      bone: head
+      prompt: The face of a red macaw parrot, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head2.north
+      - beak1.north
+      - beak2.north
+    faces:
+      head.north:
+        prompt: The face of a red macaw parrot seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat layer of small soft overlapping feathers in neat rows
+  entity/camel/camel:
+    front:
+      bone: head
+      prompt: The face of a sandy brown camel, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+      - left_ear.north
+      - right_ear.north
+    faces:
+      head.north:
+        prompt: The face of a sandy brown camel seen straight from the front, filling the whole frame
+        denoise: 0.85
+      saddle*: Close-up of coarse woven wool cloth and worn leather with a few stains
+      bridle*: Close-up of coarse woven wool cloth and worn leather with a few stains
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/camel_husk/camel_husk:
+    front:
+      bone: head
+      prompt: The face of a withered undead camel with dry cracked skin, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+      - left_ear.north
+      - right_ear.north
+    faces:
+      head.north:
+        prompt: The face of a withered undead camel with dry cracked skin seen straight from the front, filling the whole frame
+        denoise: 0.85
+      saddle*: Close-up of coarse woven wool cloth and worn leather with a few stains
+      bridle*: Close-up of coarse woven wool cloth and worn leather with a few stains
+      '*': Close-up of dry cracked sandy hide with patches of short fur
+  entity/witch:
+    front:
+      bone: head
+      prompt: The face of an old woman with a long nose with a wart under a tall black pointed hat, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - nose.north
+      - nose#1.north
+      - hat.north
+      - hat2.north
+      - hat3.north
+      - hat4.north
+    faces:
+      head.north:
+        prompt: The face of an old woman with a long nose with a wart, a dark purple hood seen straight from the front, filling the whole frame
+        denoise: 0.85
+      nose.north: Extreme close-up of a long large nose, weathered skin with fine pores, filling the whole frame
+      hat*: Close-up of dark purple woven wool cloth
+      '*': Close-up of weathered pale skin, and dark purple woven wool cloth
+  entity/sniffer/sniffer:
+    front:
+      bone: head
+      prompt: The head of a huge ancient beast covered in mossy green fur with a broad yellow beak-like nose, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - left_ear.north
+      - right_ear.north
+      - nose.north
+      - lower_beak.north
+    faces:
+      nose.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*beak*': Close-up of hard glossy horn-like plates with fine growth lines
+      '*': Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+  entity/copper_golem/copper_golem:
+    front:
+      bone: head
+      prompt: A small flat hammered copper face plate with two round riveted eye holes and a long copper nose, green patina in the seams, no human features, seen straight from the front, filling the whole
+        frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+      - head#3.north
+    faces:
+      head.north:
+        prompt: The face of a small hammered copper golem with round eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of weathered hammered copper sheet with rivets and green patina
+  entity/iron_golem:
+    front:
+      bone: head
+      prompt: A face built from riveted pale cast iron plates with a long iron nose and two dark hollow eyes, rust streaks, no human features, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+    faces:
+      head.north:
+        prompt: The face of a giant made of pale cast iron with a long nose and dark eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of weathered pale cast iron plates with rust stains and fine cracks
+  entity/creaking/creaking:
+    front:
+      bone: head
+      prompt: A face carved in dark grey tree bark with two glowing orange eyes, cracked bark, no human features, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+      - head#1.north
+      - head#2.north
+      - head#3.north
+    faces:
+      head.north:
+        prompt: The face of a creature made of grey tree bark with glowing orange eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of grey cracked tree bark
+  entity/villager2/villager:
+    front:
+      bone: head
+      prompt: The face of a bald man with a long large nose and a unibrow, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    faces:
+      head.east: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      head.south: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      head.west: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      head.up: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      head.down: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      nose.east: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      nose.south: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      nose.west: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      nose.up: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      nose.down: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      body.north: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      body.east: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      body.south: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      body.west: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      body.up: Close-up of a flat patch of tanned weathered skin with fine pores
+      body.down: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      arms.north: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      arms.east: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      arms.south: Close-up of a flat patch of tanned weathered skin with fine pores
+      arms.west: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      arms.up: Close-up of a flat patch of tanned weathered skin with fine pores
+      arms.down: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      arms#1.north: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      arms#1.east: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      arms#1.south: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      arms#1.west: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      arms#1.up: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      arms#1.down: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      leg0.north: Close-up of a flat patch of tanned weathered skin with fine pores
+      leg0.east: Close-up of a flat patch of tanned weathered skin with fine pores
+      leg0.south: Close-up of a flat patch of tanned weathered skin with fine pores
+      leg0.west: Close-up of a flat patch of tanned weathered skin with fine pores
+      leg0.up: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      leg0.down: Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+      '*': Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+  entity/villager2/biomes/biome_plains:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/butcher:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/cartographer:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/cleric:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/farmer:
+    faces:
+      helmet.*: Close-up of a flat mat of tightly woven golden straw
+      brim.*: Close-up of a flat mat of tightly woven golden straw
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/fisherman:
+    faces:
+      helmet.*: Close-up of a flat mat of tightly woven golden straw
+      brim.*: Close-up of a flat mat of tightly woven golden straw
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/fletcher:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/leatherworker:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/librarian:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/nitwit:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/shepherd:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/stonemason:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/toolsmith:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/professions/weaponsmith:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/sheep/sheep:
+    front:
+      bone: head
+      prompt: The face of a sheep with a pale face framed by thick white curly wool, seen straight from the front, filling the whole frame
+      denoise: 0.85
+    faces:
+      head#1.*: Close-up of a flat fleece of dense curly white wool
+      body#1.*: Close-up of a flat fleece of dense curly white wool
+      leg0#1.*: Close-up of a flat fleece of dense curly white wool
+      head.*: Close-up of a flat patch of short dense pale fur
+      body.*: Close-up of a flat fleece of short freshly shorn pale wool
+      '*': Close-up of a flat patch of short dense pale grey fur
+  entity/horse2/horse_brown:
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - Head.east
+      - Head.west
+    faces:
+      Head.[ew]*:
+        prompt: 'Close-up of the side of a horse''s head: short smooth glossy brown hair around one large dark glossy eye, filling the whole frame'
+        denoise: 0.75
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/donkey:
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - Head.east
+      - Head.west
+    faces:
+      Head.[ew]*:
+        prompt: 'Close-up of the side of a horse''s head: short smooth grey-brown hair around one large dark glossy eye, filling the whole frame'
+        denoise: 0.75
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/mule:
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - Head.east
+      - Head.west
+    faces:
+      Head.[ew]*:
+        prompt: 'Close-up of the side of a horse''s head: short smooth dark brown hair around one large dark glossy eye, filling the whole frame'
+        denoise: 0.75
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_zombie:
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - Head.east
+      - Head.west
+    faces:
+      Head.[ew]*:
+        prompt: 'Close-up of the side of a horse''s head: short smooth rotting mossy green-grey hair around one large dark glossy eye, filling the whole frame'
+        denoise: 0.75
+      '*': Close-up of rotting green hide with patches of short fur
+  entity/squid:
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - body.north
+    faces:
+      body.north:
+        prompt: Close-up of a flat sheet of smooth wet glossy dark blue-grey mollusc hide with two large round dark eyes, filling the whole frame
+        denoise: 0.75
+      '*': Close-up of smooth wet glossy rubbery skin with faint fine wrinkles and small speckles
+  entity/glow_squid/glow_squid:
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - body.north
+    faces:
+      body.north:
+        prompt: Close-up of a flat sheet of smooth wet glossy teal mollusc hide with two large round glowing pale green eyes and small glowing speckles, filling the whole frame
+        denoise: 0.75
+      '*': Close-up of smooth wet glossy teal skin with small glowing speckles
+  entity/blaze:
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - head.north
+    faces:
+      head.north:
+        prompt: A flat golden metal mask with two dark glowing eye slits and a dark slit mouth, molten glowing edges, no human features, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of glowing golden hot metal with soot
+  entity/strider/strider:
+    keep:
+      from: art
+      faces:
+      - '*'
+      except:
+      - body.north
+    faces:
+      body.north:
+        prompt: A flat sheet of crimson wrinkled leathery hide with two small round dark eyes and a straight thin mouth slit drawn on it, no human features, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat sheet of crimson wrinkled leathery hide with deep folds

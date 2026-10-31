@@ -3,13 +3,22 @@
 __pycache__/
 *.pyc
 
-# Mojang's reference pack: a link to the reskin project's copy, or `uv run mcreskin fetch-vanilla` there (EULA-covered, never committed)
+# Mojang's reference pack: a link to the reskin project's copy, or `uv run tools/build.py --fetch-vanilla` (EULA-covered, never committed)
 vanilla
 
-# Regenerable, or too big for git: pictures and 3D runs (3 GB), builds, the packaged file
-work/
+# Pictures and 3D runs: the GLBs and the cut-outs on black they were made from are kept (work/models3d); rejected drafts and temporary files stay local
+work/*
+!work/models3d/
+work/models3d/*
+!work/models3d/*.glb
+!work/models3d/mobs/
+work/models3d/mobs/*
+!work/models3d/mobs/*.glb
+!work/models3d/mobs/*_black_*.png
+
+# Builds and the packaged file
 build/
 dist/
 
-# Source meshes of the models (the build reads only each model's geometry and PNG)
+# convert.py's copies of the GLBs in work/models3d/mobs
 art/models/mesh/*_single_1500.glb

@@ -1,7 +1,7 @@
 """How bodies that aren't four legs and a head are cut into the bones the game's animations move
 (glbmodel.carve, pieces_past), in fractions of each mesh's extent: x -1..1, y 0 (feet)..1, z 0 (snout)..1.
 Each plan takes and returns what glbmodel.make's `plan` does; the check sheet's "cuts" tile shows the result."""
-from mcreskin import glbmodel as G
+from creatures import glbmodel as G
 
 QUARTERS = {"leg0": ((-1, 0), (0.5, 1)), "leg1": ((0, 1), (0.5, 1)), "leg2": ((-1, 0), (0, 0.5)), "leg3": ((0, 1), (0, 0.5))}  # x, z
 

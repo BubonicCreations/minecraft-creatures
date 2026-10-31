@@ -10,9 +10,9 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-from mcreskin import glbmodel as G
+from creatures import glbmodel as G
 from mcreskin import imaging as I
-from mcreskin import render as R
+from creatures import render as R
 from mcreskin.build import PackBuilder
 
 V = Path("vanilla/bedrock-samples-v1.26.50.4/resource_pack")

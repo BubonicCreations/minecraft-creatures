@@ -1,0 +1,44 @@
+# Mob materials, round 1 (2026-10-26): seamless real materials for the mob_skin builder. The
+# builder keeps vanilla's colours and takes only each photo's relief, so one fur serves every wolf
+# colour. Lesson of mobs-pilot.yaml: naming the animal gives its face; ask for a flat patch.
+# Run: uv run mcreskin generate recipes/mobs-r1.yaml
+size: 1024
+seed_base: 2301
+models: {qwen: 2}
+style: >-
+  Orthographic macro photograph taken perfectly straight-on, flat even overcast lighting with
+  uniform brightness at the left edge, centre and right edge, sharp focus everywhere,
+  photorealistic high-resolution texture scan, one continuous surface filling the whole image,
+  no edges, no seams.
+
+textures:
+  mob_fur_medium:
+    prompt: Texture of a flat fur rug of dense medium-length soft grey fur, the hairs all lying flat in one direction.
+  mob_fur_long:
+    prompt: Texture of a flat rug of long shaggy pale grey hair, long wavy strands all hanging in one direction.
+  mob_wool:
+    prompt: Texture of a flat fleece of dense curly cream wool, small tight curls packed together.
+  mob_feathers:
+    prompt: Texture of a flat layer of small soft overlapping pale grey feathers, neat rows like roof tiles.
+  mob_scales:
+    prompt: Texture of a flat sheet of small overlapping shiny silver fish scales in neat rows.
+  mob_wet_skin:
+    prompt: Texture of a flat patch of smooth wet glossy grey rubbery skin with faint fine wrinkles and small speckles.
+  mob_human_skin:
+    prompt: Texture of a flat patch of weathered tanned skin with fine pores, faint creases and a few freckles.
+  mob_reptile_skin:
+    prompt: Texture of a flat patch of dry grey-green reptile skin covered in small rounded pebbly scales.
+  mob_shell:
+    prompt: Texture of a flat polished brown tortoiseshell plate with fine growth lines and mottled darker patches.
+  mob_chitin:
+    prompt: Texture of a flat patch of dark brown insect exoskeleton, hard matte plates covered in short stiff bristles.
+  mob_creeper_skin:
+    prompt: Texture of a flat patch of rough mottled green plant-like skin, small bumps and faint lichen-like blotches.
+  mob_membrane:
+    prompt: Texture of a flat stretched thin dark grey leathery membrane with fine veins and soft wrinkles.
+  mob_bristles:
+    prompt: Texture of a flat hide covered in coarse stiff brown bristles, thick wiry hairs over rough skin.
+  mob_wrinkled_skin:
+    prompt: Texture of a flat patch of soft pale wrinkled skin with deep folds and fine creases.
+  mob_bone:
+    prompt: Texture of a flat surface of old bleached bone, smooth porous ivory with fine cracks and pits.

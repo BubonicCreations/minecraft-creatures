@@ -1,0 +1,1845 @@
+# Colour variants and babies of every mob (2026-10-26), after recipes/mobfaces-main(-fix).yaml:
+# only head fronts name the animal; snouts (cubes in front of the head, found from the model by a
+# scratch script) describe the nose alone; bodies use flat hide / fur rug / leather / rubber / cloth
+# swatch words, never "skin" (human faces appear). Run: uv run mcreskin mobfaces recipes/mobfaces-variants.yaml
+seeds:
+  2601: 0.75
+style: Photorealistic macro photograph seen perfectly straight-on, flat even soft lighting, sharp focus, the surface fills the whole image edge to edge, no background, no object.
+textures:
+  entity/armadillo/armadillo_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby pink-brown armadillo, small dark eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of hard glossy horn-like plates with fine growth lines
+  entity/axolotl/axolotl_blue:
+    faces:
+      head.north:
+        prompt: The face of a blue axolotl with frilly gills seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*gills*': Close-up of soft frilly gill fronds
+      '*': Close-up of a flat sheet of smooth wet glossy blue rubber with faint fine wrinkles and small speckles
+  entity/axolotl/axolotl_blue_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby blue axolotl with frilly gills seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*gills*': Close-up of soft frilly gill fronds
+      '*': Close-up of a flat sheet of smooth wet glossy blue rubber with faint fine wrinkles and small speckles
+  entity/axolotl/axolotl_cyan:
+    faces:
+      head.north:
+        prompt: The face of a pale cyan axolotl with frilly gills seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*gills*': Close-up of soft frilly gill fronds
+      '*': Close-up of a flat sheet of smooth wet glossy pale cyan rubber with faint fine wrinkles and small speckles
+  entity/axolotl/axolotl_cyan_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby pale cyan axolotl with frilly gills seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*gills*': Close-up of soft frilly gill fronds
+      '*': Close-up of a flat sheet of smooth wet glossy pale cyan rubber with faint fine wrinkles and small speckles
+  entity/axolotl/axolotl_gold:
+    faces:
+      head.north:
+        prompt: The face of a golden axolotl with frilly gills seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*gills*': Close-up of soft frilly gill fronds
+      '*': Close-up of a flat sheet of smooth wet glossy golden rubber with faint fine wrinkles and small speckles
+  entity/axolotl/axolotl_gold_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby golden axolotl with frilly gills seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*gills*': Close-up of soft frilly gill fronds
+      '*': Close-up of a flat sheet of smooth wet glossy golden rubber with faint fine wrinkles and small speckles
+  entity/axolotl/axolotl_lucy_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby pink axolotl with frilly gills seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*gills*': Close-up of soft frilly gill fronds
+      '*': Close-up of a flat sheet of smooth wet glossy pink rubber with faint fine wrinkles and small speckles
+  entity/axolotl/axolotl_wild:
+    faces:
+      head.north:
+        prompt: The face of a brown axolotl with frilly gills seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*gills*': Close-up of soft frilly gill fronds
+      '*': Close-up of a flat sheet of smooth wet glossy brown rubber with faint fine wrinkles and small speckles
+  entity/axolotl/axolotl_wild_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby brown axolotl with frilly gills seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*gills*': Close-up of soft frilly gill fronds
+      '*': Close-up of a flat sheet of smooth wet glossy brown rubber with faint fine wrinkles and small speckles
+  entity/bee/bee_angry:
+    faces:
+      body.north:
+        prompt: The face of a fuzzy yellow and black bee with angry red eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/bee/bee_angry_baby:
+    faces:
+      body.north:
+        prompt: The face of a fuzzy yellow and black baby bee with angry red eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/bee/bee_angry_nectar:
+    faces:
+      body.north:
+        prompt: The face of a fuzzy yellow and black bee with angry red eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/bee/bee_angry_nectar_baby:
+    faces:
+      body.north:
+        prompt: The face of a fuzzy yellow and black baby bee with angry red eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/bee/bee_baby:
+    faces:
+      body.north:
+        prompt: The face of a fuzzy yellow and black baby bee, big dark eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/bee/bee_nectar:
+    faces:
+      body.north:
+        prompt: The face of a fuzzy yellow and black bee, big dark eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/bee/bee_nectar_baby:
+    faces:
+      body.north:
+        prompt: The face of a fuzzy yellow and black baby bee, big dark eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/camel/camel_baby:
+    faces:
+      head#1.north:
+        prompt: The face of a sandy brown baby camel seen straight from the front, filling the whole frame
+        denoise: 0.85
+      saddle*: Close-up of a flat swatch of worn brown leather with scuffs and creases
+      bridle*: Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/allblackcat:
+    faces:
+      head.north:
+        prompt: The face of an all black cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/allblackcat_baby:
+    faces:
+      head.north:
+        prompt: The face of an all black kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/allblackcat_tame:
+    faces:
+      head.north:
+        prompt: The face of an all black cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/allblackcat_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of an all black kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/britishshorthair:
+    faces:
+      head.north:
+        prompt: The face of a grey British shorthair cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/britishshorthair_baby:
+    faces:
+      head.north:
+        prompt: The face of a grey British shorthair kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/britishshorthair_tame:
+    faces:
+      head.north:
+        prompt: The face of a grey British shorthair cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/britishshorthair_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a grey British shorthair kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/calico:
+    faces:
+      head.north:
+        prompt: The face of a calico cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/calico_baby:
+    faces:
+      head.north:
+        prompt: The face of a calico kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/calico_tame:
+    faces:
+      head.north:
+        prompt: The face of a calico cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/calico_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a calico kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/jellie:
+    faces:
+      head.north:
+        prompt: The face of a grey and white cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/jellie_baby:
+    faces:
+      head.north:
+        prompt: The face of a grey and white kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/jellie_tame:
+    faces:
+      head.north:
+        prompt: The face of a grey and white cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/jellie_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a grey and white kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/ocelot:
+    faces:
+      head.north:
+        prompt: The face of an ocelot seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/ocelot_baby:
+    faces:
+      head.north:
+        prompt: The face of an ocelot kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/persian:
+    faces:
+      head.north:
+        prompt: The face of a cream Persian cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/persian_baby:
+    faces:
+      head.north:
+        prompt: The face of a cream Persian kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/persian_tame:
+    faces:
+      head.north:
+        prompt: The face of a cream Persian cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/persian_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a cream Persian kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/ragdoll:
+    faces:
+      head.north:
+        prompt: The face of a ragdoll cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/ragdoll_baby:
+    faces:
+      head.north:
+        prompt: The face of a ragdoll kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/ragdoll_tame:
+    faces:
+      head.north:
+        prompt: The face of a ragdoll cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/ragdoll_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a ragdoll kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/redtabby:
+    faces:
+      head.north:
+        prompt: The face of an orange tabby cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/redtabby_baby:
+    faces:
+      head.north:
+        prompt: The face of an orange tabby kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/redtabby_tame:
+    faces:
+      head.north:
+        prompt: The face of an orange tabby cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/redtabby_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of an orange tabby kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/siamese_baby:
+    faces:
+      head.north:
+        prompt: The face of a Siamese kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/siamese_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a Siamese kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/siamesecat:
+    faces:
+      head.north:
+        prompt: The face of a Siamese cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/siamesecat_tame:
+    faces:
+      head.north:
+        prompt: The face of a Siamese cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/tabby_baby:
+    faces:
+      head.north:
+        prompt: The face of a brown tabby kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/tabby_tame:
+    faces:
+      head.north:
+        prompt: The face of a brown tabby cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/tabby_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a brown tabby kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/tuxedo:
+    faces:
+      head.north:
+        prompt: The face of a black and white tuxedo cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/tuxedo_baby:
+    faces:
+      head.north:
+        prompt: The face of a black and white tuxedo kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/tuxedo_tame:
+    faces:
+      head.north:
+        prompt: The face of a black and white tuxedo cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/tuxedo_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a black and white tuxedo kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/white:
+    faces:
+      head.north:
+        prompt: The face of a white cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/white_baby:
+    faces:
+      head.north:
+        prompt: The face of a white kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/white_tame:
+    faces:
+      head.north:
+        prompt: The face of a white cat seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cat/white_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a white kitten seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a small pink nose with short fur around it, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/chicken/chicken_cold:
+    faces:
+      head.north:
+        prompt: The face of a fluffy grey-brown chicken seen straight from the front, filling the whole frame
+        denoise: 0.85
+      beak.*: Extreme close-up of a short pointed yellow beak, filling the whole frame
+      comb.*: Close-up of soft red fleshy wattle
+      '*': Close-up of a flat layer of small soft overlapping feathers in neat rows
+  entity/chicken/chicken_cold_baby:
+    faces:
+      body.north:
+        prompt: The face of a fluffy grey chick seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat layer of soft fluffy down feathers
+  entity/chicken/chicken_temperate_baby:
+    faces:
+      body.north:
+        prompt: The face of a fluffy yellow chick seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat layer of soft fluffy down feathers
+  entity/chicken/chicken_warm:
+    faces:
+      head.north:
+        prompt: The face of a brown chicken seen straight from the front, filling the whole frame
+        denoise: 0.85
+      beak.*: Extreme close-up of a short pointed yellow beak, filling the whole frame
+      comb.*: Close-up of soft red fleshy wattle
+      '*': Close-up of a flat layer of small soft overlapping feathers in neat rows
+  entity/chicken/chicken_warm_baby:
+    faces:
+      body.north:
+        prompt: The face of a fluffy brown chick seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat layer of soft fluffy down feathers
+  entity/copper_golem/copper_golem_exposed:
+    faces:
+      head.north:
+        prompt: The face of a small exposed copper golem with round eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of weathered hammered copper sheet with rivets and a little green patina
+  entity/copper_golem/copper_golem_oxidized:
+    faces:
+      head.north:
+        prompt: The face of a small oxidized copper golem with round eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of weathered hammered copper sheet with rivets and thick blue-green verdigris
+  entity/copper_golem/copper_golem_weathered:
+    faces:
+      head.north:
+        prompt: The face of a small weathered copper golem with round eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of weathered hammered copper sheet with rivets and green patina
+  entity/cow/brown_mooshroom_v2:
+    faces:
+      head.north:
+        prompt: The face of a brown cow with pale patches seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a flat wet nose pad with two large dark nostrils, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cow/cow_cold:
+    faces:
+      head.north:
+        prompt: The face of a shaggy reddish-brown highland cow seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#2.north: Extreme close-up of a flat wet nose pad with two large dark nostrils, filling the whole frame
+      '*': Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+  entity/cow/cow_cold_baby:
+    faces:
+      head.north:
+        prompt: The face of a shaggy reddish-brown highland calf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a flat wet nose pad with two large dark nostrils, filling the whole frame
+      '*': Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+  entity/cow/cow_temperate_baby:
+    faces:
+      head.north:
+        prompt: The face of a brown and white calf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a flat wet nose pad with two large dark nostrils, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cow/cow_warm:
+    faces:
+      head.north:
+        prompt: The face of a reddish-brown cow seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#5.north: Extreme close-up of a flat wet nose pad with two large dark nostrils, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cow/cow_warm_baby:
+    faces:
+      head.north:
+        prompt: The face of a reddish-brown calf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a flat wet nose pad with two large dark nostrils, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cow/mooshroom_brown_baby:
+    faces:
+      head.north:
+        prompt: The face of a brown calf with pale patches seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a flat wet nose pad with two large dark nostrils, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/cow/mooshroom_red_baby:
+    faces:
+      head.north:
+        prompt: The face of a red calf with white patches seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a flat wet nose pad with two large dark nostrils, filling the whole frame
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/dolphin/dolphin_baby:
+    faces:
+      head.north:
+        prompt: The face of a grey baby dolphin seen straight from the front, filling the whole frame
+        denoise: 0.85
+      nose.north: Extreme close-up of a smooth grey rubbery rounded snout, filling the whole frame
+      '*': Close-up of a flat sheet of smooth wet glossy grey rubber with faint fine wrinkles and small speckles
+  entity/fish/tropical_a_pattern_1:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fish/tropical_a_pattern_2:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fish/tropical_a_pattern_3:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fish/tropical_a_pattern_4:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fish/tropical_a_pattern_5:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fish/tropical_a_pattern_6:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fish/tropical_b_pattern_1:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fish/tropical_b_pattern_2:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fish/tropical_b_pattern_3:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fish/tropical_b_pattern_4:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fish/tropical_b_pattern_5:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fish/tropical_b_pattern_6:
+    faces:
+      '*Fin*': Close-up of a thin translucent fin membrane with fine rays
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/fox/arctic_fox:
+    faces:
+      head.north:
+        prompt: The face of a white arctic fox seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      head_sleeping#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/fox/fox_baby:
+    faces:
+      head.north:
+        prompt: The face of a red fox kit seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/fox/fox_sleep_baby:
+    faces:
+      head.north:
+        prompt: The face of a sleeping red fox kit with closed eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/fox/fox_snow_baby:
+    faces:
+      head.north:
+        prompt: The face of a white arctic fox kit seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/fox/fox_snow_sleep_baby:
+    faces:
+      head.north:
+        prompt: The face of a sleeping white arctic fox kit with closed eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/frog/cold_frog:
+    faces:
+      '*': Close-up of a flat sheet of smooth wet glossy rubber with faint fine wrinkles and small speckles
+  entity/frog/warm_frog:
+    faces:
+      '*': Close-up of a flat sheet of smooth wet glossy rubber with faint fine wrinkles and small speckles
+  entity/ghast/ghast_shooting:
+    faces:
+      body.north:
+        prompt: A flat white ghostly mask with two open dark eyes, grey tear streaks and a wide open dark mouth, smooth pale wrinkled surface, filling the whole frame
+        denoise: 0.8
+      '*': Close-up of soft pale white wrinkled skin with fine creases
+  entity/glow_squid/glow_squid_baby:
+    faces:
+      '*': Close-up of a flat sheet of smooth wet glossy teal rubber with faint fine wrinkles and small speckles
+  entity/goat/goat_baby:
+    faces:
+      head.north:
+        prompt: The face of a white baby goat kid seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*horn*': Close-up of hard glossy horn-like plates with fine growth lines
+      '*': Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+  entity/guardian_elder:
+    faces:
+      head.north:
+        prompt: The face of a pale grey spiky fish with one big eye seen straight from the front, filling the whole frame
+        denoise: 0.85
+      spike*: Close-up of hard glossy horn-like plates with fine growth lines
+      '*': Close-up of a flat sheet of small overlapping shiny fish scales
+  entity/hoglin/hoglin_baby:
+    faces:
+      head.north:
+        prompt: The face of a brown baby wild boar seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.*: Close-up of a yellowed ivory tusk surface with fine cracks and growth lines
+      head#2.*: Close-up of a yellowed ivory tusk surface with fine cracks and growth lines
+      '*': Close-up of a flat hide rug of coarse stiff bristles, the bristles all lying in one direction
+  entity/horse2/baby_horse_markings_blackdots:
+    faces:
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/baby_horse_markings_white:
+    faces:
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/baby_horse_markings_whitedots:
+    faces:
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/baby_horse_markings_whitefield:
+    faces:
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/donkey_baby:
+    faces:
+      Head.north:
+        prompt: The face of a grey baby donkey seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_black:
+    faces:
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*Saddle*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+      Bag1.*: Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_black_baby:
+    faces:
+      Head.north:
+        prompt: The face of a black foal seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_brown_baby:
+    faces:
+      Head.north:
+        prompt: The face of a brown foal seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_chestnut:
+    faces:
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*Saddle*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+      Bag1.*: Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_chestnut_baby:
+    faces:
+      Head.north:
+        prompt: The face of a chestnut foal seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_creamy:
+    faces:
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*Saddle*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+      Bag1.*: Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_creamy_baby:
+    faces:
+      Head.north:
+        prompt: The face of a cream foal seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_darkbrown:
+    faces:
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*Saddle*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+      Bag1.*: Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_darkbrown_baby:
+    faces:
+      Head.north:
+        prompt: The face of a dark brown foal seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_gray:
+    faces:
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*Saddle*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+      Bag1.*: Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_gray_baby:
+    faces:
+      Head.north:
+        prompt: The face of a grey foal seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_markings_blackdots:
+    faces:
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_markings_none:
+    faces:
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_markings_white:
+    faces:
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_markings_whitedots:
+    faces:
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_markings_whitefield:
+    faces:
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_skeleton_baby:
+    faces:
+      '*': Close-up of old porous bone with fine cracks and pits
+  entity/horse2/horse_white:
+    faces:
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*Saddle*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+      Bag1.*: Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_white_baby:
+    faces:
+      Head.north:
+        prompt: The face of a white foal seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/horse_zombie_baby:
+    faces:
+      Head.north:
+        prompt: The face of a rotting green undead foal seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/horse2/mule_baby:
+    faces:
+      Head.north:
+        prompt: The face of a brown baby mule seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Mane.*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      Tail*: Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+      '*': Close-up of a flat hide rug of short smooth dense fur, the hairs lying flat in one direction
+  entity/llama/llama_brown:
+    faces:
+      head#1.north:
+        prompt: The face of brown llama seen straight from the front, filling the whole frame
+        denoise: 0.85
+      chest*: Close-up of weathered wooden planks
+      '*': Close-up of a flat fleece of dense curly wool
+  entity/llama/llama_brown_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby brown llama seen straight from the front, filling the whole frame
+        denoise: 0.85
+      chest*: Close-up of weathered wooden planks
+      '*': Close-up of a flat fleece of dense curly wool
+  entity/llama/llama_creamy_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby cream llama seen straight from the front, filling the whole frame
+        denoise: 0.85
+      chest*: Close-up of weathered wooden planks
+      '*': Close-up of a flat fleece of dense curly wool
+  entity/llama/llama_gray:
+    faces:
+      head#1.north:
+        prompt: The face of grey llama seen straight from the front, filling the whole frame
+        denoise: 0.85
+      chest*: Close-up of weathered wooden planks
+      '*': Close-up of a flat fleece of dense curly wool
+  entity/llama/llama_gray_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby grey llama seen straight from the front, filling the whole frame
+        denoise: 0.85
+      chest*: Close-up of weathered wooden planks
+      '*': Close-up of a flat fleece of dense curly wool
+  entity/llama/llama_white:
+    faces:
+      head#1.north:
+        prompt: The face of white llama seen straight from the front, filling the whole frame
+        denoise: 0.85
+      chest*: Close-up of weathered wooden planks
+      '*': Close-up of a flat fleece of dense curly wool
+  entity/llama/llama_white_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby white llama seen straight from the front, filling the whole frame
+        denoise: 0.85
+      chest*: Close-up of weathered wooden planks
+      '*': Close-up of a flat fleece of dense curly wool
+  entity/llama/trader_llama_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby cream llama seen straight from the front, filling the whole frame
+        denoise: 0.85
+      chest*: Close-up of weathered wooden planks
+      '*': Close-up of a flat fleece of dense curly wool
+  entity/nautilus/nautilus_baby:
+    faces:
+      '*mouth*': Close-up of a flat sheet of smooth wet glossy rubber with faint fine wrinkles and small speckles
+      '*': Close-up of hard glossy horn-like plates with fine growth lines
+  entity/nautilus/zombie_nautilus_coral:
+    faces:
+      '*mouth*': Close-up of a flat sheet of smooth wet glossy rubber with faint fine wrinkles and small speckles
+      '*': Close-up of rotting cracked shell plates with green slime and small coral growths
+  entity/panda/panda_aggressive:
+    faces:
+      head.north:
+        prompt: The face of a giant panda with an angry frown seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_aggressive_baby:
+    faces:
+      head.north:
+        prompt: The face of a giant panda cub with an angry frown seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_baby:
+    faces:
+      head.north:
+        prompt: The face of a giant panda cub seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_brown:
+    faces:
+      head.north:
+        prompt: The face of a brown and white giant panda seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_brown_baby:
+    faces:
+      head.north:
+        prompt: The face of a brown and white giant panda cub seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_lazy:
+    faces:
+      head.north:
+        prompt: The face of a giant panda with sleepy half-closed eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_lazy_baby:
+    faces:
+      head.north:
+        prompt: The face of a giant panda cub with sleepy half-closed eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_playful:
+    faces:
+      head.north:
+        prompt: The face of a giant panda with a playful look seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_playful_baby:
+    faces:
+      head.north:
+        prompt: The face of a giant panda cub with a playful look seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_sneezy:
+    faces:
+      head.north:
+        prompt: The face of a giant panda seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_weak_baby:
+    faces:
+      head.north:
+        prompt: The face of a giant panda cub looking weak and sickly seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_worried:
+    faces:
+      head.north:
+        prompt: The face of a giant panda with a worried look seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/panda/panda_worried_baby:
+    faces:
+      head.north:
+        prompt: The face of a giant panda cub with a worried look seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/parrot/parrot_blue:
+    faces:
+      head.north:
+        prompt: The face of a blue macaw parrot seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat layer of small soft overlapping feathers in neat rows
+  entity/parrot/parrot_green:
+    faces:
+      head.north:
+        prompt: The face of a green parrot seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat layer of small soft overlapping feathers in neat rows
+  entity/parrot/parrot_grey:
+    faces:
+      head.north:
+        prompt: The face of a grey parrot seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat layer of small soft overlapping feathers in neat rows
+  entity/parrot/parrot_yellow_blue:
+    faces:
+      head.north:
+        prompt: The face of a blue and yellow macaw parrot seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat layer of small soft overlapping feathers in neat rows
+  entity/pig/pig_cold:
+    faces:
+      head.north:
+        prompt: The face of a pig with thick shaggy dark brown hair seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a flat round pink snout disc with two large dark oval nostrils, wet skin, filling the whole frame
+      '*': Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+  entity/pig/pig_cold_baby:
+    faces:
+      head.north:
+        prompt: The face of a piglet with shaggy dark brown hair seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a flat round pink snout disc with two large dark oval nostrils, wet skin, filling the whole frame
+      '*': Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+  entity/pig/pig_temperate_baby:
+    faces:
+      head.north:
+        prompt: The face of a pink piglet seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a flat round pink snout disc with two large dark oval nostrils, wet skin, filling the whole frame
+      '*': Close-up of a flat pink leather hide with fine pale bristles and pores
+  entity/pig/pig_warm:
+    faces:
+      head.north:
+        prompt: The face of a muddy brown pig seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a flat round pink snout disc with two large dark oval nostrils, wet skin, filling the whole frame
+      '*': Close-up of a flat pink leather hide with fine pale bristles and pores
+  entity/pig/pig_warm_baby:
+    faces:
+      head.north:
+        prompt: The face of a muddy brown piglet seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a flat round pink snout disc with two large dark oval nostrils, wet skin, filling the whole frame
+      '*': Close-up of a flat pink leather hide with fine pale bristles and pores
+  entity/piglin/piglin_baby:
+    faces:
+      head#1.north:
+        prompt: The face of a young humanoid pig with pink skin and small eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head.north: Extreme close-up of a flat round pink snout disc with two large dark oval nostrils, wet skin, filling the whole frame
+      head*: Close-up of a flat pink leather hide with fine pale bristles and pores
+      '*ear*': Close-up of a flat pink leather hide with fine pale bristles and pores
+      '*Arm.*': Close-up of a flat pink leather hide with fine pale bristles and pores
+      '*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+  entity/piglin/zombie_piglin_baby:
+    faces:
+      head#1.north:
+        prompt: The face of a young rotting humanoid pig with exposed bone and green flesh seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head.north: Extreme close-up of a flat round pink snout disc with two large dark oval nostrils, wet skin, filling the whole frame
+      head*: Close-up of the surface of a rotting pink and green leather hide with patches of exposed bone
+      '*ear*': Close-up of the surface of a rotting pink and green leather hide with patches of exposed bone
+      '*Arm.*': Close-up of the surface of a rotting pink and green leather hide with patches of exposed bone
+      '*': Close-up of a flat swatch of worn torn brown leather with scuffs and creases
+  entity/polar_bear/polar_bear_baby:
+    faces:
+      head.north:
+        prompt: The face of a white polar bear cub seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_black:
+    faces:
+      head.north:
+        prompt: The face of a black rabbit seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_black_baby:
+    faces:
+      head.north:
+        prompt: The face of a black bunny seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_brown_baby:
+    faces:
+      head.north:
+        prompt: The face of a brown bunny seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_gold:
+    faces:
+      head.north:
+        prompt: The face of a golden-yellow rabbit seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_gold_baby:
+    faces:
+      head.north:
+        prompt: The face of a golden-yellow bunny seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_salt:
+    faces:
+      head.north:
+        prompt: The face of a black and white speckled rabbit seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_salt_baby:
+    faces:
+      head.north:
+        prompt: The face of a black and white speckled bunny seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_toast:
+    faces:
+      head.north:
+        prompt: The face of a black and white rabbit seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_toast_baby:
+    faces:
+      head.north:
+        prompt: The face of a black and white bunny seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_white:
+    faces:
+      head.north:
+        prompt: The face of a white rabbit seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_white_baby:
+    faces:
+      head.north:
+        prompt: The face of a white bunny seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_white_splotched:
+    faces:
+      head.north:
+        prompt: The face of a white rabbit with black splotches seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/rabbit/rabbit_white_splotched_baby:
+    faces:
+      head.north:
+        prompt: The face of a white bunny with black splotches seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/sheep/sheep_baby:
+    faces:
+      head.north:
+        prompt: The face of a lamb with a pale face seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of a flat fleece of dense curly wool
+  entity/skeleton/bogged_clothes:
+    faces:
+      '*': Close-up of a flat swatch of torn mossy brown cloth
+  entity/skeleton/stray_overlay:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn pale grey-blue woven wool cloth with a few stains
+  entity/sniffer/snifflet:
+    faces:
+      nose.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*beak*': Close-up of hard glossy horn-like plates with fine growth lines
+      '*': Close-up of a flat rug of long shaggy hair, long strands hanging in one direction
+  entity/squid/squid_baby:
+    faces:
+      '*': Close-up of a flat sheet of smooth wet glossy grey rubber with faint fine wrinkles and small speckles
+  entity/strider/strider_baby:
+    faces:
+      body.north:
+        prompt: The face of a red wrinkly lava creature with small eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*saddle*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of red wrinkled leather with deep folds
+  entity/strider/strider_cold_baby:
+    faces:
+      body.north:
+        prompt: The face of a blue-purple wrinkly lava creature with small eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*saddle*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of blue-purple wrinkled leather with deep folds
+  entity/strider/strider_saddled:
+    faces:
+      body.north:
+        prompt: The face of a red wrinkly lava creature with small eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*saddle*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of red wrinkled leather with deep folds
+  entity/strider/strider_suffocated:
+    faces:
+      body.north:
+        prompt: The face of a blue-purple wrinkly lava creature with small eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*saddle*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of blue-purple wrinkled leather with deep folds
+  entity/strider/strider_suffocated_saddled:
+    faces:
+      body.north:
+        prompt: The face of a blue-purple wrinkly lava creature with small eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*saddle*': Close-up of a flat swatch of worn brown leather with scuffs and creases
+      '*': Close-up of blue-purple wrinkled leather with deep folds
+  entity/sulfur_cube/sulfur_cube_inner_small:
+    faces:
+      '*': Close-up of translucent glossy yellow jelly with small bubbles inside
+  entity/sulfur_cube/sulfur_cube_outer:
+    faces:
+      '*': Close-up of translucent glossy yellow jelly with small bubbles inside
+  entity/sulfur_cube/sulfur_cube_outer_small:
+    faces:
+      '*': Close-up of translucent glossy yellow jelly with small bubbles inside
+  entity/sulfur_cube/sulfur_cube_tnt:
+    faces:
+      '*': Close-up of translucent glossy red and yellow jelly with small bubbles inside
+  entity/turtle/sea_turtle_baby:
+    faces:
+      head.north:
+        prompt: The face of a baby green sea turtle seen straight from the front, filling the whole frame
+        denoise: 0.85
+      body.*: Close-up of hard glossy horn-like plates with fine growth lines
+      '*': Close-up of dry pebbly reptile skin with small rounded scales
+  entity/villager2/biomes/biome_desert:
+    faces:
+      '*': Close-up of a flat swatch of coarse sandy beige woven wool cloth with a few stains
+  entity/villager2/biomes/biome_desert_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse sandy beige woven wool cloth with a few stains
+  entity/villager2/biomes/biome_jungle:
+    faces:
+      '*': Close-up of a flat swatch of coarse green and brown woven wool cloth with a few stains
+  entity/villager2/biomes/biome_jungle_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse green and brown woven wool cloth with a few stains
+  entity/villager2/biomes/biome_plains_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+  entity/villager2/biomes/biome_savanna:
+    faces:
+      '*': Close-up of a flat swatch of coarse orange-brown woven wool cloth with a few stains
+  entity/villager2/biomes/biome_savanna_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse orange-brown woven wool cloth with a few stains
+  entity/villager2/biomes/biome_snow:
+    faces:
+      '*': Close-up of a flat swatch of coarse white and blue-grey woven wool cloth with a few stains
+  entity/villager2/biomes/biome_snow_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse white and blue-grey woven wool cloth with a few stains
+  entity/villager2/biomes/biome_swamp:
+    faces:
+      '*': Close-up of a flat swatch of coarse dark green woven wool cloth with a few stains
+  entity/villager2/biomes/biome_swamp_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse dark green woven wool cloth with a few stains
+  entity/villager2/biomes/biome_taiga:
+    faces:
+      '*': Close-up of a flat swatch of coarse dark brown woven wool cloth with a few stains
+  entity/villager2/biomes/biome_taiga_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse dark brown woven wool cloth with a few stains
+  entity/villager2/professions/armorer:
+    faces:
+      '*': Close-up of a flat swatch of coarse woven wool cloth and worn leather with a few stains
+  entity/villager2/villager_baby:
+    faces:
+      head.north:
+        prompt: The face of a bald child with a large nose seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head.*: Close-up of a flat patch of tanned weathered skin with fine pores
+      nose.north:
+        prompt: Extreme close-up of the tip of a large nose seen from the front, two nostrils at the bottom, weathered skin with fine pores, filling the whole frame
+        denoise: 0.75
+      nose.*: Close-up of a flat patch of tanned weathered skin with fine pores
+      arms#2.*: Close-up of a flat patch of tanned weathered skin with fine pores
+      '*': Close-up of a flat swatch of coarse brown woven wool cloth with a few stains
+  entity/wither_boss/wither_invulnerable:
+    faces:
+      head*.north:
+        prompt: The face of a charred black skull with glowing eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      '*': Close-up of charred black porous bone with fine cracks
+  entity/wolf/wolf_angry:
+    faces:
+      head.north:
+        prompt: The face of a grey wolf, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_angry_baby:
+    faces:
+      head.north:
+        prompt: The face of a grey wolf puppy, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_ashen:
+    faces:
+      head.north:
+        prompt: The face of a pale ash-grey wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_ashen_angry:
+    faces:
+      head.north:
+        prompt: The face of a pale ash-grey wolf, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_ashen_angry_baby:
+    faces:
+      head.north:
+        prompt: The face of a pale ash-grey wolf puppy, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_ashen_baby:
+    faces:
+      head.north:
+        prompt: The face of a pale ash-grey wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_ashen_tame:
+    faces:
+      head.north:
+        prompt: The face of a pale ash-grey wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_ashen_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a pale ash-grey wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_baby:
+    faces:
+      head.north:
+        prompt: The face of a grey wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_black:
+    faces:
+      head.north:
+        prompt: The face of a black wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_black_angry:
+    faces:
+      head.north:
+        prompt: The face of a black wolf, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_black_angry_baby:
+    faces:
+      head.north:
+        prompt: The face of a black wolf puppy, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_black_baby:
+    faces:
+      head.north:
+        prompt: The face of a black wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_black_tame:
+    faces:
+      head.north:
+        prompt: The face of a black wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_black_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a black wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_chestnut:
+    faces:
+      head.north:
+        prompt: The face of a chestnut brown wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_chestnut_angry:
+    faces:
+      head.north:
+        prompt: The face of a chestnut brown wolf, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_chestnut_angry_baby:
+    faces:
+      head.north:
+        prompt: The face of a chestnut brown wolf puppy, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_chestnut_baby:
+    faces:
+      head.north:
+        prompt: The face of a chestnut brown wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_chestnut_tame:
+    faces:
+      head.north:
+        prompt: The face of a chestnut brown wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_chestnut_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a chestnut brown wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_rusty:
+    faces:
+      head.north:
+        prompt: The face of a rusty red-brown wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_rusty_angry:
+    faces:
+      head.north:
+        prompt: The face of a rusty red-brown wolf, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_rusty_angry_baby:
+    faces:
+      head.north:
+        prompt: The face of a rusty red-brown wolf puppy, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_rusty_baby:
+    faces:
+      head.north:
+        prompt: The face of a rusty red-brown wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_rusty_tame:
+    faces:
+      head.north:
+        prompt: The face of a rusty red-brown wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_rusty_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a rusty red-brown wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_snowy:
+    faces:
+      head.north:
+        prompt: The face of a white wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_snowy_angry:
+    faces:
+      head.north:
+        prompt: The face of a white wolf, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_snowy_angry_baby:
+    faces:
+      head.north:
+        prompt: The face of a white wolf puppy, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_snowy_baby:
+    faces:
+      head.north:
+        prompt: The face of a white wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_snowy_tame:
+    faces:
+      head.north:
+        prompt: The face of a white wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_snowy_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a white wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_spotted:
+    faces:
+      head.north:
+        prompt: The face of a brown and white spotted wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_spotted_angry:
+    faces:
+      head.north:
+        prompt: The face of a brown and white spotted wolf, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_spotted_angry_baby:
+    faces:
+      head.north:
+        prompt: The face of a brown and white spotted wolf puppy, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_spotted_baby:
+    faces:
+      head.north:
+        prompt: The face of a brown and white spotted wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_spotted_tame:
+    faces:
+      head.north:
+        prompt: The face of a brown and white spotted wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_spotted_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a brown and white spotted wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_striped:
+    faces:
+      head.north:
+        prompt: The face of a dark brown striped wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_striped_angry:
+    faces:
+      head.north:
+        prompt: The face of a dark brown striped wolf, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_striped_angry_baby:
+    faces:
+      head.north:
+        prompt: The face of a dark brown striped wolf puppy, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_striped_baby:
+    faces:
+      head.north:
+        prompt: The face of a dark brown striped wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_striped_tame:
+    faces:
+      head.north:
+        prompt: The face of a dark brown striped wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_striped_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a dark brown striped wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_tame:
+    faces:
+      head.north:
+        prompt: The face of a grey wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a grey wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_woods:
+    faces:
+      head.north:
+        prompt: The face of a dark brown wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_woods_angry:
+    faces:
+      head.north:
+        prompt: The face of a dark brown wolf, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_woods_angry_baby:
+    faces:
+      head.north:
+        prompt: The face of a dark brown wolf puppy, snarling with bared teeth seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_woods_baby:
+    faces:
+      head.north:
+        prompt: The face of a dark brown wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_woods_tame:
+    faces:
+      head.north:
+        prompt: The face of a dark brown wolf seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#3.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/wolf/wolf_woods_tame_baby:
+    faces:
+      head.north:
+        prompt: The face of a dark brown wolf puppy seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.north: Extreme close-up of a wet dark nose with two nostrils and short fur around it, filling the whole frame
+      '*ear*': Close-up of a flat patch of short fine fur
+      '*': Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction
+  entity/zoglin/zoglin_baby:
+    faces:
+      head.north:
+        prompt: The face of a rotting baby wild boar with exposed flesh seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head#1.*: Close-up of a yellowed ivory tusk surface with fine cracks and growth lines
+      head#2.*: Close-up of a yellowed ivory tusk surface with fine cracks and growth lines
+      '*': Close-up of a flat rotting hide rug of coarse stiff bristles with patches of raw pink flesh
+  entity/zombie/drowned_baby:
+    faces:
+      Head.north:
+        prompt: The face of a small drowned zombie child with wet teal rotting skin and glowing eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Head*: Close-up of a flat patch of wet teal rotting hide with algae
+      '*Arm.*': Close-up of a flat patch of wet teal rotting hide with algae
+      '*': Close-up of a flat swatch of torn wet brown cloth with algae
+  entity/zombie/husk_baby:
+    faces:
+      Head.north:
+        prompt: The face of a small bald undead child with dry sandy cracked skin seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Head*: Close-up of a flat patch of dry sandy cracked hide
+      '*Arm.*': Close-up of a flat patch of dry sandy cracked hide
+      '*': Close-up of a flat swatch of coarse torn dirty brown woven wool cloth with a few stains
+  entity/zombie/zombie_baby:
+    faces:
+      Head.north:
+        prompt: The face of a small bald rotting green-skinned zombie child, dark sunken eyes seen straight from the front, filling the whole frame
+        denoise: 0.85
+      Head*: Close-up of a flat rotting grey-green leather hide with pores, blotches and faint dark veins
+      '*Arm.*': Close-up of a flat rotting grey-green leather hide with pores, blotches and faint dark veins
+      '*Leg.*': Close-up of a flat swatch of torn dirty blue denim fabric
+      '*': Close-up of a flat swatch of coarse torn dirty cyan woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome-desert-zombie:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty sandy beige woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome-jungle-zombie:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty green and brown woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome-plains-zombie:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty brown woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome-savanna-zombie:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty orange-brown woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome-snow-zombie:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty white and blue-grey woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome-swamp-zombie:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty dark green woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome-taiga-zombie:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty dark brown woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome_desert_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty sandy beige woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome_jungle_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty green and brown woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome_plains_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty brown woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome_savanna_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty orange-brown woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome_snow_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty white and blue-grey woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome_swamp_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty dark green woven wool cloth with a few stains
+  entity/zombie_villager2/biomes/biome_taiga_baby:
+    faces:
+      '*': Close-up of a flat swatch of coarse torn dirty dark brown woven wool cloth with a few stains
+  entity/zombie_villager2/professions/armorer:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/butcher:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/cartographer:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/cleric:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/farmer:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/fisherman:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/fletcher:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/leatherworker:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/librarian:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/nitwit:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/shepherd:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/stonemason:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/toolsmith:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/professions/weaponsmith:
+    faces:
+      '*': Close-up of a flat swatch of torn dirty woven wool cloth and worn leather with stains
+  entity/zombie_villager2/zombie-villager_baby:
+    faces:
+      Head.north:
+        prompt: The face of a small bald undead child with rotting green skin and a long nose seen straight from the front, filling the whole frame
+        denoise: 0.85
+      head*: Close-up of a flat rotting grey-green leather hide with pores, blotches and faint dark veins
+      '*Arm.*': Close-up of a flat rotting grey-green leather hide with pores, blotches and faint dark veins
+      '*': Close-up of a flat swatch of coarse torn dirty brown woven wool cloth with a few stains

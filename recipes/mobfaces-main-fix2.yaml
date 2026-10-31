@@ -1,0 +1,25 @@
+# Second fix of recipes/mobfaces-main.yaml (2026-10-26): "head#*.north" also matched tusks and
+# ears, which got a nose picture. The hoglin's and zoglin's tusks (head#1, 2 x 11 x 2) become ivory,
+# the small ear fronts fur. Everything else is kept from the earlier seed.
+# Run: uv run mcreskin mobfaces recipes/mobfaces-main-fix2.yaml
+seeds: {2503: 0.75}
+style: Photorealistic macro photograph seen perfectly straight-on, flat even soft lighting, sharp focus, the surface fills the whole image edge to edge, no background, no object.
+textures:
+  entity/hoglin/hoglin:
+    keep: {from: 2502, faces: ["[!h]*", "head.*"]}
+    faces: {"head#1.*": Close-up of a yellowed ivory tusk surface with fine cracks and growth lines}
+  entity/zoglin/zoglin:
+    keep: {from: 2502, faces: ["[!h]*", "head.*"]}
+    faces: {"head#1.*": Close-up of a yellowed ivory tusk surface with fine cracks and growth lines}
+  entity/panda/panda:
+    keep: {from: 2501, faces: ["*"], except: ["head#2.north"]}
+    faces: {"head#2.north": "Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction"}
+  entity/polar_bear:
+    keep: {from: 2501, faces: ["*"], except: ["head#2.north"]}
+    faces: {"head#2.north": "Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction"}
+  entity/wolf/wolf:
+    keep: {from: 2501, faces: ["*"], except: ["head#1.north"]}
+    faces: {"head#1.north": "Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction"}
+  entity/fox/fox:
+    keep: {from: 2501, faces: ["*"], except: ["head#[12].north"]}
+    faces: {"head#[12].north": "Close-up of a flat fur rug of dense medium-length soft fur, the hairs lying in one direction"}

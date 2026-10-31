@@ -1,0 +1,19 @@
+# Mob materials round 1 fixes (2026-10-26): "tortoiseshell", "insect exoskeleton" and "bone" gave
+# the whole object (a round shell, a beetle's back, a bone with edges); ask for a close-up part.
+# Run: uv run mcreskin generate recipes/mobs-r1-fix.yaml
+size: 1024
+seed_base: 2351
+models: {qwen: 2}
+style: >-
+  Orthographic macro photograph taken perfectly straight-on, flat even overcast lighting with
+  uniform brightness at the left edge, centre and right edge, sharp focus everywhere,
+  photorealistic high-resolution texture scan, one continuous surface filling the whole image,
+  no edges, no seams.
+
+textures:
+  mob_shell:
+    prompt: Texture of a close-up of a flat section of hard glossy brown horn-like plates with fine parallel growth lines and mottled darker patches, filling the whole frame.
+  mob_chitin:
+    prompt: Texture of a close-up of a flat dark brown lacquered hard surface with tiny pits and scattered short stiff dark hairs, filling the whole frame.
+  mob_bone:
+    prompt: Texture of a close-up of a flat old ivory surface filling the whole frame, smooth porous ivory with fine hairline cracks and tiny pits.

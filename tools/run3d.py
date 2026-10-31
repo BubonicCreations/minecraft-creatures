@@ -9,7 +9,7 @@ from pathlib import Path
 
 H = "http://172.26.96.1:8188"
 OUT = Path("work/models3d/mobs")
-WORKFLOW = "/mnt/c/Users/James/Downloads/3d_pixal3d_trellis2_image_to_model.json"
+WORKFLOW = "comfy/3d_pixal3d_trellis2_image_to_model.json"
 
 
 def call(path, data=None, ctype="application/json", timeout=60):
