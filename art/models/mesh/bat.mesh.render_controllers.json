@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.bat.mesh": {
+      "geometry": "Geometry.mesh",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.mesh"
+      ]
+    }
+  }
+}

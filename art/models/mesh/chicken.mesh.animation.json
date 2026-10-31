@@ -1,0 +1,32 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.chicken.mesh.look_at_target": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "relative_to": {
+            "rotation": "entity"
+          },
+          "rotation": [
+            "((!query.is_baby && v.index == 0) || (!query.is_baby && v.index == 1) || (!query.is_baby && v.index == 2) || (query.is_baby && v.index == 0) || (query.is_baby && v.index == 1) || (query.is_baby && v.index == 2)) ? (math.clamp(query.target_x_rotation - this, -25, 25)) : (query.target_x_rotation - this)",
+            "((!query.is_baby && v.index == 0) || (!query.is_baby && v.index == 1) || (!query.is_baby && v.index == 2) || (query.is_baby && v.index == 0) || (query.is_baby && v.index == 1) || (query.is_baby && v.index == 2)) ? (math.clamp(query.target_y_rotation - this, -35, 35)) : (query.target_y_rotation - this)",
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.chicken.mesh.baby_transform": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "scale": [
+            "((query.is_baby && v.index == 0) || (query.is_baby && v.index == 1) || (query.is_baby && v.index == 2)) ? (1.0) : (2.0)",
+            "((query.is_baby && v.index == 0) || (query.is_baby && v.index == 1) || (query.is_baby && v.index == 2)) ? (1.0) : (2.0)",
+            "((query.is_baby && v.index == 0) || (query.is_baby && v.index == 1) || (query.is_baby && v.index == 2)) ? (1.0) : (2.0)"
+          ]
+        }
+      }
+    }
+  }
+}

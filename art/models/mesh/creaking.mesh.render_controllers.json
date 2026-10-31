@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.creaking.mesh": {
+      "geometry": "Geometry.mesh",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.mesh"
+      ],
+      "part_visibility": [
+        {
+          "*": "!query.is_invisible"
+        }
+      ]
+    }
+  }
+}

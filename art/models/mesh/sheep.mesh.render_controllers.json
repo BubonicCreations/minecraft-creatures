@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.sheep.v2.mesh": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [
+            "Geometry.default",
+            "Geometry.sheared"
+          ]
+        }
+      },
+      "geometry": "(!query.is_baby && !query.is_sheared) ? Geometry.mesh : ((!query.is_baby && query.is_sheared) ? Geometry.mesh_sheep_sheared : ((query.is_baby && !query.is_sheared) ? Geometry.mesh_sheep_baby : (query.is_baby ? Geometry.baby : Array.geos[query.is_sheared])))",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "(!query.is_baby && !query.is_sheared) ? Texture.mesh : ((!query.is_baby && query.is_sheared) ? Texture.mesh_sheep_sheared : ((query.is_baby && !query.is_sheared) ? Texture.mesh_sheep_baby : (query.is_baby ? Texture.baby : Texture.default)))"
+      ]
+    }
+  }
+}

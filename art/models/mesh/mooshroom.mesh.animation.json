@@ -1,0 +1,71 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.mooshroom.mesh.walk": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "leg0": {
+          "rotation": [
+            "((!query.is_baby && query.variant == 0) || (!query.is_baby && query.variant == 1) || (query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? ((math.cos(query.anim_time * 38.17) *  80.0) * math.min(1.0, 0.55 / math.max(query.modified_move_speed, 0.01))) : (math.cos(query.anim_time * 38.17) *  80.0)",
+            0.0,
+            0.0
+          ]
+        },
+        "leg1": {
+          "rotation": [
+            "((!query.is_baby && query.variant == 0) || (!query.is_baby && query.variant == 1) || (query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? ((math.cos(query.anim_time * 38.17) * -80.0) * math.min(1.0, 0.55 / math.max(query.modified_move_speed, 0.01))) : (math.cos(query.anim_time * 38.17) * -80.0)",
+            0.0,
+            0.0
+          ]
+        },
+        "leg2": {
+          "rotation": [
+            "((!query.is_baby && query.variant == 0) || (!query.is_baby && query.variant == 1) || (query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? ((math.cos(query.anim_time * 38.17) * -80.0) * math.min(1.0, 0.55 / math.max(query.modified_move_speed, 0.01))) : (math.cos(query.anim_time * 38.17) * -80.0)",
+            0.0,
+            0.0
+          ]
+        },
+        "leg3": {
+          "rotation": [
+            "((!query.is_baby && query.variant == 0) || (!query.is_baby && query.variant == 1) || (query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? ((math.cos(query.anim_time * 38.17) *  80.0) * math.min(1.0, 0.55 / math.max(query.modified_move_speed, 0.01))) : (math.cos(query.anim_time * 38.17) *  80.0)",
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.mooshroom.mesh.look_at_target": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "relative_to": {
+            "rotation": "entity"
+          },
+          "rotation": [
+            "((!query.is_baby && query.variant == 0) || (!query.is_baby && query.variant == 1) || (query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? (math.clamp(query.target_x_rotation - this, -25, 25)) : (query.target_x_rotation - this)",
+            "((!query.is_baby && query.variant == 0) || (!query.is_baby && query.variant == 1) || (query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? (math.clamp(query.target_y_rotation - this, -35, 35)) : (query.target_y_rotation - this)",
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.mooshroom.mesh.baby_transform": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "position": [
+            "((query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? (0.0) : (0.0)",
+            "((query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? (0.0) : (query.is_baby ? 4.0 : 0.0)",
+            "((query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? (0.0) : (query.is_baby ? 4.0 : 0.0)"
+          ],
+          "scale": [
+            "((query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? (1.0) : (query.is_baby ? 2.0 : 1.0)",
+            "((query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? (1.0) : (query.is_baby ? 2.0 : 1.0)",
+            "((query.is_baby && query.variant == 0) || (query.is_baby && query.variant == 1)) ? (1.0) : (query.is_baby ? 2.0 : 1.0)"
+          ]
+        }
+      }
+    }
+  }
+}

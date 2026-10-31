@@ -1,0 +1,126 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.polar_bear.mesh.walk": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "leg0": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? ((math.cos(query.anim_time * 38.17) *  80.0) * math.min(1.0, 0.55 / math.max(query.modified_move_speed, 0.01))) : (math.cos(query.anim_time * 38.17) *  80.0)",
+            0.0,
+            0.0
+          ]
+        },
+        "leg1": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? ((math.cos(query.anim_time * 38.17) * -80.0) * math.min(1.0, 0.55 / math.max(query.modified_move_speed, 0.01))) : (math.cos(query.anim_time * 38.17) * -80.0)",
+            0.0,
+            0.0
+          ]
+        },
+        "leg2": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? ((math.cos(query.anim_time * 38.17) * -80.0) * math.min(1.0, 0.55 / math.max(query.modified_move_speed, 0.01))) : (math.cos(query.anim_time * 38.17) * -80.0)",
+            0.0,
+            0.0
+          ]
+        },
+        "leg3": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? ((math.cos(query.anim_time * 38.17) *  80.0) * math.min(1.0, 0.55 / math.max(query.modified_move_speed, 0.01))) : (math.cos(query.anim_time * 38.17) *  80.0)",
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.polar_bear.mesh.look_at_target": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "relative_to": {
+            "rotation": "entity"
+          },
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(query.target_x_rotation - this, -25, 25)) : (query.target_x_rotation - this)",
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(query.target_y_rotation - this, -30, 30)) : (query.target_y_rotation - this)",
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.polar_bear.mesh.move": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [
+            0.0,
+            "-9 - 2 * query.standing_scale - this",
+            0.0
+          ],
+          "rotation": [
+            "(-(query.standing_scale) * 63) - this",
+            0.0,
+            0.0
+          ]
+        },
+        "leg0": {
+          "position": [
+            "((!query.is_baby) || (query.is_baby)) ? (0.0) : (0.0)",
+            "((!query.is_baby) || (query.is_baby)) ? (0.0) : (-1 * query.standing_scale)",
+            "((!query.is_baby) || (query.is_baby)) ? (0.0) : (6 * query.standing_scale)"
+          ],
+          "rotation": [
+            "query.standing_scale * 63",
+            0.0,
+            0.0
+          ]
+        },
+        "leg1": {
+          "position": [
+            "((!query.is_baby) || (query.is_baby)) ? (0.0) : (0.0)",
+            "((!query.is_baby) || (query.is_baby)) ? (0.0) : (-1 * query.standing_scale)",
+            "((!query.is_baby) || (query.is_baby)) ? (0.0) : (6 * query.standing_scale)"
+          ],
+          "rotation": [
+            "query.standing_scale * 63",
+            0.0,
+            0.0
+          ]
+        },
+        "leg2": {
+          "rotation": [
+            "(query.standing_scale > 1) ? (query.standing_scale * 81) - this : 0",
+            0.0,
+            0.0
+          ]
+        },
+        "leg3": {
+          "rotation": [
+            "(query.standing_scale > 1) ? (query.standing_scale * 81) - this : 0",
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.polar_bear.mesh.baby_transform": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "position": [
+            "(query.is_baby) ? (0.0) : (0.0)",
+            "(query.is_baby) ? (0.0) : (-1.0)",
+            "(query.is_baby) ? (0.0) : (3.0)"
+          ],
+          "scale": [
+            "(query.is_baby) ? (1.0) : (1.25)",
+            "(query.is_baby) ? (1.0) : (1.25)",
+            "(query.is_baby) ? (1.0) : (1.25)"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1766 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.camel.mesh.sit_down": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (-40.116) : ((!query.is_baby) ? (-40.113) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (-40.116) : ((!query.is_baby) ? (-40.113) : (30))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.8": [
+              "(query.is_baby) ? (-40.116) : ((!query.is_baby) ? (-40.113) : (24))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (-40.116) : ((!query.is_baby) ? (-40.113) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-1.838) : ((!query.is_baby) ? (-7.429) : (0))",
+              "(query.is_baby) ? (5.534) : ((!query.is_baby) ? (2.136) : (0))"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-1.838) : ((!query.is_baby) ? (-7.429) : (0))",
+              "(query.is_baby) ? (5.534) : ((!query.is_baby) ? (2.136) : (1))"
+            ],
+            "1.8": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-1.838) : ((!query.is_baby) ? (-7.429) : (-6))",
+              "(query.is_baby) ? (5.534) : ((!query.is_baby) ? (2.136) : (1))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-1.838) : ((!query.is_baby) ? (-7.429) : (-19.9))",
+              "(query.is_baby) ? (5.534) : ((!query.is_baby) ? (2.136) : (0))"
+            ]
+          }
+        },
+        "right_front_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-30))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-30))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-0.242) : ((!query.is_baby) ? (-0.38) : (0))",
+              "(query.is_baby) ? (3.404) : ((!query.is_baby) ? (5.349) : (0))"
+            ],
+            "1.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-0.242) : ((!query.is_baby) ? (-0.38) : (-2))",
+              "(query.is_baby) ? (3.404) : ((!query.is_baby) ? (5.349) : (11))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-0.242) : ((!query.is_baby) ? (-0.38) : (-2))",
+              "(query.is_baby) ? (3.404) : ((!query.is_baby) ? (5.349) : (11))"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-0.242) : ((!query.is_baby) ? (-0.38) : (-8.4))",
+              "(query.is_baby) ? (3.404) : ((!query.is_baby) ? (5.349) : (11.4))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-0.242) : ((!query.is_baby) ? (-0.38) : (-20.6))",
+              "(query.is_baby) ? (3.404) : ((!query.is_baby) ? (5.349) : (12))"
+            ]
+          }
+        },
+        "left_front_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-30))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-30))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.242) : ((!query.is_baby) ? (0.38) : (0))",
+              "(query.is_baby) ? (3.581) : ((!query.is_baby) ? (5.626) : (0))"
+            ],
+            "1.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.242) : ((!query.is_baby) ? (0.38) : (-2))",
+              "(query.is_baby) ? (3.581) : ((!query.is_baby) ? (5.626) : (11))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.242) : ((!query.is_baby) ? (0.38) : (-2))",
+              "(query.is_baby) ? (3.581) : ((!query.is_baby) ? (5.626) : (11))"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.242) : ((!query.is_baby) ? (0.38) : (-8.4))",
+              "(query.is_baby) ? (3.581) : ((!query.is_baby) ? (5.626) : (11.4))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.242) : ((!query.is_baby) ? (0.38) : (-20.6))",
+              "(query.is_baby) ? (3.581) : ((!query.is_baby) ? (5.626) : (12))"
+            ]
+          }
+        },
+        "left_hind_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (-10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (-15))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-3))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.9": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (-65))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-9))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-15))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-10.178) : ((!query.is_baby) ? (-15.994) : (0))",
+              "(query.is_baby) ? (-0.224) : ((!query.is_baby) ? (-0.352) : (0))"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-10.178) : ((!query.is_baby) ? (-15.994) : (0))",
+              "(query.is_baby) ? (-0.224) : ((!query.is_baby) ? (-0.352) : (0))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-10.178) : ((!query.is_baby) ? (-15.994) : (0))",
+              "(query.is_baby) ? (-0.224) : ((!query.is_baby) ? (-0.352) : (1))"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (1))",
+              "(query.is_baby) ? (-10.178) : ((!query.is_baby) ? (-15.994) : (-0.62))",
+              "(query.is_baby) ? (-0.224) : ((!query.is_baby) ? (-0.352) : (0.25))"
+            ],
+            "1.9": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.5))",
+              "(query.is_baby) ? (-10.178) : ((!query.is_baby) ? (-15.994) : (-11.25))",
+              "(query.is_baby) ? (-0.224) : ((!query.is_baby) ? (-0.352) : (2.5))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (1))",
+              "(query.is_baby) ? (-10.178) : ((!query.is_baby) ? (-15.994) : (-20.5))",
+              "(query.is_baby) ? (-0.224) : ((!query.is_baby) ? (-0.352) : (5))"
+            ]
+          }
+        },
+        "right_hind_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (-10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (-15))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (3))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.9": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (-65))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (9))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (15))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-8.952) : ((!query.is_baby) ? (-14.067) : (0))",
+              "(query.is_baby) ? (0.224) : ((!query.is_baby) ? (0.352) : (0))"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-8.952) : ((!query.is_baby) ? (-14.067) : (0))",
+              "(query.is_baby) ? (0.224) : ((!query.is_baby) ? (0.352) : (0))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (-8.952) : ((!query.is_baby) ? (-14.067) : (0))",
+              "(query.is_baby) ? (0.224) : ((!query.is_baby) ? (0.352) : (1))"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1))",
+              "(query.is_baby) ? (-8.952) : ((!query.is_baby) ? (-14.067) : (-0.62))",
+              "(query.is_baby) ? (0.224) : ((!query.is_baby) ? (0.352) : (0.25))"
+            ],
+            "1.9": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-0.5))",
+              "(query.is_baby) ? (-8.952) : ((!query.is_baby) ? (-14.067) : (-11.25))",
+              "(query.is_baby) ? (0.224) : ((!query.is_baby) ? (0.352) : (2.5))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1))",
+              "(query.is_baby) ? (-8.952) : ((!query.is_baby) ? (-14.067) : (-20.5))",
+              "(query.is_baby) ? (0.224) : ((!query.is_baby) ? (0.352) : (5))"
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (40.116) : ((!query.is_baby) ? (40.113) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.7": [
+              "(query.is_baby) ? (40.116) : ((!query.is_baby) ? (40.113) : (-27.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (40.116) : ((!query.is_baby) ? (40.113) : (-21.25))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (40.116) : ((!query.is_baby) ? (40.113) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          },
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ]
+        },
+        "tail": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.9": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (80))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (50))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          }
+        }
+      },
+      "sound_effects": {
+        "0.0": {
+          "effect": "sit_down"
+        }
+      }
+    },
+    "animation.camel.mesh.sitting": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            "(query.is_baby) ? (-40.116) : ((!query.is_baby) ? (-40.113) : (0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+            "(query.is_baby) ? (-1.838) : ((!query.is_baby) ? (-7.429) : (-19.9))",
+            "(query.is_baby) ? (5.534) : ((!query.is_baby) ? (2.136) : (0))"
+          ]
+        },
+        "right_front_leg": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (10))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+            "(query.is_baby) ? (-0.242) : ((!query.is_baby) ? (-0.38) : (-20.6))",
+            "(query.is_baby) ? (3.404) : ((!query.is_baby) ? (5.349) : (12))"
+          ]
+        },
+        "left_front_leg": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-10))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+            "(query.is_baby) ? (0.242) : ((!query.is_baby) ? (0.38) : (-20.6))",
+            "(query.is_baby) ? (3.581) : ((!query.is_baby) ? (5.626) : (12))"
+          ]
+        },
+        "left_hind_leg": {
+          "rotation": [
+            "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (-90))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-15))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (1))",
+            "(query.is_baby) ? (-10.178) : ((!query.is_baby) ? (-15.994) : (-20.5))",
+            "(query.is_baby) ? (-0.224) : ((!query.is_baby) ? (-0.352) : (5))"
+          ]
+        },
+        "right_hind_leg": {
+          "rotation": [
+            "(query.is_baby) ? (-80.0) : ((!query.is_baby) ? (-80.0) : (-90))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (15))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1))",
+            "(query.is_baby) ? (-8.952) : ((!query.is_baby) ? (-14.067) : (-20.5))",
+            "(query.is_baby) ? (0.224) : ((!query.is_baby) ? (0.352) : (5))"
+          ]
+        },
+        "tail": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (50))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+          ]
+        },
+        "head": {
+          "rotation": [
+            "(query.is_baby) ? (40.116) : ((!query.is_baby) ? (40.113) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ]
+        }
+      }
+    },
+    "animation.camel.mesh.stand_up": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 2.6,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.7": {
+              "pre": [
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-17.5))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+              ],
+              "post": [
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-17.5))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+              ]
+            },
+            "1.8": {
+              "post": [
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-17.83))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+              ]
+            },
+            "2.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-5.83))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-19.9))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.7": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-19.9))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-3))"
+            ],
+            "1.4": {
+              "pre": [
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-12.76))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-4))"
+              ],
+              "post": [
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-12.76))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-4))"
+              ]
+            },
+            "1.8": {
+              "post": [
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-10.1))",
+                "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-4))"
+              ]
+            },
+            "2.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2.9))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          }
+        },
+        "right_front_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-49.06))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.8": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-22.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-25))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-20.6))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (12))"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-20.6))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (8))"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-7.14))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (4.42))"
+            ],
+            "1.8": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1.27))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1.33))"
+            ],
+            "2.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1.27))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-0.33))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          }
+        },
+        "left_front_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-49.06))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.8": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-22.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-25))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-10))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-20.6))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (12))"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-20.6))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (8))"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-7.14))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (4.42))"
+            ],
+            "1.8": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1.27))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1.33))"
+            ],
+            "2.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1.27))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-0.33))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          }
+        },
+        "left_hind_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-15))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-60))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.9": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (35))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.2": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (30))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (1))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-20.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (5))"
+            ],
+            "0.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-20.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (3))"
+            ],
+            "0.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-20.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (3))"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-10.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (2))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-0.4))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-3.9))"
+            ],
+            "1.9": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-4.3))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-9.8))"
+            ],
+            "2.2": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-5))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          }
+        },
+        "right_hind_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (15))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-90))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-60))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.9": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (35))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.2": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (30))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-20.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (5))"
+            ],
+            "0.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (2))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-20.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (3))"
+            ],
+            "0.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (2))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-20.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (3))"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (2))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-10.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (2))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (2))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-0.4))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-3.9))"
+            ],
+            "1.9": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (2))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-4.3))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-9.8))"
+            ],
+            "2.2": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (1))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-5))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.3": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.8": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (55))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (65))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.4": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          }
+        },
+        "tail": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (50))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.4": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (55))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "0.9": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (55))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (17.5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (5))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))"
+            ]
+          }
+        },
+        "left_ear": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-45))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-45))"
+            ]
+          }
+        },
+        "right_ear": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (45))"
+            ],
+            "2.6": [
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0))",
+              "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (45))"
+            ]
+          }
+        }
+      },
+      "sound_effects": {
+        "0.0": {
+          "effect": "stand_up"
+        }
+      }
+    },
+    "animation.camel.mesh.baby_sit_down": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (-40.116) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.4": [
+              "(query.is_baby) ? (-40.116) : (9.26)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.6": [
+              "(query.is_baby) ? (-40.116) : (18.15)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.9": {
+              "pre": [
+                "(query.is_baby) ? (-40.116) : (30)",
+                "(query.is_baby) ? (0.0) : (0)",
+                "(query.is_baby) ? (0.0) : (0)"
+              ],
+              "post": [
+                "(query.is_baby) ? (-40.116) : (30)",
+                "(query.is_baby) ? (0.0) : (0)",
+                "(query.is_baby) ? (0.0) : (0)"
+              ]
+            },
+            "1.2": [
+              "(query.is_baby) ? (-40.116) : (21.14)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (-40.116) : (15)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (-40.116) : (2.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.6": [
+              "(query.is_baby) ? (-40.116) : (2.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (-40.116) : (2.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (-40.116) : (2.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (-1.838) : (-0.1)",
+              "(query.is_baby) ? (5.534) : (0)"
+            ],
+            "0.2": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (-1.838) : (-1.5)",
+              "(query.is_baby) ? (5.534) : (0)"
+            ],
+            "0.4": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (-1.838) : (-2.21)",
+              "(query.is_baby) ? (5.534) : (0.04)"
+            ],
+            "0.6": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (-1.838) : (-2.21)",
+              "(query.is_baby) ? (5.534) : (0.04)"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (-1.838) : (-5.23)",
+              "(query.is_baby) ? (5.534) : (0.33)"
+            ],
+            "1.2": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (-1.838) : (-6.06)",
+              "(query.is_baby) ? (5.534) : (0.17)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (-1.838) : (-11.7)",
+              "(query.is_baby) ? (5.534) : (0)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (-1.838) : (-13.35)",
+              "(query.is_baby) ? (5.534) : (0)"
+            ],
+            "1.6": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (-1.838) : (-13.25)",
+              "(query.is_baby) ? (5.534) : (0)"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (-1.838) : (-13.25)",
+              "(query.is_baby) ? (5.534) : (0)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (-1.838) : (-13.25)",
+              "(query.is_baby) ? (5.534) : (0)"
+            ]
+          }
+        },
+        "right_front_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : (-2.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.7": [
+              "(query.is_baby) ? (0.0) : (-23)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.0": [
+              "(query.is_baby) ? (0.0) : (-30)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : (-44.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (0.0) : (-73.25)",
+              "(query.is_baby) ? (0.0) : (6.5)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (0.0) : (-90)",
+              "(query.is_baby) ? (0.0) : (10)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (0.0) : (-90)",
+              "(query.is_baby) ? (0.0) : (10)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : (-90)",
+              "(query.is_baby) ? (0.0) : (10)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : (0.125)",
+              "(query.is_baby) ? (-0.242) : (-0.1)",
+              "(query.is_baby) ? (3.404) : (0)"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : (0.125)",
+              "(query.is_baby) ? (-0.242) : (-0.1)",
+              "(query.is_baby) ? (3.404) : (0.4)"
+            ],
+            "0.6": [
+              "(query.is_baby) ? (0.0) : (0.12)",
+              "(query.is_baby) ? (-0.242) : (-0.15)",
+              "(query.is_baby) ? (3.404) : (2.5)"
+            ],
+            "0.7": [
+              "(query.is_baby) ? (0.0) : (0.12)",
+              "(query.is_baby) ? (-0.242) : (-0.6)",
+              "(query.is_baby) ? (3.404) : (4.6)"
+            ],
+            "0.9": [
+              "(query.is_baby) ? (0.0) : (0.12)",
+              "(query.is_baby) ? (-0.242) : (-0.87)",
+              "(query.is_baby) ? (3.404) : (5.97)"
+            ],
+            "1.0": [
+              "(query.is_baby) ? (0.0) : (0.125)",
+              "(query.is_baby) ? (-0.242) : (-1)",
+              "(query.is_baby) ? (3.404) : (6.9)"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : (0.325)",
+              "(query.is_baby) ? (-0.242) : (-2.6)",
+              "(query.is_baby) ? (3.404) : (7.6)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (0.0) : (-0.28)",
+              "(query.is_baby) ? (-0.242) : (-7.45)",
+              "(query.is_baby) ? (3.404) : (8.06)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (0.0) : (0.1)",
+              "(query.is_baby) ? (-0.242) : (-11)",
+              "(query.is_baby) ? (3.404) : (6)"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (0.0) : (0.1)",
+              "(query.is_baby) ? (-0.242) : (-11)",
+              "(query.is_baby) ? (3.404) : (6)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : (0.1)",
+              "(query.is_baby) ? (-0.242) : (-11)",
+              "(query.is_baby) ? (3.404) : (6)"
+            ]
+          }
+        },
+        "left_front_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : (-2.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.7": [
+              "(query.is_baby) ? (0.0) : (-23)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.0": [
+              "(query.is_baby) ? (0.0) : (-30)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : (-45.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (0.0) : (-73.5)",
+              "(query.is_baby) ? (0.0) : (-6.5)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (0.0) : (-90)",
+              "(query.is_baby) ? (0.0) : (-10)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (0.0) : (-90)",
+              "(query.is_baby) ? (0.0) : (-10)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : (-90)",
+              "(query.is_baby) ? (0.0) : (-10)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : (-0.125)",
+              "(query.is_baby) ? (0.242) : (0)",
+              "(query.is_baby) ? (3.581) : (0)"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : (-0.125)",
+              "(query.is_baby) ? (0.242) : (0)",
+              "(query.is_baby) ? (3.581) : (0)"
+            ],
+            "0.6": [
+              "(query.is_baby) ? (0.0) : (-0.13)",
+              "(query.is_baby) ? (0.242) : (-0.18)",
+              "(query.is_baby) ? (3.581) : (2.35)"
+            ],
+            "0.7": [
+              "(query.is_baby) ? (0.0) : (-0.13)",
+              "(query.is_baby) ? (0.242) : (-0.57)",
+              "(query.is_baby) ? (3.581) : (4.7)"
+            ],
+            "0.9": [
+              "(query.is_baby) ? (0.0) : (-0.13)",
+              "(query.is_baby) ? (0.242) : (-0.86)",
+              "(query.is_baby) ? (3.581) : (6.07)"
+            ],
+            "1.0": [
+              "(query.is_baby) ? (0.0) : (-0.125)",
+              "(query.is_baby) ? (0.242) : (-1)",
+              "(query.is_baby) ? (3.581) : (6.8)"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : (-0.22)",
+              "(query.is_baby) ? (0.242) : (-2.7)",
+              "(query.is_baby) ? (3.581) : (7.8)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (0.0) : (0.19)",
+              "(query.is_baby) ? (0.242) : (-7.5)",
+              "(query.is_baby) ? (3.581) : (8.01)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.242) : (-11)",
+              "(query.is_baby) ? (3.581) : (6)"
+            ],
+            "1.7": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.242) : (-10.9)",
+              "(query.is_baby) ? (3.581) : (6)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.242) : (-11)",
+              "(query.is_baby) ? (3.581) : (6)"
+            ]
+          }
+        },
+        "left_hind_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (-80.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (-80.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.9": [
+              "(query.is_baby) ? (-80.0) : (-10)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (-80.0) : (-31.47)",
+              "(query.is_baby) ? (0.0) : (-0.45)",
+              "(query.is_baby) ? (0.0) : (1.29)"
+            ],
+            "1.2": [
+              "(query.is_baby) ? (-80.0) : (-49.78)",
+              "(query.is_baby) ? (0.0) : (-10.29)",
+              "(query.is_baby) ? (0.0) : (-1.15)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (-80.0) : (-79.21)",
+              "(query.is_baby) ? (0.0) : (-13.72)",
+              "(query.is_baby) ? (0.0) : (-1.53)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (-80.0) : (-90)",
+              "(query.is_baby) ? (0.0) : (-11.88)",
+              "(query.is_baby) ? (0.0) : (-0.54)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (-80.0) : (-90)",
+              "(query.is_baby) ? (0.0) : (-11.88)",
+              "(query.is_baby) ? (0.0) : (-0.54)"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : (-0.1)",
+              "(query.is_baby) ? (-10.178) : (0)",
+              "(query.is_baby) ? (-0.224) : (0)"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : (-0.1)",
+              "(query.is_baby) ? (-10.178) : (0)",
+              "(query.is_baby) ? (-0.224) : (0)"
+            ],
+            "0.9": [
+              "(query.is_baby) ? (0.0) : (-0.1)",
+              "(query.is_baby) ? (-10.178) : (0)",
+              "(query.is_baby) ? (-0.224) : (1)"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : (0.56)",
+              "(query.is_baby) ? (-10.178) : (-3.49)",
+              "(query.is_baby) ? (-0.224) : (2.18)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (0.0) : (1.22)",
+              "(query.is_baby) ? (-10.178) : (-8.72)",
+              "(query.is_baby) ? (-0.224) : (3)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (0.0) : (1.4)",
+              "(query.is_baby) ? (-10.178) : (-10.95)",
+              "(query.is_baby) ? (-0.224) : (1.95)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : (1.4)",
+              "(query.is_baby) ? (-10.178) : (-10.95)",
+              "(query.is_baby) ? (-0.224) : (1.95)"
+            ]
+          }
+        },
+        "right_hind_leg": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (-80.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (-80.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.9": [
+              "(query.is_baby) ? (-80.0) : (-10)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (-80.0) : (-31.13)",
+              "(query.is_baby) ? (0.0) : (0.56)",
+              "(query.is_baby) ? (0.0) : (-1.3)"
+            ],
+            "1.2": [
+              "(query.is_baby) ? (-80.0) : (-49.8)",
+              "(query.is_baby) ? (0.0) : (10.3)",
+              "(query.is_baby) ? (0.0) : (1.15)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (-80.0) : (-79.21)",
+              "(query.is_baby) ? (0.0) : (13.72)",
+              "(query.is_baby) ? (0.0) : (1.53)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (-80.0) : (-90)",
+              "(query.is_baby) ? (0.0) : (11.89)",
+              "(query.is_baby) ? (0.0) : (0.54)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (-80.0) : (-90)",
+              "(query.is_baby) ? (0.0) : (11.89)",
+              "(query.is_baby) ? (0.0) : (0.54)"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : (0.1)",
+              "(query.is_baby) ? (-8.952) : (0)",
+              "(query.is_baby) ? (0.224) : (0)"
+            ],
+            "0.5": [
+              "(query.is_baby) ? (0.0) : (0.1)",
+              "(query.is_baby) ? (-8.952) : (0)",
+              "(query.is_baby) ? (0.224) : (0)"
+            ],
+            "0.9": [
+              "(query.is_baby) ? (0.0) : (0.1)",
+              "(query.is_baby) ? (-8.952) : (0)",
+              "(query.is_baby) ? (0.224) : (1)"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : (0.2)",
+              "(query.is_baby) ? (-8.952) : (-0.75)",
+              "(query.is_baby) ? (0.224) : (1.5)"
+            ],
+            "1.2": [
+              "(query.is_baby) ? (0.0) : (-0.51)",
+              "(query.is_baby) ? (-8.952) : (-3.49)",
+              "(query.is_baby) ? (0.224) : (2.18)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (0.0) : (-1.22)",
+              "(query.is_baby) ? (-8.952) : (-8.72)",
+              "(query.is_baby) ? (0.224) : (3.1)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (0.0) : (-1.33)",
+              "(query.is_baby) ? (-8.952) : (-11)",
+              "(query.is_baby) ? (0.224) : (1.95)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : (-1.33)",
+              "(query.is_baby) ? (-8.952) : (-11)",
+              "(query.is_baby) ? (0.224) : (1.95)"
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (40.116) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.1": [
+              "(query.is_baby) ? (40.116) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.4": [
+              "(query.is_baby) ? (40.116) : (-20.42)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.9": [
+              "(query.is_baby) ? (40.116) : (-31.25)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (40.116) : (-26.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.2": [
+              "(query.is_baby) ? (40.116) : (-19.25)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (40.116) : (-14.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (40.116) : (-4.75)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.6": [
+              "(query.is_baby) ? (40.116) : (-4.75)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (40.116) : (-4.75)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ]
+          },
+          "position": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.1": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.4": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0.38)",
+              "(query.is_baby) ? (0.0) : (0.44)"
+            ],
+            "0.9": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0.35)",
+              "(query.is_baby) ? (0.0) : (0.88)"
+            ],
+            "1.1": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (-0.3)",
+              "(query.is_baby) ? (0.0) : (1.21)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (-0.3)",
+              "(query.is_baby) ? (0.0) : (1.22)"
+            ],
+            "1.6": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (1.22)"
+            ]
+          }
+        },
+        "tail": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : (5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "0.9": [
+              "(query.is_baby) ? (0.0) : (5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.2": [
+              "(query.is_baby) ? (0.0) : (25)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (0.0) : (52.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.6": [
+              "(query.is_baby) ? (0.0) : (62.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.8": [
+              "(query.is_baby) ? (0.0) : (52.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : (52.5)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ]
+          },
+          "position": {
+            "1.4": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "1.8": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)"
+            ]
+          }
+        },
+        "left_ear": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (-45)"
+            ],
+            "1.2": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (-45)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (-62.5)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (-45)"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (20)"
+            ],
+            "1.6": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (-22.5)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (-22.5)"
+            ]
+          },
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ]
+        },
+        "right_ear": {
+          "rotation": {
+            "0.0": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (45)"
+            ],
+            "1.2": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (45)"
+            ],
+            "1.3": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (60)"
+            ],
+            "1.4": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (45)"
+            ],
+            "1.5": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (-20)"
+            ],
+            "1.6": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (15)"
+            ],
+            "2.0": [
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (0)",
+              "(query.is_baby) ? (0.0) : (15)"
+            ]
+          },
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ]
+        }
+      }
+    },
+    "animation.camel.mesh.baby_sitting": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            "(query.is_baby) ? (-40.116) : (2.5)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (-1.838) : (-13.25)",
+            "(query.is_baby) ? (5.534) : (0)"
+          ]
+        },
+        "right_front_leg": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : (-90)",
+            "(query.is_baby) ? (0.0) : (10)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0.1)",
+            "(query.is_baby) ? (-0.242) : (-11)",
+            "(query.is_baby) ? (3.404) : (6)"
+          ]
+        },
+        "left_front_leg": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : (-90)",
+            "(query.is_baby) ? (0.0) : (-10)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.242) : (-11)",
+            "(query.is_baby) ? (3.581) : (6)"
+          ]
+        },
+        "left_hind_leg": {
+          "rotation": [
+            "(query.is_baby) ? (-80.0) : (-90)",
+            "(query.is_baby) ? (0.0) : (-11.88)",
+            "(query.is_baby) ? (0.0) : (-0.54)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (1.4)",
+            "(query.is_baby) ? (-10.178) : (-10.95)",
+            "(query.is_baby) ? (-0.224) : (1.95)"
+          ]
+        },
+        "right_hind_leg": {
+          "rotation": [
+            "(query.is_baby) ? (-80.0) : (-90)",
+            "(query.is_baby) ? (0.0) : (11.89)",
+            "(query.is_baby) ? (0.0) : (0.54)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (-1.33)",
+            "(query.is_baby) ? (-8.952) : (-11)",
+            "(query.is_baby) ? (0.224) : (1.95)"
+          ]
+        },
+        "head": {
+          "rotation": [
+            "(query.is_baby) ? (40.116) : (-4.75)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (1.22)"
+          ]
+        },
+        "tail": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : (52.5)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ]
+        },
+        "left_ear": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (-22.5)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ]
+        },
+        "right_ear": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (15)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ]
+        },
+        "root": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ]
+        }
+      }
+    }
+  }
+}

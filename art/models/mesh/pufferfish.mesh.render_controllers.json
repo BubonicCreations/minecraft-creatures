@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.pufferfish.small.mesh": {
+      "geometry": "(query.variant == 0) ? Geometry.mesh : ((query.variant == 1) ? Geometry.mesh_pufferfish_mid : ((query.variant == 2) ? Geometry.mesh_pufferfish_large : (geometry.default)))",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "(query.variant == 0) ? Texture.mesh : ((query.variant == 1) ? Texture.mesh_pufferfish_mid : ((query.variant == 2) ? Texture.mesh_pufferfish_large : (Texture.default)))"
+      ]
+    }
+  }
+}

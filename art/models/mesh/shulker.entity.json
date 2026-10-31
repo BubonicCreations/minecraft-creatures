@@ -1,0 +1,103 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:shulker",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "shulker"
+      },
+      "textures": {
+        "undyed": "textures/entity/shulker/shulker_undyed",
+        "white": "textures/entity/shulker/shulker_white",
+        "orange": "textures/entity/shulker/shulker_orange",
+        "magenta": "textures/entity/shulker/shulker_magenta",
+        "light_blue": "textures/entity/shulker/shulker_light_blue",
+        "yellow": "textures/entity/shulker/shulker_yellow",
+        "lime": "textures/entity/shulker/shulker_lime",
+        "pink": "textures/entity/shulker/shulker_pink",
+        "gray": "textures/entity/shulker/shulker_gray",
+        "silver": "textures/entity/shulker/shulker_silver",
+        "cyan": "textures/entity/shulker/shulker_cyan",
+        "purple": "textures/entity/shulker/shulker_purple",
+        "blue": "textures/entity/shulker/shulker_blue",
+        "brown": "textures/entity/shulker/shulker_brown",
+        "green": "textures/entity/shulker/shulker_green",
+        "red": "textures/entity/shulker/shulker_red",
+        "black": "textures/entity/shulker/shulker_black",
+        "mesh_shulker_white": "textures/entity/shulker/shulker_white_mesh",
+        "mesh_shulker_orange": "textures/entity/shulker/shulker_orange_mesh",
+        "mesh_shulker_magenta": "textures/entity/shulker/shulker_magenta_mesh",
+        "mesh_shulker_light_blue": "textures/entity/shulker/shulker_light_blue_mesh",
+        "mesh_shulker_yellow": "textures/entity/shulker/shulker_yellow_mesh",
+        "mesh_shulker_lime": "textures/entity/shulker/shulker_lime_mesh",
+        "mesh_shulker_pink": "textures/entity/shulker/shulker_pink_mesh",
+        "mesh_shulker_gray": "textures/entity/shulker/shulker_gray_mesh",
+        "mesh_shulker_silver": "textures/entity/shulker/shulker_silver_mesh",
+        "mesh_shulker_cyan": "textures/entity/shulker/shulker_cyan_mesh",
+        "mesh_shulker_purple": "textures/entity/shulker/shulker_purple_mesh",
+        "mesh_shulker_blue": "textures/entity/shulker/shulker_blue_mesh",
+        "mesh_shulker_brown": "textures/entity/shulker/shulker_brown_mesh",
+        "mesh_shulker_green": "textures/entity/shulker/shulker_green_mesh",
+        "mesh_shulker_red": "textures/entity/shulker/shulker_red_mesh",
+        "mesh_shulker_black": "textures/entity/shulker/shulker_black_mesh",
+        "mesh": "textures/entity/shulker/shulker_mesh"
+      },
+      "geometry": {
+        "default": "geometry.shulker.v1.8",
+        "mesh_shulker_white": "geometry.shulker.mesh",
+        "mesh_shulker_orange": "geometry.shulker.mesh",
+        "mesh_shulker_magenta": "geometry.shulker.mesh",
+        "mesh_shulker_light_blue": "geometry.shulker.mesh",
+        "mesh_shulker_yellow": "geometry.shulker.mesh",
+        "mesh_shulker_lime": "geometry.shulker.mesh",
+        "mesh_shulker_pink": "geometry.shulker.mesh",
+        "mesh_shulker_gray": "geometry.shulker.mesh",
+        "mesh_shulker_silver": "geometry.shulker.mesh",
+        "mesh_shulker_cyan": "geometry.shulker.mesh",
+        "mesh_shulker_purple": "geometry.shulker.mesh",
+        "mesh_shulker_blue": "geometry.shulker.mesh",
+        "mesh_shulker_brown": "geometry.shulker.mesh",
+        "mesh_shulker_green": "geometry.shulker.mesh",
+        "mesh_shulker_red": "geometry.shulker.mesh",
+        "mesh_shulker_black": "geometry.shulker.mesh",
+        "mesh": "geometry.shulker.mesh"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg_shulker"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.Shulker.LidPositionFactor = 180 * (0.5 + variable.Shulker.PeekAmount);",
+          "variable.Shulker.LidRotationFactor = -1 + Math.sin(180 * (0.5 + variable.Shulker.PeekAmount));",
+          "variable.Shulker.UpFacing = variable.Shulker.FacingDirection == 1;",
+          "variable.Shulker.NorthFacing = variable.Shulker.FacingDirection == 2;",
+          "variable.Shulker.SouthFacing = variable.Shulker.FacingDirection == 3;",
+          "variable.Shulker.WestFacing = variable.Shulker.FacingDirection == 4;",
+          "variable.Shulker.EastFacing = variable.Shulker.FacingDirection == 5;",
+          "variable.Shulker.XPreRotation = variable.Shulker.UpFacing * 180 + variable.Shulker.NorthFacing * 90 - variable.Shulker.SouthFacing * 90;",
+          "variable.Shulker.ZPreRotation = variable.Shulker.NorthFacing * 180 + variable.Shulker.WestFacing * 90 - variable.Shulker.EastFacing * 90;",
+          "variable.Shulker.XOffset = -variable.Shulker.WestFacing * 7.99 + variable.Shulker.EastFacing * 7.99;",
+          "variable.Shulker.YOffset = variable.Shulker.UpFacing * 16 + variable.Shulker.NorthFacing * 7.99 + variable.Shulker.SouthFacing * 7.99 + variable.Shulker.WestFacing * 7.99 + variable.Shulker.EastFacing * 7.99;",
+          "variable.Shulker.ZOffset = variable.Shulker.NorthFacing * 7.99 - variable.Shulker.SouthFacing * 7.99;"
+        ]
+      },
+      "animations": {
+        "facing": "animation.shulker.facing",
+        "move": "animation.shulker.move",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "animation_controllers": [
+        {
+          "facing": "controller.animation.shulker.facing"
+        },
+        {
+          "move": "controller.animation.shulker.move"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.shulker.mesh"
+      ]
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.donkey.mesh.walk": {
+      "loop": true,
+      "bones": {
+        "bagl": {
+          "rotation": [
+            "((!query.is_baby && !query.is_chested) || (query.is_baby && !query.is_chested)) ? (math.clamp(variable.leg_x_rot_anim / 5.0, -35, 35)) : (variable.leg_x_rot_anim / 5.0)",
+            0.0,
+            0.0
+          ]
+        },
+        "bagr": {
+          "rotation": [
+            "((!query.is_baby && !query.is_chested) || (query.is_baby && !query.is_chested)) ? (math.clamp(-variable.leg_x_rot_anim / 5.0, -35, 35)) : (-variable.leg_x_rot_anim / 5.0)",
+            0.0,
+            0.0
+          ]
+        },
+        "legbl": {
+          "rotation": [
+            "((!query.is_baby && !query.is_chested) || (query.is_baby && !query.is_chested)) ? (math.clamp((-variable.leg_stand_factor * 28.6 * query.modified_move_speed) * (1.0 - variable.stand_anim), -35, 35)) : ((-variable.leg_stand_factor * 28.6 * query.modified_move_speed) * (1.0 - variable.stand_anim))",
+            0.0,
+            0.0
+          ]
+        },
+        "legbr": {
+          "rotation": [
+            "((!query.is_baby && !query.is_chested) || (query.is_baby && !query.is_chested)) ? (math.clamp((variable.leg_stand_factor * 28.6 * query.modified_move_speed) * (1.0 - variable.stand_anim), -35, 35)) : ((variable.leg_stand_factor * 28.6 * query.modified_move_speed) * (1.0 - variable.stand_anim))",
+            0.0,
+            0.0
+          ]
+        },
+        "legfl": {
+          "rotation": [
+            "((!query.is_baby && !query.is_chested) || (query.is_baby && !query.is_chested)) ? (math.clamp(variable.leg_x_rot_anim * (1.0 - variable.stand_anim), -35, 35)) : (variable.leg_x_rot_anim * (1.0 - variable.stand_anim))",
+            0.0,
+            0.0
+          ]
+        },
+        "legfr": {
+          "rotation": [
+            "((!query.is_baby && !query.is_chested) || (query.is_baby && !query.is_chested)) ? (math.clamp(-variable.leg_x_rot_anim * (1.0 - variable.stand_anim), -35, 35)) : (-variable.leg_x_rot_anim * (1.0 - variable.stand_anim))",
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.donkey.mesh.look_at_player": {
+      "loop": true,
+      "bones": {
+        "neck": {
+          "rotation": [
+            "((!query.is_baby && !query.is_chested) || (query.is_baby && !query.is_chested)) ? (math.clamp(variable.head_x_rot, -20, 20)) : (variable.head_x_rot)",
+            "((!query.is_baby && !query.is_chested) || (query.is_baby && !query.is_chested)) ? (math.clamp((variable.stand_anim + variable.inverse_max_stand_eat) * query.head_y_rotation(20), -20, 20)) : ((variable.stand_anim + variable.inverse_max_stand_eat) * query.head_y_rotation(20))",
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.donkey.mesh.eat": {
+      "loop": true,
+      "bones": {
+        "neck": {
+          "rotation": [
+            "((!query.is_baby && !query.is_chested) || (query.is_baby && !query.is_chested)) ? ((variable.eat_anim * (110.0 + math.sin((query.life_time * 20.0) * 57.3) * 2.86)) * 0.4) : (variable.eat_anim * (110.0 + math.sin((query.life_time * 20.0) * 57.3) * 2.86))",
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.donkey.mesh.baby_transform": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [
+            "(query.is_baby && !query.is_chested) ? (0.0) : (0.0)",
+            "(query.is_baby && !query.is_chested) ? (0.0) : (11 * ((0.0625 - query.model_scale) * 16.0))",
+            "(query.is_baby && !query.is_chested) ? (0.0) : (0.0)"
+          ]
+        },
+        "head": {
+          "scale": [
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0 + 0.5 * (1.0 - (query.model_scale * 16.0)))",
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0 + 0.5 * (1.0 - (query.model_scale * 16.0)))",
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0 + 0.5 * (1.0 - (query.model_scale * 16.0)))"
+          ]
+        },
+        "legbl": {
+          "scale": [
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0)",
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0 + ((0.0625 - query.model_scale) * 16.0))",
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0)"
+          ]
+        },
+        "legbr": {
+          "scale": [
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0)",
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0 + ((0.0625 - query.model_scale) * 16.0))",
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0)"
+          ]
+        },
+        "legfl": {
+          "scale": [
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0)",
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0 + ((0.0625 - query.model_scale) * 16.0))",
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0)"
+          ]
+        },
+        "legfr": {
+          "scale": [
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0)",
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0 + ((0.0625 - query.model_scale) * 16.0))",
+            "(query.is_baby && !query.is_chested) ? (1.0) : (1.0)"
+          ]
+        }
+      }
+    }
+  }
+}

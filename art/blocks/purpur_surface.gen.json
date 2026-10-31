@@ -1,0 +1,10 @@
+{
+ "texture": "purpur_surface",
+ "model": "qwen",
+ "seed": 1201,
+ "size": 1024,
+ "prompt": "Texture of polished pale purple stone: smooth lilac-violet stone with fine faint grain, matte, one continuous unbroken surface. Orthographic photograph taken perfectly straight-on, flat even overcast lighting with uniform brightness at the left edge, centre and right edge, sharp focus everywhere, photorealistic high-resolution texture scan.",
+ "negative": "perspective, depth of field, vignette, raking light, deep shadows, cracks, repeating pattern, grid of tiles, frame, border, text, letters, watermark, signature, blurry",
+ "seconds": 6.0,
+ "picked": "qwen_s1201"
+}

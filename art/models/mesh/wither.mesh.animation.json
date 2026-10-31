@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.wither.mesh.move": {
+      "loop": true,
+      "bones": {
+        "upperbodypart2": {
+          "rotation": [
+            "((variable.upper_body_rotation - this) * 0.3)",
+            "-this",
+            "-this"
+          ]
+        },
+        "upperbodypart3": {
+          "position": [
+            "(0.0)",
+            "(0.0)",
+            "(0.0)"
+          ],
+          "rotation": [
+            "((((0.2 + 0.1 * variable.body_base_rotation) * 180) - this) * 0.3)",
+            "-this",
+            "-this"
+          ]
+        }
+      }
+    }
+  }
+}

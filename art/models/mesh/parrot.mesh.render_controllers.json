@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.parrot.mesh": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.red_blue",
+            "Texture.blue",
+            "Texture.green",
+            "Texture.yellow_blue",
+            "Texture.grey"
+          ]
+        }
+      },
+      "geometry": "(query.variant == 0) ? Geometry.mesh : ((query.variant == 1) ? Geometry.mesh_parrot_blue : ((query.variant == 2) ? Geometry.mesh_parrot_green : ((query.variant == 3) ? Geometry.mesh_parrot_yellow_blue : ((query.variant == 4) ? Geometry.mesh_parrot_grey : (Geometry.default)))))",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "(query.variant == 0) ? Texture.mesh : ((query.variant == 1) ? Texture.mesh_parrot_blue : ((query.variant == 2) ? Texture.mesh_parrot_green : ((query.variant == 3) ? Texture.mesh_parrot_yellow_blue : ((query.variant == 4) ? Texture.mesh_parrot_grey : (Array.skins[query.variant])))))"
+      ]
+    }
+  }
+}

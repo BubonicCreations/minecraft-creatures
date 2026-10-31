@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.villager.mesh.baby_transform": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "scale": [
+            "(query.is_baby && variable.profession_index == 0) ? (1.0) : (1.5)",
+            "(query.is_baby && variable.profession_index == 0) ? (1.0) : (1.5)",
+            "(query.is_baby && variable.profession_index == 0) ? (1.0) : (1.5)"
+          ]
+        }
+      }
+    }
+  }
+}

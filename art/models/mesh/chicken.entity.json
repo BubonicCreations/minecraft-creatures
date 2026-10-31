@@ -1,0 +1,69 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:chicken",
+      "min_engine_version": "1.12.0",
+      "materials": {
+        "default": "chicken",
+        "legs": "chicken_legs",
+        "cold": "chicken_cold",
+        "mesh_chicken_cold_baby": "chicken",
+        "mesh_chicken_cold": "chicken"
+      },
+      "textures": {
+        "default": "textures/entity/chicken/chicken",
+        "warm": "textures/entity/chicken/chicken_warm",
+        "cold": "textures/entity/chicken/chicken_cold",
+        "baby_default": "textures/entity/chicken/chicken_temperate_baby",
+        "baby_warm": "textures/entity/chicken/chicken_warm_baby",
+        "baby_cold": "textures/entity/chicken/chicken_cold_baby",
+        "mesh_chicken_cold_baby": "textures/entity/chicken/chicken_cold_mesh",
+        "mesh_chicken_warm_baby": "textures/entity/chicken/chicken_warm_mesh",
+        "mesh_chicken_baby": "textures/entity/chicken/chicken_mesh",
+        "mesh_chicken_cold": "textures/entity/chicken/chicken_cold_mesh",
+        "mesh_chicken_warm": "textures/entity/chicken/chicken_warm_mesh",
+        "mesh": "textures/entity/chicken/chicken_mesh"
+      },
+      "geometry": {
+        "default": "geometry.chicken.v1.12",
+        "warm": "geometry.chicken.v1.12",
+        "cold": "geometry.chicken.cold",
+        "baby": "geometry.chicken.baby",
+        "mesh_chicken_cold_baby": "geometry.chicken_cold_baby.mesh",
+        "mesh_chicken_warm_baby": "geometry.chicken_warm_baby.mesh",
+        "mesh_chicken_baby": "geometry.chicken_baby.mesh",
+        "mesh_chicken_cold": "geometry.chicken_cold.mesh",
+        "mesh_chicken_warm": "geometry.chicken_warm.mesh",
+        "mesh": "geometry.chicken.mesh"
+      },
+      "animations": {
+        "move": "animation.chicken.move",
+        "general": "animation.chicken.general",
+        "look_at_target": "animation.chicken.mesh.look_at_target",
+        "baby_transform": "animation.chicken.mesh.baby_transform"
+      },
+      "scripts": {
+        "animate": [
+          "general",
+          {
+            "move": "query.modified_move_speed"
+          },
+          "look_at_target"
+        ],
+        "pre_animation": [
+          "t.variant = query.property('minecraft:climate_variant');",
+          "v.index = (t.variant == 'temperate') ? 0 : ((t.variant == 'warm') ? 1 : 2);",
+          "v.is_cold = t.variant == 'cold';"
+        ],
+        "scale": "query.is_baby ? 2.0 : 1.0"
+      },
+      "render_controllers": [
+        "controller.render.chicken.v3.mesh"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_chicken"
+      }
+    }
+  }
+}

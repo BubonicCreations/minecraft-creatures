@@ -1,0 +1,86 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.wolf.v2.mesh": {
+      "arrays": {
+        "textures": {
+          "Array.default": [
+            "Texture.pale_default",
+            "Texture.ashen_default",
+            "Texture.black_default",
+            "Texture.chestnut_default",
+            "Texture.rusty_default",
+            "Texture.snowy_default",
+            "Texture.spotted_default",
+            "Texture.striped_default",
+            "Texture.woods_default"
+          ],
+          "Array.baby_default": [
+            "Texture.baby_pale_default",
+            "Texture.baby_ashen_default",
+            "Texture.baby_black_default",
+            "Texture.baby_chestnut_default",
+            "Texture.baby_rusty_default",
+            "Texture.baby_snowy_default",
+            "Texture.baby_spotted_default",
+            "Texture.baby_striped_default",
+            "Texture.baby_woods_default"
+          ],
+          "Array.angry": [
+            "Texture.pale_angry",
+            "Texture.ashen_angry",
+            "Texture.black_angry",
+            "Texture.chestnut_angry",
+            "Texture.rusty_angry",
+            "Texture.snowy_angry",
+            "Texture.spotted_angry",
+            "Texture.striped_angry",
+            "Texture.woods_angry"
+          ],
+          "Array.baby_angry": [
+            "Texture.baby_pale_angry",
+            "Texture.baby_ashen_angry",
+            "Texture.baby_black_angry",
+            "Texture.baby_chestnut_angry",
+            "Texture.baby_rusty_angry",
+            "Texture.baby_snowy_angry",
+            "Texture.baby_spotted_angry",
+            "Texture.baby_striped_angry",
+            "Texture.baby_woods_angry"
+          ],
+          "Array.tame": [
+            "Texture.pale_tame",
+            "Texture.ashen_tame",
+            "Texture.black_tame",
+            "Texture.chestnut_tame",
+            "Texture.rusty_tame",
+            "Texture.snowy_tame",
+            "Texture.spotted_tame",
+            "Texture.striped_tame",
+            "Texture.woods_tame"
+          ],
+          "Array.baby_tame": [
+            "Texture.baby_pale_tame",
+            "Texture.baby_ashen_tame",
+            "Texture.baby_black_tame",
+            "Texture.baby_chestnut_tame",
+            "Texture.baby_rusty_tame",
+            "Texture.baby_snowy_tame",
+            "Texture.baby_spotted_tame",
+            "Texture.baby_striped_tame",
+            "Texture.baby_woods_tame"
+          ]
+        }
+      },
+      "geometry": "(!query.is_baby && query.variant == 0) ? Geometry.mesh : ((!query.is_baby && query.variant == 1) ? Geometry.mesh_wolf_ashen : ((!query.is_baby && query.variant == 2) ? Geometry.mesh_wolf_black : ((!query.is_baby && query.variant == 3) ? Geometry.mesh_wolf_chestnut : ((!query.is_baby && query.variant == 4) ? Geometry.mesh_wolf_rusty : ((!query.is_baby && query.variant == 5) ? Geometry.mesh_wolf_snowy : ((!query.is_baby && query.variant == 6) ? Geometry.mesh_wolf_spotted : ((!query.is_baby && query.variant == 7) ? Geometry.mesh_wolf_striped : ((!query.is_baby && query.variant == 8) ? Geometry.mesh_wolf_woods : ((query.is_baby && query.variant == 0) ? Geometry.mesh_wolf_baby : ((query.is_baby && query.variant == 1) ? Geometry.mesh_wolf_ashen_baby : ((query.is_baby && query.variant == 3) ? Geometry.mesh_wolf_chestnut_baby : ((query.is_baby && query.variant == 4) ? Geometry.mesh_wolf_rusty_baby : ((query.is_baby && query.variant == 5) ? Geometry.mesh_wolf_snowy_baby : ((query.is_baby && query.variant == 6) ? Geometry.mesh_wolf_spotted_baby : ((query.is_baby && query.variant == 7) ? Geometry.mesh_wolf_striped_baby : ((query.is_baby && query.variant == 8) ? Geometry.mesh_wolf_woods_baby : ((query.is_baby && query.variant == 2) ? Geometry.mesh_wolf_black_baby : (query.is_baby ? Geometry.baby : Geometry.default))))))))))))))))))",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "(!query.is_baby && query.variant == 0) ? Texture.mesh : ((!query.is_baby && query.variant == 1) ? Texture.mesh_wolf_ashen : ((!query.is_baby && query.variant == 2) ? Texture.mesh_wolf_black : ((!query.is_baby && query.variant == 3) ? Texture.mesh_wolf_chestnut : ((!query.is_baby && query.variant == 4) ? Texture.mesh_wolf_rusty : ((!query.is_baby && query.variant == 5) ? Texture.mesh_wolf_snowy : ((!query.is_baby && query.variant == 6) ? Texture.mesh_wolf_spotted : ((!query.is_baby && query.variant == 7) ? Texture.mesh_wolf_striped : ((!query.is_baby && query.variant == 8) ? Texture.mesh_wolf_woods : ((query.is_baby && query.variant == 0) ? Texture.mesh_wolf_baby : ((query.is_baby && query.variant == 1) ? Texture.mesh_wolf_ashen_baby : ((query.is_baby && query.variant == 3) ? Texture.mesh_wolf_chestnut_baby : ((query.is_baby && query.variant == 4) ? Texture.mesh_wolf_rusty_baby : ((query.is_baby && query.variant == 5) ? Texture.mesh_wolf_snowy_baby : ((query.is_baby && query.variant == 6) ? Texture.mesh_wolf_spotted_baby : ((query.is_baby && query.variant == 7) ? Texture.mesh_wolf_striped_baby : ((query.is_baby && query.variant == 8) ? Texture.mesh_wolf_woods_baby : ((query.is_baby && query.variant == 2) ? Texture.mesh_wolf_black_baby : (query.is_baby ? (query.is_angry ? Array.baby_angry[query.variant] : (query.is_tamed ? Array.baby_tame[query.variant] : Array.baby_default[query.variant])) :  query.is_angry ? Array.angry[query.variant] : (query.is_tamed ? Array.tame[query.variant] : Array.default[query.variant])))))))))))))))))))"
+      ]
+    }
+  }
+}

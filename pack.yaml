@@ -1,0 +1,849 @@
+# Bubonic Creatures: what the pack holds; built by tools/build.py with the reskin project's tool (mcreskin).
+# The block below `Mesh mobs` is rewritten by tools/pack_entries.py.
+pack:
+  name: Bubonic Creatures
+  description: Realistic 3D models and textures for Minecraft's mobs and characters
+    (RTX + Vibrant Visuals)
+  authors:
+  - BubonicCreations
+  version:
+  - 1
+  - 0
+  - 0
+  uuid: 1fb4992d-bc72-4710-9100-a658d8f86881
+  module_uuid: 2f7b709b-5fcd-48b8-9c96-743d994a5380
+  dev_uuid: c3c03be8-bd43-4440-bbcd-9925f73bb04e
+  dev_module_uuid: 80c916df-cb3a-46c7-b4e2-6eb57e76f8d4
+  min_engine_version:
+  - 1
+  - 26
+  - 50
+  capabilities:
+  - pbr
+  - raytraced
+resolution: 256
+atlas_overflow_ok: true
+full_detail:
+  resolution: 512
+  textures: all
+pbr:
+  format: mer
+  relief: normal
+textures:
+  entity/shulker/shulker_undyed: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_white: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_orange: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_magenta: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_light_blue: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_yellow: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_lime: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_pink: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_gray: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_silver: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_cyan: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_purple: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_blue: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_brown: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_green: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_red: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/shulker/shulker_black: {builder: model_skin, art: purpur_surface, material: generic, roughness: 0.5, max_size: 128}
+  entity/agent: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/alex: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/allay/allay: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/armadillo/armadillo_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/armadillo: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/axolotl/axolotl_blue: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/axolotl/axolotl_blue_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/axolotl/axolotl_cyan: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/axolotl/axolotl_cyan_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/axolotl/axolotl_gold: {builder: model_skin, art: gold_block, vanilla_color: 0.5, material: metal, metalness: 0.9, roughness: 0.3, max_size: 128}
+  entity/axolotl/axolotl_gold_baby: {builder: model_skin, art: gold_block, vanilla_color: 0.5, material: metal, metalness: 0.9, roughness: 0.3, max_size: 128}
+  entity/axolotl/axolotl_lucy: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/axolotl/axolotl_lucy_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/axolotl/axolotl_wild: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/axolotl/axolotl_wild_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/bat: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/bat_v2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/bee/bee: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/bee/bee_angry: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/bee/bee_angry_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/bee/bee_angry_nectar: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/bee/bee_angry_nectar_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/bee/bee_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/bee/bee_nectar: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/bee/bee_nectar_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/blaze: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/breeze/breeze: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/breeze/breeze_eyes: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/breeze/breeze_wind: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/camel/camel: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/camel/camel_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/camel_husk/camel_husk: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/allblackcat: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/allblackcat_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/allblackcat_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/allblackcat_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/blackcat: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/britishshorthair: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/britishshorthair_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/britishshorthair_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/britishshorthair_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/calico: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/calico_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/calico_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/calico_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/graytabby_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/jellie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/jellie_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/jellie_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/jellie_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/ocelot: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/ocelot_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/ocelot_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/ocelot_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/persian: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/persian_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/persian_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/persian_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/ragdoll: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/ragdoll_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/ragdoll_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/ragdoll_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/red: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/redtabby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/redtabby_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/redtabby_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/redtabby_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/siamese: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/siamese_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/siamese_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/siamesecat: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/siamesecat_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/tabby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/tabby_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/tabby_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/tabby_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/tuxedo: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/tuxedo_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/tuxedo_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/tuxedo_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/white_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/white_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cat/white_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/char: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/chicken/chicken: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/chicken/chicken_cold: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/chicken/chicken_cold_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/chicken/chicken_temperate_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/chicken/chicken_warm: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/chicken/chicken_warm_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/chicken: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/copper_golem/copper_golem: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/copper_golem/copper_golem_exposed: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/copper_golem/copper_golem_eyes: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/copper_golem/copper_golem_eyes_exposed: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/copper_golem/copper_golem_eyes_oxidized: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/copper_golem/copper_golem_eyes_weathered: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/copper_golem/copper_golem_flower: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/copper_golem/copper_golem_oxidized: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/copper_golem/copper_golem_weathered: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/cow/brown_mooshroom: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cow/brown_mooshroom_v2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cow/cow: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cow/cow_cold: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cow/cow_cold_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cow/cow_temperate_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cow/cow_v2: {builder: mob_model, model: art/models/mesh/cow.v2.geo.json, picture: art/models/mesh/cow_v2.png,
+                     material: generic, roughness: 0.85, max_size: 512, atlas: 1024}  # AI 3D model, jointed for vanilla's animations (glbmodel.py)
+  entity/cow/cow_warm: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cow/cow_warm_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cow/mooshroom: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cow/mooshroom_brown_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cow/mooshroom_red_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/cow/mooshroom_v2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/creaking/creaking: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/creaking/creaking_eyes: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/creeper/creeper: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/creeper/creeper_armor: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/dolphin/dolphin_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/dolphin: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/dragon/dragon_exploding: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/dragon/dragon_eyes: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/enderman/enderman: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/endermite: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/clownfish: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/cod: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/fish: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/pufferfish: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/salmon: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_a: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_a_pattern_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_a_pattern_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_a_pattern_3: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_a_pattern_4: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_a_pattern_5: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_a_pattern_6: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_b: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_b_pattern_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_b_pattern_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_b_pattern_3: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_b_pattern_4: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_b_pattern_5: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fish/tropical_b_pattern_6: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fox/arctic_fox: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fox/fox: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fox/fox_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fox/fox_sleep_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fox/fox_snow_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/fox/fox_snow_sleep_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/frog/cold_frog: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/frog/temperate_frog: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/frog/warm_frog: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/ghast/ghast: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/ghast/ghast_shooting: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/glow_squid/glow_squid: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/glow_squid/glow_squid_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/goat/goat: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/goat/goat_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/guardian: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/guardian_elder: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/happy_ghast/ghastling: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/happy_ghast/happy_ghast: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/happy_ghast/happy_ghast_ropes: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/harness/harness_black: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_blue: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_brown: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_cyan: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_gray: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_green: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_light_blue: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_light_gray: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_lime: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_magenta: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_orange: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_pink: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_purple: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_red: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/harness/harness_yellow: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/hoglin/hoglin: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/hoglin/hoglin_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/armor/horse_armor_diamond: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/horse/armor/horse_armor_gold: {builder: model_skin, art: gold_block, vanilla_color: 0.5, material: metal, metalness: 0.9, roughness: 0.3, max_size: 128}
+  entity/horse/armor/horse_armor_iron: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/horse/armor/horse_armor_leather: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/horse/armor/horse_armor_none: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/horse/donkey: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_black: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_brown: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_chestnut: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_creamy: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_darkbrown: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_gray: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_markings_blackdots: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_markings_none: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_markings_white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_markings_whitedots: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_markings_whitefield: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_skeleton: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/horse_zombie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse/mule: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/armor/horse_armor_copper: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/horse2/armor/horse_armor_diamond: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/horse2/armor/horse_armor_gold: {builder: model_skin, art: gold_block, vanilla_color: 0.5, material: metal, metalness: 0.9, roughness: 0.3, max_size: 128}
+  entity/horse2/armor/horse_armor_iron: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/horse2/armor/horse_armor_leather: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/horse2/armor/horse_armor_netherite: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/horse2/armor/horse_armor_none: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/horse2/baby_horse_markings_blackdots: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/baby_horse_markings_white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/baby_horse_markings_whitedots: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/baby_horse_markings_whitefield: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/donkey: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/donkey_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_black: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_black_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_brown: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_brown_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_chestnut: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_chestnut_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_creamy: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_creamy_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_darkbrown: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_darkbrown_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_gray: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_gray_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_markings_blackdots: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_markings_none: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_markings_white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_markings_whitedots: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_markings_whitefield: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_skeleton: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_skeleton_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_white_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_zombie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/horse_zombie_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/mule: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/horse2/mule_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/illager/evoker: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/illager/fangs: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/illager/ravager: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/iron_golem/cracked_high: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/iron_golem/cracked_low: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/iron_golem/cracked_medium: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/iron_golem/cracked_none: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/iron_golem/iron_golem: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/iron_golem: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/llama/decor/decor_black: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_blue: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_brown: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_cyan: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_gray: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_green: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_light_blue: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_lime: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_magenta: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_none: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_orange: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_pink: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_purple: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_red: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_silver: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/decor_yellow: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/decor/trader_llama_decor: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/llama: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/llama_brown: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/llama_brown_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/llama_creamy: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/llama_creamy_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/llama_gray: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/llama_gray_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/llama_white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/llama_white_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/spit: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/llama/trader_llama_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/nautilus/armor/nautilus_armor_copper: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/nautilus/armor/nautilus_armor_diamond: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/nautilus/armor/nautilus_armor_gold: {builder: model_skin, art: gold_block, vanilla_color: 0.5, material: metal, metalness: 0.9, roughness: 0.3, max_size: 128}
+  entity/nautilus/armor/nautilus_armor_iron: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/nautilus/armor/nautilus_armor_netherite: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/nautilus/nautilus: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/nautilus/nautilus_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/nautilus/nautilus_saddle: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/nautilus/zombie_nautilus: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/nautilus/zombie_nautilus_coral: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_10: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_3: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_4: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_5: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_6: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_7: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_8: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_9: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Agriculture_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Agriculture_10: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Agriculture_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Agriculture_3: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Agriculture_4: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Agriculture_5: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Agriculture_6: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Agriculture_7: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Agriculture_8: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Agriculture_9: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_BusinessMobs_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_BusinessMobs_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_BusinessMobs_3: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_BusinessMobs_4: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_BusinessMobs_5: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_EverydayBusiness_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_EverydayBusiness_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_EverydayBusiness_3: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_EverydayBusiness_4: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_EverydayBusiness_5: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Kiosk_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Kiosk_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Kiosk_3: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Kiosk_4: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_Kiosk_5: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_apiary_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_apiary_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_apiary_3: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_apiary_4: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_apiary_5: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_construction_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_construction_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_construction_3: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_construction_4: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_construction_5: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_scientist_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_scientist_10: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_scientist_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_scientist_3: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_scientist_4: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_scientist_5: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_scientist_6: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_scientist_7: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_scientist_8: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_scientist_9: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_teacher_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_teacher_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_teacher_3: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_teacher_4: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/npc/npc_teacher_5: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_aggressive: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_aggressive_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_brown: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_brown_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_lazy: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_lazy_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_playful: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_playful_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_sneezy: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_weak_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_worried: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/panda/panda_worried_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/parched/parched: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/parrot/parrot_blue: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/parrot/parrot_green: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/parrot/parrot_grey: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/parrot/parrot_red_blue: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/parrot/parrot_yellow_blue: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/phantom: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/pig/pig: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/pig/pig_cold: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/pig/pig_cold_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/pig/pig_saddle: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/pig/pig_temperate_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/pig/pig_warm: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/pig/pig_warm_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/pig/pigzombie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/piglin/piglin: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/piglin/piglin_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/piglin/piglin_brute: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/piglin/zombie_piglin: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/piglin/zombie_piglin_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/pillager: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/polar_bear/polar_bear_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/polar_bear: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/polarbear: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/blackrabbit: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/brown: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/gold: {builder: model_skin, art: gold_block, vanilla_color: 0.5, material: metal, metalness: 0.9, roughness: 0.3, max_size: 128}
+  entity/rabbit/rabbit_black: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/rabbit_black_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/rabbit_brown: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/rabbit_brown_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/rabbit_gold: {builder: model_skin, art: gold_block, vanilla_color: 0.5, material: metal, metalness: 0.9, roughness: 0.3, max_size: 128}
+  entity/rabbit/rabbit_gold_baby: {builder: model_skin, art: gold_block, vanilla_color: 0.5, material: metal, metalness: 0.9, roughness: 0.3, max_size: 128}
+  entity/rabbit/rabbit_salt: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/rabbit_salt_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/rabbit_toast: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/rabbit_toast_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/rabbit_white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/rabbit_white_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/rabbit_white_splotched: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/rabbit_white_splotched_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/salt: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/toast: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/rabbit/white_splotched: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/saddle: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/saddle_v2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/sea_turtle: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/sheep/sheep: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/sheep/sheep_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/shulker/spark: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/silverfish: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/skeleton/bogged: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/skeleton/bogged_clothes: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/skeleton/skeleton: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/skeleton/stray: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/skeleton/stray_overlay: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/skeleton/wither_skeleton: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/slime/magmacube: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/slime/magmacube_v2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/slime/slime: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/sniffer/sniffer: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/sniffer/snifflet: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/snow_golem: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/spider/cave_spider: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/spider/spider: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/squid/squid_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/squid: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/steve: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/strider/strider: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/strider/strider_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/strider/strider_cold_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/strider/strider_saddled: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/strider/strider_suffocated: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/strider/strider_suffocated_saddled: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/sulfur_cube/sulfur_cube_inner: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/sulfur_cube/sulfur_cube_inner_small: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/sulfur_cube/sulfur_cube_outer: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/sulfur_cube/sulfur_cube_outer_small: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/sulfur_cube/sulfur_cube_tnt: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/tadpole/tadpole: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/turtle/sea_turtle_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/vex/vex: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/vex/vex_charging: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager/butcher: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager/farmer: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager/librarian: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager/priest: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager/smith: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager/villager: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_desert: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_desert_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_jungle: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_jungle_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_plains: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_plains_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_savanna: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_savanna_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_snow: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_snow_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_swamp: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_swamp_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_taiga: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/biomes/biome_taiga_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/levels/level_diamond: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/levels/level_emerald: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/levels/level_gold: {builder: model_skin, art: gold_block, vanilla_color: 0.5, material: metal, metalness: 0.9, roughness: 0.3, max_size: 128}
+  entity/villager2/levels/level_iron: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/villager2/levels/level_stone: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/armorer: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/butcher: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/cartographer: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/cleric: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/farmer: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/fisherman: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/fletcher: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/leatherworker: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/villager2/professions/librarian: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/nitwit: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/shepherd: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/stonemason: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/toolsmith: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/unskilled: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/professions/weaponsmith: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/villager: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/villager2/villager_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/vindicator: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wandering_trader: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/warden/warden: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/warden/warden_bioluminescent_layer: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/warden/warden_ears: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/warden/warden_heart: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/warden/warden_pulsating_spots_1: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/warden/warden_pulsating_spots_2: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/warden/warden_tendrils: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/witch: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wither_boss/wither: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wither_boss/wither_armor_blue: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wither_boss/wither_armor_white: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wither_boss/wither_invulnerable: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_angry: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_angry_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_armor: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/wolf/wolf_armor_cracked_high: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/wolf/wolf_armor_cracked_low: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/wolf/wolf_armor_cracked_medium: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/wolf/wolf_armor_cracked_none: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/wolf/wolf_armor_dyed: {builder: model_skin, art: iron_block, vanilla_color: 0.5, material: metal, metalness: 0.8, roughness: 0.4, max_size: 128}
+  entity/wolf/wolf_ashen: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_ashen_angry: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_ashen_angry_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_ashen_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_ashen_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_ashen_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_black: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_black_angry: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_black_angry_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_black_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_black_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_black_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_chestnut: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_chestnut_angry: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_chestnut_angry_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_chestnut_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_chestnut_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_chestnut_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_collar_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_rusty: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_rusty_angry: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_rusty_angry_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_rusty_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_rusty_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_rusty_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_snowy: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_snowy_angry: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_snowy_angry_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_snowy_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_snowy_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_snowy_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_spotted: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_spotted_angry: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_spotted_angry_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_spotted_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_spotted_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_spotted_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_striped: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_striped_angry: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_striped_angry_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_striped_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_striped_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_striped_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_woods: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_woods_angry: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_woods_angry_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_woods_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_woods_tame: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/wolf/wolf_woods_tame_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zoglin/zoglin: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zoglin/zoglin_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie/drowned: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie/drowned_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie/husk: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie/husk_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie/zombie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie/zombie_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager/zombie_butcher: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager/zombie_farmer: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager/zombie_librarian: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager/zombie_priest: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager/zombie_smith: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager/zombie_villager: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome-desert-zombie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome-jungle-zombie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome-plains-zombie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome-savanna-zombie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome-snow-zombie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome-swamp-zombie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome-taiga-zombie: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome_desert_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome_jungle_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome_plains_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome_savanna_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome_snow_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome_swamp_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/biomes/biome_taiga_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/armorer: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/butcher: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/cartographer: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/cleric: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/farmer: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/fisherman: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/fletcher: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/leatherworker: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.9, max_size: 128}
+  entity/zombie_villager2/professions/librarian: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/nitwit: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/shepherd: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/stonemason: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/toolsmith: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/unskilled: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/professions/weaponsmith: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/zombie-villager: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  entity/zombie_villager2/zombie-villager_baby: {builder: model_skin, art: wool_colored_white, vanilla_color: 0.5, material: generic, roughness: 0.8, max_size: 128}
+  # Mesh mobs of the 2026-10-30 round (work/models3d/mobs; glbmodel.py). One line per mob.
+  entity/sheep/sheep_mesh: {builder: mob_model, model: art/models/mesh/sheep.mesh.geo.json, picture: art/models/mesh/sheep_mesh.png, material: generic, roughness: 0.9, max_size: 512, atlas: 1024, color_mask: true, files: {entity/sheep.entity.json: art/models/mesh/sheep.entity.json, render_controllers/sheep.mesh.render_controllers.json: art/models/mesh/sheep.mesh.render_controllers.json, animations/sheep.mesh.animation.json: art/models/mesh/sheep.mesh.animation.json, models/entity/sheep_baby.mesh.geo.json: art/models/mesh/sheep_baby.mesh.geo.json}}
+  entity/polar_bear/polar_bear_mesh: {builder: mob_model, model: art/models/mesh/polar_bear.mesh.geo.json, picture: art/models/mesh/polar_bear_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/polar_bear.entity.json: art/models/mesh/polar_bear.entity.json, render_controllers/polar_bear.mesh.render_controllers.json: art/models/mesh/polar_bear.mesh.render_controllers.json, animations/polar_bear.mesh.animation.json: art/models/mesh/polar_bear.mesh.animation.json, models/entity/polar_bear_baby.mesh.geo.json: art/models/mesh/polar_bear_baby.mesh.geo.json}}
+  entity/llama/llama_mesh: {builder: mob_model, model: art/models/mesh/llama.mesh.geo.json, picture: art/models/mesh/llama_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/llama.entity.json: art/models/mesh/llama.entity.json, render_controllers/llama.mesh.render_controllers.json: art/models/mesh/llama.mesh.render_controllers.json, animations/llama.mesh.animation.json: art/models/mesh/llama.mesh.animation.json, models/entity/llama_baby.mesh.geo.json: art/models/mesh/llama_baby.mesh.geo.json, models/entity/llama_white_baby.mesh.geo.json: art/models/mesh/llama_white_baby.mesh.geo.json, models/entity/llama_brown_baby.mesh.geo.json: art/models/mesh/llama_brown_baby.mesh.geo.json, models/entity/llama_gray_baby.mesh.geo.json: art/models/mesh/llama_gray_baby.mesh.geo.json}}
+  entity/goat/goat_mesh: {builder: mob_model, model: art/models/mesh/goat.mesh.geo.json, picture: art/models/mesh/goat_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/goat.entity.json: art/models/mesh/goat.entity.json, render_controllers/goat.mesh.render_controllers.json: art/models/mesh/goat.mesh.render_controllers.json, animations/goat.mesh.animation.json: art/models/mesh/goat.mesh.animation.json, models/entity/goat_baby.mesh.geo.json: art/models/mesh/goat_baby.mesh.geo.json}}
+  entity/hoglin/hoglin_mesh: {builder: mob_model, model: art/models/mesh/hoglin.mesh.geo.json, picture: art/models/mesh/hoglin_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/hoglin.entity.json: art/models/mesh/hoglin.entity.json, render_controllers/hoglin.mesh.render_controllers.json: art/models/mesh/hoglin.mesh.render_controllers.json, animations/hoglin.mesh.animation.json: art/models/mesh/hoglin.mesh.animation.json, models/entity/hoglin_baby.mesh.geo.json: art/models/mesh/hoglin_baby.mesh.geo.json}}
+  entity/cow/mooshroom_mesh: {builder: mob_model, model: art/models/mesh/mooshroom.mesh.geo.json, picture: art/models/mesh/mooshroom_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/mooshroom.entity.json: art/models/mesh/mooshroom.entity.json, render_controllers/mooshroom.mesh.render_controllers.json: art/models/mesh/mooshroom.mesh.render_controllers.json, animations/mooshroom.mesh.animation.json: art/models/mesh/mooshroom.mesh.animation.json, models/entity/mooshroom_baby.mesh.geo.json: art/models/mesh/mooshroom_baby.mesh.geo.json, models/entity/mooshroom_brown_baby.mesh.geo.json: art/models/mesh/mooshroom_brown_baby.mesh.geo.json}}
+  entity/horse2/horse_mesh: {builder: mob_model, model: art/models/mesh/horse.mesh.geo.json, picture: art/models/mesh/horse_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/horse_v3.entity.json: art/models/mesh/horse_v3.entity.json, render_controllers/horse.mesh.render_controllers.json: art/models/mesh/horse.mesh.render_controllers.json, animations/horse.mesh.animation.json: art/models/mesh/horse.mesh.animation.json, models/entity/horse_baby.mesh.geo.json: art/models/mesh/horse_baby.mesh.geo.json, models/entity/horse_white_baby.mesh.geo.json: art/models/mesh/horse_white_baby.mesh.geo.json, models/entity/horse_creamy_baby.mesh.geo.json: art/models/mesh/horse_creamy_baby.mesh.geo.json, models/entity/horse_brown_baby.mesh.geo.json: art/models/mesh/horse_brown_baby.mesh.geo.json, models/entity/horse_black_baby.mesh.geo.json: art/models/mesh/horse_black_baby.mesh.geo.json, models/entity/horse_gray_baby.mesh.geo.json: art/models/mesh/horse_gray_baby.mesh.geo.json, models/entity/horse_darkbrown_baby.mesh.geo.json: art/models/mesh/horse_darkbrown_baby.mesh.geo.json}}
+  entity/horse2/donkey_mesh: {builder: mob_model, model: art/models/mesh/donkey.mesh.geo.json, picture: art/models/mesh/donkey_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/donkey_v3.entity.json: art/models/mesh/donkey_v3.entity.json, render_controllers/donkey.mesh.render_controllers.json: art/models/mesh/donkey.mesh.render_controllers.json, animations/donkey.mesh.animation.json: art/models/mesh/donkey.mesh.animation.json, models/entity/donkey_baby.mesh.geo.json: art/models/mesh/donkey_baby.mesh.geo.json}}
+  entity/horse2/mule_mesh: {builder: mob_model, model: art/models/mesh/mule.mesh.geo.json, picture: art/models/mesh/mule_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/mule_v3.entity.json: art/models/mesh/mule_v3.entity.json, render_controllers/mule.mesh.render_controllers.json: art/models/mesh/mule.mesh.render_controllers.json, animations/mule.mesh.animation.json: art/models/mesh/mule.mesh.animation.json, models/entity/mule_baby.mesh.geo.json: art/models/mesh/mule_baby.mesh.geo.json}}
+  entity/horse2/skeleton_horse_mesh: {builder: mob_model, model: art/models/mesh/skeleton_horse.mesh.geo.json, picture: art/models/mesh/skeleton_horse_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/skeleton_horse_v3.entity.json: art/models/mesh/skeleton_horse_v3.entity.json, render_controllers/skeleton_horse.mesh.render_controllers.json: art/models/mesh/skeleton_horse.mesh.render_controllers.json, animations/skeleton_horse.mesh.animation.json: art/models/mesh/skeleton_horse.mesh.animation.json, models/entity/skeleton_horse_baby.mesh.geo.json: art/models/mesh/skeleton_horse_baby.mesh.geo.json}}
+  entity/horse2/zombie_horse_mesh: {builder: mob_model, model: art/models/mesh/zombie_horse.mesh.geo.json, picture: art/models/mesh/zombie_horse_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/zombie_horse_v3.entity.json: art/models/mesh/zombie_horse_v3.entity.json, render_controllers/zombie_horse.mesh.render_controllers.json: art/models/mesh/zombie_horse.mesh.render_controllers.json, animations/zombie_horse.mesh.animation.json: art/models/mesh/zombie_horse.mesh.animation.json, models/entity/zombie_horse_baby.mesh.geo.json: art/models/mesh/zombie_horse_baby.mesh.geo.json}}
+  entity/wolf/wolf_mesh: {builder: mob_model, model: art/models/mesh/wolf.mesh.geo.json, picture: art/models/mesh/wolf_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/wolf.entity.json: art/models/mesh/wolf.entity.json, render_controllers/wolf.mesh.render_controllers.json: art/models/mesh/wolf.mesh.render_controllers.json, animations/wolf.mesh.animation.json: art/models/mesh/wolf.mesh.animation.json, models/entity/wolf_baby.mesh.geo.json: art/models/mesh/wolf_baby.mesh.geo.json, models/entity/wolf_ashen_baby.mesh.geo.json: art/models/mesh/wolf_ashen_baby.mesh.geo.json, models/entity/wolf_chestnut_baby.mesh.geo.json: art/models/mesh/wolf_chestnut_baby.mesh.geo.json, models/entity/wolf_rusty_baby.mesh.geo.json: art/models/mesh/wolf_rusty_baby.mesh.geo.json, models/entity/wolf_snowy_baby.mesh.geo.json: art/models/mesh/wolf_snowy_baby.mesh.geo.json, models/entity/wolf_spotted_baby.mesh.geo.json: art/models/mesh/wolf_spotted_baby.mesh.geo.json, models/entity/wolf_striped_baby.mesh.geo.json: art/models/mesh/wolf_striped_baby.mesh.geo.json, models/entity/wolf_woods_baby.mesh.geo.json: art/models/mesh/wolf_woods_baby.mesh.geo.json}}
+  entity/cat/cat_mesh: {builder: mob_model, model: art/models/mesh/cat.mesh.geo.json, picture: art/models/mesh/cat_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/cat.entity.json: art/models/mesh/cat.entity.json, render_controllers/cat.mesh.render_controllers.json: art/models/mesh/cat.mesh.render_controllers.json, animations/cat.mesh.animation.json: art/models/mesh/cat.mesh.animation.json, models/entity/cat_baby.mesh.geo.json: art/models/mesh/cat_baby.mesh.geo.json, models/entity/cat_white_baby.mesh.geo.json: art/models/mesh/cat_white_baby.mesh.geo.json, models/entity/cat_black_baby.mesh.geo.json: art/models/mesh/cat_black_baby.mesh.geo.json, models/entity/cat_red_baby.mesh.geo.json: art/models/mesh/cat_red_baby.mesh.geo.json, models/entity/cat_siamese_baby.mesh.geo.json: art/models/mesh/cat_siamese_baby.mesh.geo.json, models/entity/cat_british_baby.mesh.geo.json: art/models/mesh/cat_british_baby.mesh.geo.json, models/entity/cat_calico_baby.mesh.geo.json: art/models/mesh/cat_calico_baby.mesh.geo.json, models/entity/cat_persian_baby.mesh.geo.json: art/models/mesh/cat_persian_baby.mesh.geo.json, models/entity/cat_ragdoll_baby.mesh.geo.json: art/models/mesh/cat_ragdoll_baby.mesh.geo.json, models/entity/cat_all_black_baby.mesh.geo.json: art/models/mesh/cat_all_black_baby.mesh.geo.json, models/entity/cat_jellie_baby.mesh.geo.json: art/models/mesh/cat_jellie_baby.mesh.geo.json}}
+  entity/cat/ocelot_mesh: {builder: mob_model, model: art/models/mesh/ocelot.mesh.geo.json, picture: art/models/mesh/ocelot_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/ocelot.entity.json: art/models/mesh/ocelot.entity.json, render_controllers/ocelot.mesh.render_controllers.json: art/models/mesh/ocelot.mesh.render_controllers.json, animations/ocelot.mesh.animation.json: art/models/mesh/ocelot.mesh.animation.json, models/entity/ocelot_baby.mesh.geo.json: art/models/mesh/ocelot_baby.mesh.geo.json}}
+  entity/fox/fox_mesh: {builder: mob_model, model: art/models/mesh/fox.mesh.geo.json, picture: art/models/mesh/fox_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/fox.entity.json: art/models/mesh/fox.entity.json, render_controllers/fox.mesh.render_controllers.json: art/models/mesh/fox.mesh.render_controllers.json, animations/fox.mesh.animation.json: art/models/mesh/fox.mesh.animation.json, models/entity/fox_baby.mesh.geo.json: art/models/mesh/fox_baby.mesh.geo.json, models/entity/fox_arctic_baby.mesh.geo.json: art/models/mesh/fox_arctic_baby.mesh.geo.json}}
+  entity/panda/panda_mesh: {builder: mob_model, model: art/models/mesh/panda.mesh.geo.json, picture: art/models/mesh/panda_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/panda.entity.json: art/models/mesh/panda.entity.json, render_controllers/panda.mesh.render_controllers.json: art/models/mesh/panda.mesh.render_controllers.json, animations/panda.mesh.animation.json: art/models/mesh/panda.mesh.animation.json, models/entity/panda_baby.mesh.geo.json: art/models/mesh/panda_baby.mesh.geo.json}}
+  entity/camel/camel_mesh: {builder: mob_model, model: art/models/mesh/camel.mesh.geo.json, picture: art/models/mesh/camel_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/camel.entity.json: art/models/mesh/camel.entity.json, render_controllers/camel.mesh.render_controllers.json: art/models/mesh/camel.mesh.render_controllers.json, animations/camel.mesh.animation.json: art/models/mesh/camel.mesh.animation.json, models/entity/camel_baby.mesh.geo.json: art/models/mesh/camel_baby.mesh.geo.json}}
+  entity/camel_husk/camel_husk_mesh: {builder: mob_model, model: art/models/mesh/camel_husk.mesh.geo.json, picture: art/models/mesh/camel_husk_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/camel_husk.entity.json: art/models/mesh/camel_husk.entity.json, render_controllers/camel_husk.mesh.render_controllers.json: art/models/mesh/camel_husk.mesh.render_controllers.json, animations/camel_husk.mesh.animation.json: art/models/mesh/camel_husk.mesh.animation.json}}
+  entity/armadillo_mesh: {builder: mob_model, model: art/models/mesh/armadillo.mesh.geo.json, picture: art/models/mesh/armadillo_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/armadillo.entity.json: art/models/mesh/armadillo.entity.json, render_controllers/armadillo.mesh.render_controllers.json: art/models/mesh/armadillo.mesh.render_controllers.json, models/entity/armadillo_baby.mesh.geo.json: art/models/mesh/armadillo_baby.mesh.geo.json}}
+  entity/sniffer/sniffer_mesh: {builder: mob_model, model: art/models/mesh/sniffer.mesh.geo.json, picture: art/models/mesh/sniffer_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/sniffer.entity.json: art/models/mesh/sniffer.entity.json, render_controllers/sniffer.mesh.render_controllers.json: art/models/mesh/sniffer.mesh.render_controllers.json, animations/sniffer.mesh.animation.json: art/models/mesh/sniffer.mesh.animation.json, models/entity/sniffer_baby.mesh.geo.json: art/models/mesh/sniffer_baby.mesh.geo.json}}
+  entity/illager/ravager_mesh: {builder: mob_model, model: art/models/mesh/ravager.mesh.geo.json, picture: art/models/mesh/ravager_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 2048, files: {entity/ravager.entity.json: art/models/mesh/ravager.entity.json, render_controllers/ravager.mesh.render_controllers.json: art/models/mesh/ravager.mesh.render_controllers.json, animations/ravager.mesh.animation.json: art/models/mesh/ravager.mesh.animation.json}}
+  entity/zoglin/zoglin_mesh: {builder: mob_model, model: art/models/mesh/zoglin.mesh.geo.json, picture: art/models/mesh/zoglin_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/zoglin.entity.json: art/models/mesh/zoglin.entity.json, render_controllers/zoglin.mesh.render_controllers.json: art/models/mesh/zoglin.mesh.render_controllers.json, animations/zoglin.mesh.animation.json: art/models/mesh/zoglin.mesh.animation.json, models/entity/zoglin_baby.mesh.geo.json: art/models/mesh/zoglin_baby.mesh.geo.json}}
+  entity/llama/trader_llama_mesh: {builder: mob_model, model: art/models/mesh/trader_llama.mesh.geo.json, picture: art/models/mesh/trader_llama_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/trader_llama.entity.json: art/models/mesh/trader_llama.entity.json, render_controllers/trader_llama.mesh.render_controllers.json: art/models/mesh/trader_llama.mesh.render_controllers.json, animations/trader_llama.mesh.animation.json: art/models/mesh/trader_llama.mesh.animation.json, models/entity/trader_llama_baby.mesh.geo.json: art/models/mesh/trader_llama_baby.mesh.geo.json, models/entity/trader_llama_white_baby.mesh.geo.json: art/models/mesh/trader_llama_white_baby.mesh.geo.json, models/entity/trader_llama_brown_baby.mesh.geo.json: art/models/mesh/trader_llama_brown_baby.mesh.geo.json, models/entity/trader_llama_gray_baby.mesh.geo.json: art/models/mesh/trader_llama_gray_baby.mesh.geo.json}}
+  entity/creeper/creeper_mesh: {builder: mob_model, model: art/models/mesh/creeper.mesh.geo.json, picture: art/models/mesh/creeper_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/creeper.entity.json: art/models/mesh/creeper.entity.json, render_controllers/creeper.mesh.render_controllers.json: art/models/mesh/creeper.mesh.render_controllers.json, animations/creeper.mesh.animation.json: art/models/mesh/creeper.mesh.animation.json}}
+  entity/zombie/zombie_mesh: {builder: mob_model, model: art/models/mesh/zombie.mesh.geo.json, picture: art/models/mesh/zombie_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/zombie.entity.json: art/models/mesh/zombie.entity.json, render_controllers/zombie.mesh.render_controllers.json: art/models/mesh/zombie.mesh.render_controllers.json, animations/zombie.mesh.animation.json: art/models/mesh/zombie.mesh.animation.json, models/entity/zombie_baby.mesh.geo.json: art/models/mesh/zombie_baby.mesh.geo.json}}
+  entity/zombie/husk_mesh: {builder: mob_model, model: art/models/mesh/husk.mesh.geo.json, picture: art/models/mesh/husk_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/husk.entity.json: art/models/mesh/husk.entity.json, render_controllers/husk.mesh.render_controllers.json: art/models/mesh/husk.mesh.render_controllers.json, animations/husk.mesh.animation.json: art/models/mesh/husk.mesh.animation.json, models/entity/husk_baby.mesh.geo.json: art/models/mesh/husk_baby.mesh.geo.json}}
+  entity/skeleton/skeleton_mesh: {builder: mob_model, model: art/models/mesh/skeleton.mesh.geo.json, picture: art/models/mesh/skeleton_mesh.png, material: generic, roughness: 0.8, max_size: 512, atlas: 1024, files: {entity/skeleton.entity.json: art/models/mesh/skeleton.entity.json, render_controllers/skeleton.mesh.render_controllers.json: art/models/mesh/skeleton.mesh.render_controllers.json}}
+  entity/enderman/enderman_mesh: {builder: mob_model, model: art/models/mesh/enderman.mesh.geo.json, picture: art/models/mesh/enderman_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/enderman.entity.json: art/models/mesh/enderman.entity.json, render_controllers/enderman.mesh.render_controllers.json: art/models/mesh/enderman.mesh.render_controllers.json, animations/enderman.mesh.animation.json: art/models/mesh/enderman.mesh.animation.json}}
+  entity/iron_golem_mesh: {builder: mob_model, model: art/models/mesh/iron_golem.mesh.geo.json, picture: art/models/mesh/iron_golem_mesh.png, material: generic, roughness: 0.55, max_size: 512, atlas: 2048, files: {entity/iron_golem.entity.json: art/models/mesh/iron_golem.entity.json, render_controllers/iron_golem.mesh.render_controllers.json: art/models/mesh/iron_golem.mesh.render_controllers.json, animations/iron_golem.mesh.animation.json: art/models/mesh/iron_golem.mesh.animation.json}}
+  entity/snow_golem_mesh: {builder: mob_model, model: art/models/mesh/snow_golem.mesh.geo.json, picture: art/models/mesh/snow_golem_mesh.png, material: generic, roughness: 0.9, max_size: 512, atlas: 1024, files: {entity/snow_golem.entity.json: art/models/mesh/snow_golem.entity.json, render_controllers/snow_golem.mesh.render_controllers.json: art/models/mesh/snow_golem.mesh.render_controllers.json}}
+  entity/rabbit/rabbit_mesh: {builder: mob_model, model: art/models/mesh/rabbit.mesh.geo.json, picture: art/models/mesh/rabbit_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/rabbit.entity.json: art/models/mesh/rabbit.entity.json, render_controllers/rabbit.mesh.render_controllers.json: art/models/mesh/rabbit.mesh.render_controllers.json, animations/rabbit.mesh.animation.json: art/models/mesh/rabbit.mesh.animation.json, models/entity/rabbit_baby.mesh.geo.json: art/models/mesh/rabbit_baby.mesh.geo.json, models/entity/rabbit_white_baby.mesh.geo.json: art/models/mesh/rabbit_white_baby.mesh.geo.json, models/entity/rabbit_black_baby.mesh.geo.json: art/models/mesh/rabbit_black_baby.mesh.geo.json, models/entity/rabbit_white_splotched_baby.mesh.geo.json: art/models/mesh/rabbit_white_splotched_baby.mesh.geo.json, models/entity/rabbit_gold_baby.mesh.geo.json: art/models/mesh/rabbit_gold_baby.mesh.geo.json, models/entity/rabbit_salt_baby.mesh.geo.json: art/models/mesh/rabbit_salt_baby.mesh.geo.json}}
+  entity/frog/frog_mesh: {builder: mob_model, model: art/models/mesh/frog.mesh.geo.json, picture: art/models/mesh/frog_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024, files: {entity/frog.entity.json: art/models/mesh/frog.entity.json, render_controllers/frog.mesh.render_controllers.json: art/models/mesh/frog.mesh.render_controllers.json}}
+  entity/turtle_mesh: {builder: mob_model, model: art/models/mesh/turtle.mesh.geo.json, picture: art/models/mesh/turtle_mesh.png, material: generic, roughness: 0.55, max_size: 512, atlas: 1024, files: {entity/turtle.entity.json: art/models/mesh/turtle.entity.json, render_controllers/turtle.mesh.render_controllers.json: art/models/mesh/turtle.mesh.render_controllers.json, models/entity/turtle_baby.mesh.geo.json: art/models/mesh/turtle_baby.mesh.geo.json}}
+  entity/axolotl/axolotl_mesh: {builder: mob_model, model: art/models/mesh/axolotl.mesh.geo.json, picture: art/models/mesh/axolotl_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024, files: {entity/axolotl.entity.json: art/models/mesh/axolotl.entity.json, render_controllers/axolotl.mesh.render_controllers.json: art/models/mesh/axolotl.mesh.render_controllers.json, models/entity/axolotl_baby.mesh.geo.json: art/models/mesh/axolotl_baby.mesh.geo.json, models/entity/axolotl_cyan_baby.mesh.geo.json: art/models/mesh/axolotl_cyan_baby.mesh.geo.json, models/entity/axolotl_gold_baby.mesh.geo.json: art/models/mesh/axolotl_gold_baby.mesh.geo.json, models/entity/axolotl_wild_baby.mesh.geo.json: art/models/mesh/axolotl_wild_baby.mesh.geo.json, models/entity/axolotl_blue_baby.mesh.geo.json: art/models/mesh/axolotl_blue_baby.mesh.geo.json}}
+  entity/chicken/chicken_mesh: {builder: mob_model, model: art/models/mesh/chicken.mesh.geo.json, picture: art/models/mesh/chicken_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/chicken.entity.json: art/models/mesh/chicken.entity.json, render_controllers/chicken.mesh.render_controllers.json: art/models/mesh/chicken.mesh.render_controllers.json, animations/chicken.mesh.animation.json: art/models/mesh/chicken.mesh.animation.json, models/entity/chicken_baby.mesh.geo.json: art/models/mesh/chicken_baby.mesh.geo.json, models/entity/chicken_warm_baby.mesh.geo.json: art/models/mesh/chicken_warm_baby.mesh.geo.json, models/entity/chicken_cold_baby.mesh.geo.json: art/models/mesh/chicken_cold_baby.mesh.geo.json}}
+  entity/strider/strider_mesh: {builder: mob_model, model: art/models/mesh/strider.mesh.geo.json, picture: art/models/mesh/strider_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/strider.entity.json: art/models/mesh/strider.entity.json, render_controllers/strider.mesh.render_controllers.json: art/models/mesh/strider.mesh.render_controllers.json, models/entity/strider_baby.mesh.geo.json: art/models/mesh/strider_baby.mesh.geo.json}}
+  entity/spider/spider_mesh: {builder: mob_model, model: art/models/mesh/spider.mesh.geo.json, picture: art/models/mesh/spider_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/spider.entity.json: art/models/mesh/spider.entity.json, render_controllers/spider.mesh.render_controllers.json: art/models/mesh/spider.mesh.render_controllers.json, animations/spider.mesh.animation.json: art/models/mesh/spider.mesh.animation.json}}
+  entity/spider/cave_spider_mesh: {builder: mob_model, model: art/models/mesh/cave_spider.mesh.geo.json, picture: art/models/mesh/cave_spider_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/cave_spider.entity.json: art/models/mesh/cave_spider.entity.json, render_controllers/cave_spider.mesh.render_controllers.json: art/models/mesh/cave_spider.mesh.render_controllers.json, animations/cave_spider.mesh.animation.json: art/models/mesh/cave_spider.mesh.animation.json}}
+  entity/silverfish_mesh: {builder: mob_model, model: art/models/mesh/silverfish.mesh.geo.json, picture: art/models/mesh/silverfish_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024, files: {entity/silverfish.entity.json: art/models/mesh/silverfish.entity.json, render_controllers/silverfish.mesh.render_controllers.json: art/models/mesh/silverfish.mesh.render_controllers.json}}
+  entity/endermite_mesh: {builder: mob_model, model: art/models/mesh/endermite.mesh.geo.json, picture: art/models/mesh/endermite_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024, files: {entity/endermite.entity.json: art/models/mesh/endermite.entity.json, render_controllers/endermite.mesh.render_controllers.json: art/models/mesh/endermite.mesh.render_controllers.json}}
+  entity/bat_mesh: {builder: mob_model, model: art/models/mesh/bat.mesh.geo.json, picture: art/models/mesh/bat_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/bat.entity.json: art/models/mesh/bat.entity.json, render_controllers/bat.mesh.render_controllers.json: art/models/mesh/bat.mesh.render_controllers.json}}
+  entity/parrot/parrot_mesh: {builder: mob_model, model: art/models/mesh/parrot.mesh.geo.json, picture: art/models/mesh/parrot_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/parrot.entity.json: art/models/mesh/parrot.entity.json, render_controllers/parrot.mesh.render_controllers.json: art/models/mesh/parrot.mesh.render_controllers.json, animations/parrot.mesh.animation.json: art/models/mesh/parrot.mesh.animation.json}}
+  entity/bee/bee_mesh: {builder: mob_model, model: art/models/mesh/bee.mesh.geo.json, picture: art/models/mesh/bee_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/bee.entity.json: art/models/mesh/bee.entity.json, render_controllers/bee.mesh.render_controllers.json: art/models/mesh/bee.mesh.render_controllers.json, models/entity/bee_baby.mesh.geo.json: art/models/mesh/bee_baby.mesh.geo.json}}
+  entity/allay/allay_mesh: {builder: mob_model, model: art/models/mesh/allay.mesh.geo.json, picture: art/models/mesh/allay_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/allay.entity.json: art/models/mesh/allay.entity.json, render_controllers/allay.mesh.render_controllers.json: art/models/mesh/allay.mesh.render_controllers.json, animations/allay.mesh.animation.json: art/models/mesh/allay.mesh.animation.json}}
+  entity/vex/vex_mesh: {builder: mob_model, model: art/models/mesh/vex.mesh.geo.json, picture: art/models/mesh/vex_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/vex.entity.json: art/models/mesh/vex.entity.json, render_controllers/vex.mesh.render_controllers.json: art/models/mesh/vex.mesh.render_controllers.json}}
+  entity/phantom_mesh: {builder: mob_model, model: art/models/mesh/phantom.mesh.geo.json, picture: art/models/mesh/phantom_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/phantom.entity.json: art/models/mesh/phantom.entity.json, render_controllers/phantom.mesh.render_controllers.json: art/models/mesh/phantom.mesh.render_controllers.json, animations/phantom.mesh.animation.json: art/models/mesh/phantom.mesh.animation.json}}
+  entity/fish/cod_mesh: {builder: mob_model, model: art/models/mesh/cod.mesh.geo.json, picture: art/models/mesh/cod_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024, files: {entity/cod.entity.json: art/models/mesh/cod.entity.json, render_controllers/cod.mesh.render_controllers.json: art/models/mesh/cod.mesh.render_controllers.json, animations/cod.mesh.animation.json: art/models/mesh/cod.mesh.animation.json}}
+  entity/fish/salmon_mesh: {builder: mob_model, model: art/models/mesh/salmon.mesh.geo.json, picture: art/models/mesh/salmon_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024, files: {entity/salmon.entity.json: art/models/mesh/salmon.entity.json, render_controllers/salmon.mesh.render_controllers.json: art/models/mesh/salmon.mesh.render_controllers.json, animations/salmon.mesh.animation.json: art/models/mesh/salmon.mesh.animation.json}}
+  entity/fish/pufferfish_mesh: {builder: mob_model, model: art/models/mesh/pufferfish.mesh.geo.json, picture: art/models/mesh/pufferfish_mesh.png, material: generic, roughness: 0.55, max_size: 512, atlas: 1024, files: {entity/pufferfish.entity.json: art/models/mesh/pufferfish.entity.json, render_controllers/pufferfish.mesh.render_controllers.json: art/models/mesh/pufferfish.mesh.render_controllers.json}}
+  entity/fish/tropicalfish_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish.mesh.geo.json, picture: art/models/mesh/tropicalfish_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024, files: {entity/tropicalfish.entity.json: art/models/mesh/tropicalfish.entity.json, render_controllers/tropicalfish.mesh.render_controllers.json: art/models/mesh/tropicalfish.mesh.render_controllers.json}}
+  entity/squid_mesh: {builder: mob_model, model: art/models/mesh/squid.mesh.geo.json, picture: art/models/mesh/squid_mesh.png, material: generic, roughness: 0.4, max_size: 512, atlas: 1024, files: {entity/squid.entity.json: art/models/mesh/squid.entity.json, render_controllers/squid.mesh.render_controllers.json: art/models/mesh/squid.mesh.render_controllers.json, models/entity/squid_baby.mesh.geo.json: art/models/mesh/squid_baby.mesh.geo.json}}
+  entity/glow_squid/glow_squid_mesh: {builder: mob_model, model: art/models/mesh/glow_squid.mesh.geo.json, picture: art/models/mesh/glow_squid_mesh.png, material: generic, roughness: 0.4, max_size: 512, atlas: 1024, files: {entity/glow_squid.entity.json: art/models/mesh/glow_squid.entity.json, render_controllers/glow_squid.mesh.render_controllers.json: art/models/mesh/glow_squid.mesh.render_controllers.json, models/entity/glow_squid_baby.mesh.geo.json: art/models/mesh/glow_squid_baby.mesh.geo.json}}
+  entity/dolphin_mesh: {builder: mob_model, model: art/models/mesh/dolphin.mesh.geo.json, picture: art/models/mesh/dolphin_mesh.png, material: generic, roughness: 0.4, max_size: 512, atlas: 1024, files: {entity/dolphin.entity.json: art/models/mesh/dolphin.entity.json, render_controllers/dolphin.mesh.render_controllers.json: art/models/mesh/dolphin.mesh.render_controllers.json, models/entity/dolphin_baby.mesh.geo.json: art/models/mesh/dolphin_baby.mesh.geo.json}}
+  entity/guardian_mesh: {builder: mob_model, model: art/models/mesh/guardian.mesh.geo.json, picture: art/models/mesh/guardian_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024, files: {entity/guardian.entity.json: art/models/mesh/guardian.entity.json, render_controllers/guardian.mesh.render_controllers.json: art/models/mesh/guardian.mesh.render_controllers.json}}
+  entity/elder_guardian_mesh: {builder: mob_model, model: art/models/mesh/elder_guardian.mesh.geo.json, picture: art/models/mesh/elder_guardian_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 2048, files: {entity/elder_guardian.entity.json: art/models/mesh/elder_guardian.entity.json, render_controllers/elder_guardian.mesh.render_controllers.json: art/models/mesh/elder_guardian.mesh.render_controllers.json}}
+  entity/tadpole/tadpole_mesh: {builder: mob_model, model: art/models/mesh/tadpole.mesh.geo.json, picture: art/models/mesh/tadpole_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024, files: {entity/tadpole.entity.json: art/models/mesh/tadpole.entity.json, render_controllers/tadpole.mesh.render_controllers.json: art/models/mesh/tadpole.mesh.render_controllers.json}}
+  entity/nautilus/nautilus_mesh: {builder: mob_model, model: art/models/mesh/nautilus.mesh.geo.json, picture: art/models/mesh/nautilus_mesh.png, material: generic, roughness: 0.4, max_size: 512, atlas: 1024, files: {entity/nautilus.entity.json: art/models/mesh/nautilus.entity.json, render_controllers/nautilus.mesh.render_controllers.json: art/models/mesh/nautilus.mesh.render_controllers.json, models/entity/nautilus_baby.mesh.geo.json: art/models/mesh/nautilus_baby.mesh.geo.json}}
+  entity/zombie/drowned_mesh: {builder: mob_model, model: art/models/mesh/drowned.mesh.geo.json, picture: art/models/mesh/drowned_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/drowned.entity.json: art/models/mesh/drowned.entity.json, render_controllers/drowned.mesh.render_controllers.json: art/models/mesh/drowned.mesh.render_controllers.json, animations/drowned.mesh.animation.json: art/models/mesh/drowned.mesh.animation.json, models/entity/drowned_baby.mesh.geo.json: art/models/mesh/drowned_baby.mesh.geo.json}}
+  entity/skeleton/stray_mesh: {builder: mob_model, model: art/models/mesh/stray.mesh.geo.json, picture: art/models/mesh/stray_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/stray.entity.json: art/models/mesh/stray.entity.json, render_controllers/stray.mesh.render_controllers.json: art/models/mesh/stray.mesh.render_controllers.json}}
+  entity/skeleton/bogged_mesh: {builder: mob_model, model: art/models/mesh/bogged.mesh.geo.json, picture: art/models/mesh/bogged_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/bogged.entity.json: art/models/mesh/bogged.entity.json, render_controllers/bogged.mesh.render_controllers.json: art/models/mesh/bogged.mesh.render_controllers.json}}
+  entity/parched/parched_mesh: {builder: mob_model, model: art/models/mesh/parched.mesh.geo.json, picture: art/models/mesh/parched_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/parched.entity.json: art/models/mesh/parched.entity.json, render_controllers/parched.mesh.render_controllers.json: art/models/mesh/parched.mesh.render_controllers.json}}
+  entity/skeleton/wither_skeleton_mesh: {builder: mob_model, model: art/models/mesh/wither_skeleton.mesh.geo.json, picture: art/models/mesh/wither_skeleton_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/wither_skeleton.entity.json: art/models/mesh/wither_skeleton.entity.json, render_controllers/wither_skeleton.mesh.render_controllers.json: art/models/mesh/wither_skeleton.mesh.render_controllers.json}}
+  entity/piglin/piglin_mesh: {builder: mob_model, model: art/models/mesh/piglin.mesh.geo.json, picture: art/models/mesh/piglin_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/piglin.entity.json: art/models/mesh/piglin.entity.json, render_controllers/piglin.mesh.render_controllers.json: art/models/mesh/piglin.mesh.render_controllers.json, animations/piglin.mesh.animation.json: art/models/mesh/piglin.mesh.animation.json, models/entity/piglin_baby.mesh.geo.json: art/models/mesh/piglin_baby.mesh.geo.json}}
+  entity/piglin/piglin_brute_mesh: {builder: mob_model, model: art/models/mesh/piglin_brute.mesh.geo.json, picture: art/models/mesh/piglin_brute_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/piglin_brute.entity.json: art/models/mesh/piglin_brute.entity.json, render_controllers/piglin_brute.mesh.render_controllers.json: art/models/mesh/piglin_brute.mesh.render_controllers.json}}
+  entity/piglin/zombie_pigman_mesh: {builder: mob_model, model: art/models/mesh/zombie_pigman.mesh.geo.json, picture: art/models/mesh/zombie_pigman_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/zombie_pigman.entity.json: art/models/mesh/zombie_pigman.entity.json, render_controllers/zombie_pigman.mesh.render_controllers.json: art/models/mesh/zombie_pigman.mesh.render_controllers.json, animations/zombie_pigman.mesh.animation.json: art/models/mesh/zombie_pigman.mesh.animation.json, models/entity/zombie_pigman_baby.mesh.geo.json: art/models/mesh/zombie_pigman_baby.mesh.geo.json}}
+  entity/villager2/villager_mesh: {builder: mob_model, model: art/models/mesh/villager.mesh.geo.json, picture: art/models/mesh/villager_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/villager_v2.entity.json: art/models/mesh/villager_v2.entity.json, render_controllers/villager.mesh.render_controllers.json: art/models/mesh/villager.mesh.render_controllers.json, animations/villager.mesh.animation.json: art/models/mesh/villager.mesh.animation.json, models/entity/villager_baby.mesh.geo.json: art/models/mesh/villager_baby.mesh.geo.json}}
+  entity/wandering_trader_mesh: {builder: mob_model, model: art/models/mesh/wandering_trader.mesh.geo.json, picture: art/models/mesh/wandering_trader_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/wandering_trader.entity.json: art/models/mesh/wandering_trader.entity.json, render_controllers/wandering_trader.mesh.render_controllers.json: art/models/mesh/wandering_trader.mesh.render_controllers.json}}
+  entity/zombie_villager2/zombie_villager_mesh: {builder: mob_model, model: art/models/mesh/zombie_villager.mesh.geo.json, picture: art/models/mesh/zombie_villager_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/zombie_villager_v2.entity.json: art/models/mesh/zombie_villager_v2.entity.json, render_controllers/zombie_villager.mesh.render_controllers.json: art/models/mesh/zombie_villager.mesh.render_controllers.json, animations/zombie_villager.mesh.animation.json: art/models/mesh/zombie_villager.mesh.animation.json, models/entity/zombie_villager_baby.mesh.geo.json: art/models/mesh/zombie_villager_baby.mesh.geo.json}}
+  entity/witch_mesh: {builder: mob_model, model: art/models/mesh/witch.mesh.geo.json, picture: art/models/mesh/witch_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/witch.entity.json: art/models/mesh/witch.entity.json, render_controllers/witch.mesh.render_controllers.json: art/models/mesh/witch.mesh.render_controllers.json}}
+  entity/pillager_mesh: {builder: mob_model, model: art/models/mesh/pillager.mesh.geo.json, picture: art/models/mesh/pillager_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/pillager.entity.json: art/models/mesh/pillager.entity.json, render_controllers/pillager.mesh.render_controllers.json: art/models/mesh/pillager.mesh.render_controllers.json}}
+  entity/vindicator_mesh: {builder: mob_model, model: art/models/mesh/vindicator.mesh.geo.json, picture: art/models/mesh/vindicator_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/vindicator.entity.json: art/models/mesh/vindicator.entity.json, render_controllers/vindicator.mesh.render_controllers.json: art/models/mesh/vindicator.mesh.render_controllers.json}}
+  entity/illager/evocation_illager_mesh: {builder: mob_model, model: art/models/mesh/evocation_illager.mesh.geo.json, picture: art/models/mesh/evocation_illager_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/evocation_illager.entity.json: art/models/mesh/evocation_illager.entity.json, render_controllers/evocation_illager.mesh.render_controllers.json: art/models/mesh/evocation_illager.mesh.render_controllers.json}}
+  entity/warden/warden_mesh: {builder: mob_model, model: art/models/mesh/warden.mesh.geo.json, picture: art/models/mesh/warden_mesh.png, material: generic, roughness: 0.6, max_size: 512, atlas: 2048, files: {entity/warden.entity.json: art/models/mesh/warden.entity.json, render_controllers/warden.mesh.render_controllers.json: art/models/mesh/warden.mesh.render_controllers.json}}
+  entity/creaking/creaking_mesh: {builder: mob_model, model: art/models/mesh/creaking.mesh.geo.json, picture: art/models/mesh/creaking_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/creaking.entity.json: art/models/mesh/creaking.entity.json, render_controllers/creaking.mesh.render_controllers.json: art/models/mesh/creaking.mesh.render_controllers.json}}
+  entity/copper_golem/copper_golem_mesh: {builder: mob_model, model: art/models/mesh/copper_golem.mesh.geo.json, picture: art/models/mesh/copper_golem_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024, files: {entity/copper_golem.entity.json: art/models/mesh/copper_golem.entity.json, render_controllers/copper_golem.mesh.render_controllers.json: art/models/mesh/copper_golem.mesh.render_controllers.json}}
+  entity/blaze_mesh: {builder: mob_model, model: art/models/mesh/blaze.mesh.geo.json, picture: art/models/mesh/blaze_mesh.png, material: generic, roughness: 0.6, max_size: 512, atlas: 1024, files: {entity/blaze.entity.json: art/models/mesh/blaze.entity.json, render_controllers/blaze.mesh.render_controllers.json: art/models/mesh/blaze.mesh.render_controllers.json}}
+  entity/breeze/breeze_mesh: {builder: mob_model, model: art/models/mesh/breeze.mesh.geo.json, picture: art/models/mesh/breeze_mesh.png, material: generic, roughness: 0.6, max_size: 512, atlas: 1024, files: {entity/breeze.entity.json: art/models/mesh/breeze.entity.json, render_controllers/breeze.mesh.render_controllers.json: art/models/mesh/breeze.mesh.render_controllers.json}}
+  entity/ghast/ghast_mesh: {builder: mob_model, model: art/models/mesh/ghast.mesh.geo.json, picture: art/models/mesh/ghast_mesh.png, material: generic, roughness: 0.6, max_size: 512, atlas: 2048, files: {entity/ghast.entity.json: art/models/mesh/ghast.entity.json, render_controllers/ghast.mesh.render_controllers.json: art/models/mesh/ghast.mesh.render_controllers.json}}
+  entity/ghast/ghast_alt_mesh: {builder: mob_model, model: art/models/mesh/ghast.mesh.geo.json, picture: art/models/mesh/ghast_alt_mesh.png, material: generic, roughness: 0.6, max_size: 512, atlas: 2048}
+  entity/happy_ghast/happy_ghast_mesh: {builder: mob_model, model: art/models/mesh/happy_ghast.mesh.geo.json, picture: art/models/mesh/happy_ghast_mesh.png, material: generic, roughness: 0.6, max_size: 512, atlas: 2048, files: {entity/happy_ghast.entity.json: art/models/mesh/happy_ghast.entity.json, render_controllers/happy_ghast.mesh.render_controllers.json: art/models/mesh/happy_ghast.mesh.render_controllers.json}}
+  entity/slime/magma_cube_mesh: {builder: mob_model, model: art/models/mesh/magma_cube.mesh.geo.json, picture: art/models/mesh/magma_cube_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/magma_cube.entity.json: art/models/mesh/magma_cube.entity.json, render_controllers/magma_cube.mesh.render_controllers.json: art/models/mesh/magma_cube.mesh.render_controllers.json}}
+  entity/slime/slime_mesh: {builder: mob_model, model: art/models/mesh/slime.mesh.geo.json, picture: art/models/mesh/slime_mesh.png, material: generic, roughness: 0.25, max_size: 512, atlas: 1024, files: {entity/slime.entity.json: art/models/mesh/slime.entity.json, render_controllers/slime.mesh.render_controllers.json: art/models/mesh/slime.mesh.render_controllers.json}}
+  entity/sulfur_cube/sulfur_cube_mesh: {builder: mob_model, model: art/models/mesh/sulfur_cube.mesh.geo.json, picture: art/models/mesh/sulfur_cube_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/sulfur_cube.entity.json: art/models/mesh/sulfur_cube.entity.json, render_controllers/sulfur_cube.mesh.render_controllers.json: art/models/mesh/sulfur_cube.mesh.render_controllers.json}}
+  entity/shulker/shulker_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024, files: {entity/shulker.entity.json: art/models/mesh/shulker.entity.json, render_controllers/shulker.mesh.render_controllers.json: art/models/mesh/shulker.mesh.render_controllers.json}}
+  entity/wither_boss/wither_mesh: {builder: mob_model, model: art/models/mesh/wither.mesh.geo.json, picture: art/models/mesh/wither_mesh.png, material: generic, roughness: 0.8, max_size: 512, atlas: 2048, files: {entity/wither.entity.json: art/models/mesh/wither.entity.json, render_controllers/wither.mesh.render_controllers.json: art/models/mesh/wither.mesh.render_controllers.json, animations/wither.mesh.animation.json: art/models/mesh/wither.mesh.animation.json}}
+  entity/nautilus/zombie_nautilus_mesh: {builder: mob_model, model: art/models/mesh/zombie_nautilus.mesh.geo.json, picture: art/models/mesh/zombie_nautilus_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/zombie_nautilus.entity.json: art/models/mesh/zombie_nautilus.entity.json, render_controllers/zombie_nautilus.mesh.render_controllers.json: art/models/mesh/zombie_nautilus.mesh.render_controllers.json}}
+  entity/pig/pig_v3: {builder: mob_model, model: art/models/mesh/pig.mesh.geo.json, picture: art/models/mesh/pig_v3.png, material: generic, roughness: 0.8, max_size: 512, atlas: 1024, files: {entity/pig.entity.json: art/models/mesh/pig.entity.json, render_controllers/pig.mesh.render_controllers.json: art/models/mesh/pig.mesh.render_controllers.json, animations/pig.mesh.animation.json: art/models/mesh/pig.mesh.animation.json, models/entity/pig_baby.mesh.geo.json: art/models/mesh/pig_baby.mesh.geo.json, models/entity/pig_warm_baby.mesh.geo.json: art/models/mesh/pig_warm_baby.mesh.geo.json, models/entity/pig_cold_baby.mesh.geo.json: art/models/mesh/pig_cold_baby.mesh.geo.json}}
+  entity/cow/cow_warm_mesh: {builder: mob_model, model: art/models/mesh/cow_warm.mesh.geo.json, picture: art/models/mesh/cow_warm_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024, files: {entity/cow.entity.json: art/models/mesh/cow.entity.json, render_controllers/cow_warm.mesh.render_controllers.json: art/models/mesh/cow_warm.mesh.render_controllers.json, animations/cow_warm.mesh.animation.json: art/models/mesh/cow_warm.mesh.animation.json, models/entity/cow_warm_baby.mesh.geo.json: art/models/mesh/cow_warm_baby.mesh.geo.json, models/entity/cow_cold_baby.mesh.geo.json: art/models/mesh/cow_cold_baby.mesh.geo.json, models/entity/cow_baby.mesh.geo.json: art/models/mesh/cow_baby.mesh.geo.json}}
+  entity/cow/cow_cold_mesh: {builder: mob_model, model: art/models/mesh/cow_cold.mesh.geo.json, picture: art/models/mesh/cow_cold_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/pig/pig_warm_mesh: {builder: mob_model, model: art/models/mesh/pig_warm.mesh.geo.json, picture: art/models/mesh/pig_warm_mesh.png, material: generic, roughness: 0.8, max_size: 512, atlas: 1024}
+  entity/pig/pig_cold_mesh: {builder: mob_model, model: art/models/mesh/pig_cold.mesh.geo.json, picture: art/models/mesh/pig_cold_mesh.png, material: generic, roughness: 0.8, max_size: 512, atlas: 1024}
+  entity/chicken/chicken_warm_mesh: {builder: mob_model, model: art/models/mesh/chicken_warm.mesh.geo.json, picture: art/models/mesh/chicken_warm_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/chicken/chicken_cold_mesh: {builder: mob_model, model: art/models/mesh/chicken_cold.mesh.geo.json, picture: art/models/mesh/chicken_cold_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/cow/mooshroom_brown_mesh: {builder: mob_model, model: art/models/mesh/mooshroom_brown.mesh.geo.json, picture: art/models/mesh/mooshroom_brown_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/llama/llama_white_mesh: {builder: mob_model, model: art/models/mesh/llama_white.mesh.geo.json, picture: art/models/mesh/llama_white_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/llama/llama_brown_mesh: {builder: mob_model, model: art/models/mesh/llama_brown.mesh.geo.json, picture: art/models/mesh/llama_brown_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/llama/llama_gray_mesh: {builder: mob_model, model: art/models/mesh/llama_gray.mesh.geo.json, picture: art/models/mesh/llama_gray_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/llama/trader_llama_white_mesh: {builder: mob_model, model: art/models/mesh/trader_llama_white.mesh.geo.json, picture: art/models/mesh/trader_llama_white_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/llama/trader_llama_brown_mesh: {builder: mob_model, model: art/models/mesh/trader_llama_brown.mesh.geo.json, picture: art/models/mesh/trader_llama_brown_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/llama/trader_llama_gray_mesh: {builder: mob_model, model: art/models/mesh/trader_llama_gray.mesh.geo.json, picture: art/models/mesh/trader_llama_gray_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/horse2/horse_white_mesh: {builder: mob_model, model: art/models/mesh/horse_white.mesh.geo.json, picture: art/models/mesh/horse_white_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/horse2/horse_creamy_mesh: {builder: mob_model, model: art/models/mesh/horse_creamy.mesh.geo.json, picture: art/models/mesh/horse_creamy_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/horse2/horse_brown_mesh: {builder: mob_model, model: art/models/mesh/horse_brown.mesh.geo.json, picture: art/models/mesh/horse_brown_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/horse2/horse_black_mesh: {builder: mob_model, model: art/models/mesh/horse_black.mesh.geo.json, picture: art/models/mesh/horse_black_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/horse2/horse_gray_mesh: {builder: mob_model, model: art/models/mesh/horse_gray.mesh.geo.json, picture: art/models/mesh/horse_gray_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/horse2/horse_darkbrown_mesh: {builder: mob_model, model: art/models/mesh/horse_darkbrown.mesh.geo.json, picture: art/models/mesh/horse_darkbrown_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/wolf/wolf_ashen_mesh: {builder: mob_model, model: art/models/mesh/wolf_ashen.mesh.geo.json, picture: art/models/mesh/wolf_ashen_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/wolf/wolf_black_mesh: {builder: mob_model, model: art/models/mesh/wolf_ashen.mesh.geo.json, picture: art/models/mesh/wolf_black_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/wolf/wolf_chestnut_mesh: {builder: mob_model, model: art/models/mesh/wolf_chestnut.mesh.geo.json, picture: art/models/mesh/wolf_chestnut_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/wolf/wolf_rusty_mesh: {builder: mob_model, model: art/models/mesh/wolf_rusty.mesh.geo.json, picture: art/models/mesh/wolf_rusty_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/wolf/wolf_snowy_mesh: {builder: mob_model, model: art/models/mesh/wolf_snowy.mesh.geo.json, picture: art/models/mesh/wolf_snowy_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/wolf/wolf_spotted_mesh: {builder: mob_model, model: art/models/mesh/wolf_spotted.mesh.geo.json, picture: art/models/mesh/wolf_spotted_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/wolf/wolf_striped_mesh: {builder: mob_model, model: art/models/mesh/wolf_striped.mesh.geo.json, picture: art/models/mesh/wolf_striped_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/wolf/wolf_woods_mesh: {builder: mob_model, model: art/models/mesh/wolf_woods.mesh.geo.json, picture: art/models/mesh/wolf_woods_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/cat/cat_white_mesh: {builder: mob_model, model: art/models/mesh/cat_white.mesh.geo.json, picture: art/models/mesh/cat_white_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/cat/cat_black_mesh: {builder: mob_model, model: art/models/mesh/cat_black.mesh.geo.json, picture: art/models/mesh/cat_black_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/cat/cat_red_mesh: {builder: mob_model, model: art/models/mesh/cat_red.mesh.geo.json, picture: art/models/mesh/cat_red_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/cat/cat_siamese_mesh: {builder: mob_model, model: art/models/mesh/cat_siamese.mesh.geo.json, picture: art/models/mesh/cat_siamese_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/cat/cat_british_mesh: {builder: mob_model, model: art/models/mesh/cat_british.mesh.geo.json, picture: art/models/mesh/cat_british_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/cat/cat_calico_mesh: {builder: mob_model, model: art/models/mesh/cat_calico.mesh.geo.json, picture: art/models/mesh/cat_calico_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/cat/cat_persian_mesh: {builder: mob_model, model: art/models/mesh/cat_persian.mesh.geo.json, picture: art/models/mesh/cat_persian_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/cat/cat_ragdoll_mesh: {builder: mob_model, model: art/models/mesh/cat_ragdoll.mesh.geo.json, picture: art/models/mesh/cat_ragdoll_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/cat/cat_all_black_mesh: {builder: mob_model, model: art/models/mesh/cat_all_black.mesh.geo.json, picture: art/models/mesh/cat_all_black_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/cat/cat_jellie_mesh: {builder: mob_model, model: art/models/mesh/cat_jellie.mesh.geo.json, picture: art/models/mesh/cat_jellie_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/fox/fox_arctic_mesh: {builder: mob_model, model: art/models/mesh/fox_arctic.mesh.geo.json, picture: art/models/mesh/fox_arctic_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/panda/panda_brown_mesh: {builder: mob_model, model: art/models/mesh/panda.mesh.geo.json, picture: art/models/mesh/panda_brown_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/rabbit/rabbit_white_mesh: {builder: mob_model, model: art/models/mesh/rabbit_white.mesh.geo.json, picture: art/models/mesh/rabbit_white_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/rabbit/rabbit_black_mesh: {builder: mob_model, model: art/models/mesh/rabbit_black.mesh.geo.json, picture: art/models/mesh/rabbit_black_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/rabbit/rabbit_white_splotched_mesh: {builder: mob_model, model: art/models/mesh/rabbit_white_splotched.mesh.geo.json, picture: art/models/mesh/rabbit_white_splotched_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/rabbit/rabbit_gold_mesh: {builder: mob_model, model: art/models/mesh/rabbit_gold.mesh.geo.json, picture: art/models/mesh/rabbit_gold_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/rabbit/rabbit_salt_mesh: {builder: mob_model, model: art/models/mesh/rabbit_salt.mesh.geo.json, picture: art/models/mesh/rabbit_salt_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/frog/frog_cold_mesh: {builder: mob_model, model: art/models/mesh/frog_cold.mesh.geo.json, picture: art/models/mesh/frog_cold_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/frog/frog_warm_mesh: {builder: mob_model, model: art/models/mesh/frog_warm.mesh.geo.json, picture: art/models/mesh/frog_warm_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/axolotl/axolotl_cyan_mesh: {builder: mob_model, model: art/models/mesh/axolotl_cyan.mesh.geo.json, picture: art/models/mesh/axolotl_cyan_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/axolotl/axolotl_gold_mesh: {builder: mob_model, model: art/models/mesh/axolotl_gold.mesh.geo.json, picture: art/models/mesh/axolotl_gold_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/axolotl/axolotl_wild_mesh: {builder: mob_model, model: art/models/mesh/axolotl_wild.mesh.geo.json, picture: art/models/mesh/axolotl_wild_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/axolotl/axolotl_blue_mesh: {builder: mob_model, model: art/models/mesh/axolotl_blue.mesh.geo.json, picture: art/models/mesh/axolotl_blue_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/parrot/parrot_blue_mesh: {builder: mob_model, model: art/models/mesh/parrot_blue.mesh.geo.json, picture: art/models/mesh/parrot_blue_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/parrot/parrot_green_mesh: {builder: mob_model, model: art/models/mesh/parrot_green.mesh.geo.json, picture: art/models/mesh/parrot_green_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/parrot/parrot_yellow_blue_mesh: {builder: mob_model, model: art/models/mesh/parrot_yellow_blue.mesh.geo.json, picture: art/models/mesh/parrot_yellow_blue_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/parrot/parrot_grey_mesh: {builder: mob_model, model: art/models/mesh/parrot_grey.mesh.geo.json, picture: art/models/mesh/parrot_grey_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/sheep/sheep_sheared_mesh: {builder: mob_model, model: art/models/mesh/sheep_sheared.mesh.geo.json, picture: art/models/mesh/sheep_sheared_mesh.png, material: generic, roughness: 0.9, max_size: 512, atlas: 1024, color_mask: true}
+  entity/fish/pufferfish_mid_mesh: {builder: mob_model, model: art/models/mesh/pufferfish_mid.mesh.geo.json, picture: art/models/mesh/pufferfish_mid_mesh.png, material: generic, roughness: 0.55, max_size: 512, atlas: 1024}
+  entity/fish/pufferfish_large_mesh: {builder: mob_model, model: art/models/mesh/pufferfish_large.mesh.geo.json, picture: art/models/mesh/pufferfish_large_mesh.png, material: generic, roughness: 0.55, max_size: 512, atlas: 1024}
+  entity/fish/tropicalfish_a2_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish_a2.mesh.geo.json, picture: art/models/mesh/tropicalfish_a2_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/fish/tropicalfish_a3_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish_a3.mesh.geo.json, picture: art/models/mesh/tropicalfish_a3_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/fish/tropicalfish_a4_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish_a4.mesh.geo.json, picture: art/models/mesh/tropicalfish_a4_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/fish/tropicalfish_a5_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish_a5.mesh.geo.json, picture: art/models/mesh/tropicalfish_a5_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/fish/tropicalfish_a6_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish_a6.mesh.geo.json, picture: art/models/mesh/tropicalfish_a6_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/fish/tropicalfish_b1_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish_b1.mesh.geo.json, picture: art/models/mesh/tropicalfish_b1_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/fish/tropicalfish_b2_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish_b2.mesh.geo.json, picture: art/models/mesh/tropicalfish_b2_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/fish/tropicalfish_b3_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish_b3.mesh.geo.json, picture: art/models/mesh/tropicalfish_b3_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/fish/tropicalfish_b4_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish_b4.mesh.geo.json, picture: art/models/mesh/tropicalfish_b4_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/fish/tropicalfish_b5_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish_b5.mesh.geo.json, picture: art/models/mesh/tropicalfish_b5_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/fish/tropicalfish_b6_mesh: {builder: mob_model, model: art/models/mesh/tropicalfish_b6.mesh.geo.json, picture: art/models/mesh/tropicalfish_b6_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_farmer_mesh: {builder: mob_model, model: art/models/mesh/villager_farmer.mesh.geo.json, picture: art/models/mesh/villager_farmer_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_fisherman_mesh: {builder: mob_model, model: art/models/mesh/villager_fisherman.mesh.geo.json, picture: art/models/mesh/villager_fisherman_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_shepherd_mesh: {builder: mob_model, model: art/models/mesh/villager_shepherd.mesh.geo.json, picture: art/models/mesh/villager_shepherd_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_fletcher_mesh: {builder: mob_model, model: art/models/mesh/villager_fletcher.mesh.geo.json, picture: art/models/mesh/villager_fletcher_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_librarian_mesh: {builder: mob_model, model: art/models/mesh/villager_librarian.mesh.geo.json, picture: art/models/mesh/villager_librarian_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_cartographer_mesh: {builder: mob_model, model: art/models/mesh/villager_cartographer.mesh.geo.json, picture: art/models/mesh/villager_cartographer_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_cleric_mesh: {builder: mob_model, model: art/models/mesh/villager_cleric.mesh.geo.json, picture: art/models/mesh/villager_cleric_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_armorer_mesh: {builder: mob_model, model: art/models/mesh/villager_armorer.mesh.geo.json, picture: art/models/mesh/villager_armorer_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_weaponsmith_mesh: {builder: mob_model, model: art/models/mesh/villager_weaponsmith.mesh.geo.json, picture: art/models/mesh/villager_weaponsmith_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_toolsmith_mesh: {builder: mob_model, model: art/models/mesh/villager_toolsmith.mesh.geo.json, picture: art/models/mesh/villager_toolsmith_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_butcher_mesh: {builder: mob_model, model: art/models/mesh/villager_butcher.mesh.geo.json, picture: art/models/mesh/villager_butcher_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_leatherworker_mesh: {builder: mob_model, model: art/models/mesh/villager_leatherworker.mesh.geo.json, picture: art/models/mesh/villager_leatherworker_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_mason_mesh: {builder: mob_model, model: art/models/mesh/villager_mason.mesh.geo.json, picture: art/models/mesh/villager_mason_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/villager2/professions/villager_nitwit_mesh: {builder: mob_model, model: art/models/mesh/villager_nitwit.mesh.geo.json, picture: art/models/mesh/villager_nitwit_mesh.png, material: generic, roughness: 0.85, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_black_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_black_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_red_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_red_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_green_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_green_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_brown_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_brown_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_blue_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_blue_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_purple_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_purple_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_cyan_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_cyan_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_silver_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_silver_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_gray_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_gray_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_pink_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_pink_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_lime_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_lime_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_yellow_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_yellow_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_light_blue_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_light_blue_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_magenta_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_magenta_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_orange_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_orange_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/shulker/shulker_white_mesh: {builder: mob_model, model: art/models/mesh/shulker.mesh.geo.json, picture: art/models/mesh/shulker_white_mesh.png, material: generic, roughness: 0.5, max_size: 512, atlas: 1024}
+  entity/copper_golem/copper_golem_exposed_mesh: {builder: mob_model, model: art/models/mesh/copper_golem.mesh.geo.json, picture: art/models/mesh/copper_golem_exposed_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/copper_golem/copper_golem_weathered_mesh: {builder: mob_model, model: art/models/mesh/copper_golem.mesh.geo.json, picture: art/models/mesh/copper_golem_weathered_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/copper_golem/copper_golem_oxidized_mesh: {builder: mob_model, model: art/models/mesh/copper_golem.mesh.geo.json, picture: art/models/mesh/copper_golem_oxidized_mesh.png, material: generic, roughness: 0.45, max_size: 512, atlas: 1024}
+  entity/dragon/dragon: {builder: mob_model, model: art/models/mesh/ender_dragon.mesh.geo.json, picture: art/models/mesh/ender_dragon_mesh.png, material: generic, roughness: 0.7, max_size: 512}
+  # End of the 2026-10-30 mesh mobs.

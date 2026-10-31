@@ -1,0 +1,12 @@
+[project]
+name = "creatures"
+version = "1.0.0"
+description = "Bubonic Creatures: a Minecraft Bedrock resource pack of realistic 3D mobs"
+requires-python = ">=3.12"
+dependencies = ["mcreskin"]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+mcreskin = { path = "../minecraft-reskin-project", editable = true }  # the build and mesh tools live there

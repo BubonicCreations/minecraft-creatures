@@ -1,0 +1,10 @@
+{
+ "texture": "iron_block",
+ "model": "flux2",
+ "seed": 551,
+ "size": 1024,
+ "prompt": "Macro photograph of a flat sheet of matte bead-blasted light grey steel, cropped so the metal fills the entire image edge to edge: no edges, corners or background visible. Fine even satin grain with a few faint thin scratches, uniform brightness everywhere, no reflections, no highlights. Taken perfectly straight-on under flat even overcast light, sharp focus everywhere, photorealistic high-resolution material photograph.",
+ "negative": null,
+ "seconds": 27.3,
+ "picked": "flux2_s551"
+}

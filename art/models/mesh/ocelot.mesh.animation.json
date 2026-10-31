@@ -1,0 +1,342 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.ocelot.mesh.walk": {
+      "loop": true,
+      "bones": {
+        "backlegl": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed - this, -35, 35)) : (math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed - this)",
+            0.0,
+            0.0
+          ]
+        },
+        "backlegr": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed - this, -35, 35)) : (math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed - this)",
+            0.0,
+            0.0
+          ]
+        },
+        "frontlegl": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed - this, -35, 35)) : (math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed - this)",
+            0.0,
+            0.0
+          ]
+        },
+        "frontlegr": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed - this, -35, 35)) : (math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed - this)",
+            0.0,
+            0.0
+          ]
+        },
+        "tail1": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(-51.57 - this, -35, 35)) : (-51.57 - this)",
+            0.0,
+            0.0
+          ]
+        },
+        "tail2": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(62.0 + math.cos(query.modified_distance_moved * 57.3) * 45.0 * query.modified_move_speed - this, -35, 35)) : (62.0 + math.cos(query.modified_distance_moved * 57.3) * 45.0 * query.modified_move_speed - this)",
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.ocelot.mesh.sprint": {
+      "loop": true,
+      "bones": {
+        "backlegl": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed - this, -40, 40)) : (math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed - this)",
+            0.0,
+            0.0
+          ]
+        },
+        "backlegr": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(math.cos(query.modified_distance_moved * 38.17 + 17.19) * 57.3 * query.modified_move_speed - this, -40, 40)) : (math.cos(query.modified_distance_moved * 38.17 + 17.19) * 57.3 * query.modified_move_speed - this)",
+            0.0,
+            0.0
+          ]
+        },
+        "frontlegl": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(math.cos(query.modified_distance_moved * 38.17 + 197.19) * 57.3 * query.modified_move_speed - this, -40, 40)) : (math.cos(query.modified_distance_moved * 38.17 + 197.19) * 57.3 * query.modified_move_speed - this)",
+            0.0,
+            0.0
+          ]
+        },
+        "frontlegr": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed - this, -40, 40)) : (math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed - this)",
+            0.0,
+            0.0
+          ]
+        },
+        "tail1": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(-this, -40, 40)) : (-this)",
+            0.0,
+            0.0
+          ]
+        },
+        "tail2": {
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(62.0 + math.cos(query.modified_distance_moved * 57.3) * 18.0 * query.modified_move_speed - this, -40, 40)) : (62.0 + math.cos(query.modified_distance_moved * 57.3) * 18.0 * query.modified_move_speed - this)",
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.ocelot.mesh.look_at_target": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "relative_to": {
+            "rotation": "entity"
+          },
+          "rotation": [
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(query.target_x_rotation - this, -25, 25)) : (query.target_x_rotation - this)",
+            "((!query.is_baby) || (query.is_baby)) ? (math.clamp(query.target_y_rotation - this, -35, 35)) : (query.target_y_rotation - this)",
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.ocelot.mesh.sit": {
+      "loop": true,
+      "bones": {
+        "backlegl": {
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2.0 - this))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (6.0 - this))"
+          ],
+          "rotation": [
+            "(query.is_baby) ? (-53.644) : ((!query.is_baby) ? (-53.651) : (-45.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ]
+        },
+        "backlegr": {
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2.0 - this))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (6.0 - this))"
+          ],
+          "rotation": [
+            "(query.is_baby) ? (-53.644) : ((!query.is_baby) ? (-53.651) : (-45 - this))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ]
+        },
+        "body": {
+          "rotation": [
+            "(query.is_baby) ? (-26.356) : ((!query.is_baby) ? (-26.349) : (-45 - this))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (-1.519) : ((!query.is_baby) ? (-3.309) : (0.0))",
+            "(query.is_baby) ? (-0.401) : ((!query.is_baby) ? (0.944) : (0.0))"
+          ]
+        },
+        "frontlegl": {
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1.5 - this))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-7.0 - this))"
+          ],
+          "rotation": [
+            "(query.is_baby) ? (26.356) : ((!query.is_baby) ? (26.349) : (42.15 - this))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ]
+        },
+        "frontlegr": {
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-1.5 - this))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-7.0 - this))"
+          ],
+          "rotation": [
+            "(query.is_baby) ? (26.356) : ((!query.is_baby) ? (26.349) : (42.15 - this))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ]
+        },
+        "head": {
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (-2.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ],
+          "rotation": [
+            "(query.is_baby) ? (26.356) : ((!query.is_baby) ? (26.349) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ]
+        },
+        "tail1": {
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ],
+          "rotation": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (45 - this))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ]
+        },
+        "tail2": {
+          "position": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ],
+          "rotation": [
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (45 - this))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))",
+            "(query.is_baby) ? (0.0) : ((!query.is_baby) ? (0.0) : (0.0))"
+          ]
+        }
+      }
+    },
+    "animation.ocelot.mesh.baby_transform": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "scale": [
+            "(query.is_baby) ? (1.0) : (1.5)",
+            "(query.is_baby) ? (1.0) : (1.5)",
+            "(query.is_baby) ? (1.0) : (1.5)"
+          ]
+        }
+      }
+    },
+    "animation.ocelot.mesh.baby_sit": {
+      "loop": true,
+      "animation_length": 0.0417,
+      "bones": {
+        "backLegL": {
+          "rotation": [
+            "(query.is_baby) ? (-53.644) : (-45)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0.02)",
+            "(query.is_baby) ? (0.0) : (-0.15)",
+            "(query.is_baby) ? (0.0) : (-1.96)"
+          ]
+        },
+        "backLegR": {
+          "rotation": [
+            "(query.is_baby) ? (-53.644) : (-45)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (-0.15)",
+            "(query.is_baby) ? (0.0) : (-1.96)"
+          ]
+        },
+        "body": {
+          "rotation": [
+            "(query.is_baby) ? (-26.356) : (-45)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (-1.519) : (0)",
+            "(query.is_baby) ? (-0.401) : (0)"
+          ]
+        },
+        "frontLegL": {
+          "rotation": [
+            "(query.is_baby) ? (26.356) : (44.65)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0.02)",
+            "(query.is_baby) ? (0.0) : (-2.125)",
+            "(query.is_baby) ? (0.0) : (-1.35)"
+          ]
+        },
+        "frontLegR": {
+          "rotation": [
+            "(query.is_baby) ? (26.356) : (44.65)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (-2.1)",
+            "(query.is_baby) ? (0.0) : (-1.35)"
+          ]
+        },
+        "tail1": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : (77.5)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (-2.6)",
+            "(query.is_baby) ? (0.0) : (-2.75)"
+          ]
+        },
+        "tail2": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : (45)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ]
+        },
+        "head": {
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (-3.39)",
+            "(query.is_baby) ? (0.0) : (-1.92)"
+          ],
+          "scale": 1,
+          "rotation": [
+            "(query.is_baby) ? (26.356) : (0.0)",
+            "(query.is_baby) ? (0.0) : (0.0)",
+            "(query.is_baby) ? (0.0) : (0.0)"
+          ]
+        },
+        "belly": {
+          "rotation": [
+            "(query.is_baby) ? (0.0) : (17.5)",
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (0)"
+          ],
+          "position": [
+            "(query.is_baby) ? (0.0) : (0)",
+            "(query.is_baby) ? (0.0) : (-2.16)",
+            "(query.is_baby) ? (0.0) : (-2.2)"
+          ]
+        }
+      }
+    }
+  }
+}

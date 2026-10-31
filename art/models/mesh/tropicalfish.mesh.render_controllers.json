@@ -1,0 +1,45 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.tropicalfish.mesh": {
+      "arrays": {
+        "geometries": {
+          "Array.models": [
+            "Geometry.typeA",
+            "Geometry.typeB"
+          ]
+        },
+        "textures": {
+          "Array.types": [
+            "Texture.typeA",
+            "Texture.typeB"
+          ],
+          "Array.patterns": [
+            "Texture.aPattern1",
+            "Texture.aPattern2",
+            "Texture.aPattern3",
+            "Texture.aPattern4",
+            "Texture.aPattern5",
+            "Texture.aPattern6",
+            "Texture.bPattern1",
+            "Texture.bPattern2",
+            "Texture.bPattern3",
+            "Texture.bPattern4",
+            "Texture.bPattern5",
+            "Texture.bPattern6"
+          ]
+        }
+      },
+      "geometry": "(variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 0) ? Geometry.mesh : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 1) ? Geometry.mesh_tropicalfish_a2 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 2) ? Geometry.mesh_tropicalfish_a3 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 3) ? Geometry.mesh_tropicalfish_a4 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 4) ? Geometry.mesh_tropicalfish_a5 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 5) ? Geometry.mesh_tropicalfish_a6 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 0) ? Geometry.mesh_tropicalfish_b1 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 1) ? Geometry.mesh_tropicalfish_b2 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 2) ? Geometry.mesh_tropicalfish_b3 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 3) ? Geometry.mesh_tropicalfish_b4 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 4) ? Geometry.mesh_tropicalfish_b5 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 5) ? Geometry.mesh_tropicalfish_b6 : (Array.models[variable.TropicalFish.Base]))))))))))))",
+      "materials": [
+        {
+          "*": "(variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 0) ? Material.mesh : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 1) ? Material.mesh_tropicalfish_a2 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 2) ? Material.mesh_tropicalfish_a3 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 3) ? Material.mesh_tropicalfish_a4 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 4) ? Material.mesh_tropicalfish_a5 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 5) ? Material.mesh_tropicalfish_a6 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 0) ? Material.mesh_tropicalfish_b1 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 1) ? Material.mesh_tropicalfish_b2 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 2) ? Material.mesh_tropicalfish_b3 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 3) ? Material.mesh_tropicalfish_b4 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 4) ? Material.mesh_tropicalfish_b5 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 5) ? Material.mesh_tropicalfish_b6 : (Material.default))))))))))))"
+        }
+      ],
+      "textures": [
+        "(variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 0) ? Texture.mesh : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 1) ? Texture.mesh_tropicalfish_a2 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 2) ? Texture.mesh_tropicalfish_a3 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 3) ? Texture.mesh_tropicalfish_a4 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 4) ? Texture.mesh_tropicalfish_a5 : ((variable.TropicalFish.Base == 0 && math.mod(variable.TropicalFish.Pattern, 6) == 5) ? Texture.mesh_tropicalfish_a6 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 0) ? Texture.mesh_tropicalfish_b1 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 1) ? Texture.mesh_tropicalfish_b2 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 2) ? Texture.mesh_tropicalfish_b3 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 3) ? Texture.mesh_tropicalfish_b4 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 4) ? Texture.mesh_tropicalfish_b5 : ((variable.TropicalFish.Base == 1 && math.mod(variable.TropicalFish.Pattern, 6) == 5) ? Texture.mesh_tropicalfish_b6 : (Array.types[variable.TropicalFish.Base]))))))))))))",
+        "Array.patterns[variable.TropicalFish.Pattern]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:villager_v2",
+      "materials": {
+        "default": "villager_v2",
+        "masked": "villager_v2_masked"
+      },
+      "textures": {
+        "base": "textures/entity/villager2/villager",
+        "base2": "textures/entity/villager2/villager",
+        "base3": "textures/entity/villager2/villager",
+        "base4": "textures/entity/villager2/villager",
+        "base5": "textures/entity/villager2/villager",
+        "base6": "textures/entity/villager2/villager",
+        "desert": "textures/entity/villager2/biomes/biome_desert",
+        "jungle": "textures/entity/villager2/biomes/biome_jungle",
+        "plains": "textures/entity/villager2/biomes/biome_plains",
+        "savanna": "textures/entity/villager2/biomes/biome_savanna",
+        "snow": "textures/entity/villager2/biomes/biome_snow",
+        "swamp": "textures/entity/villager2/biomes/biome_swamp",
+        "taiga": "textures/entity/villager2/biomes/biome_taiga",
+        "armorer": "textures/entity/villager2/professions/armorer",
+        "butcher": "textures/entity/villager2/professions/butcher",
+        "cartographer": "textures/entity/villager2/professions/cartographer",
+        "cleric": "textures/entity/villager2/professions/cleric",
+        "farmer": "textures/entity/villager2/professions/farmer",
+        "fisherman": "textures/entity/villager2/professions/fisherman",
+        "fletcher": "textures/entity/villager2/professions/fletcher",
+        "leatherworker": "textures/entity/villager2/professions/leatherworker",
+        "librarian": "textures/entity/villager2/professions/librarian",
+        "shepherd": "textures/entity/villager2/professions/shepherd",
+        "tool_smith": "textures/entity/villager2/professions/toolsmith",
+        "weapon_smith": "textures/entity/villager2/professions/weaponsmith",
+        "stonemason": "textures/entity/villager2/professions/stonemason",
+        "nitwit": "textures/entity/villager2/professions/nitwit",
+        "unskilled": "textures/entity/villager2/professions/unskilled",
+        "level_stone": "textures/entity/villager2/levels/level_stone",
+        "level_iron": "textures/entity/villager2/levels/level_iron",
+        "level_gold": "textures/entity/villager2/levels/level_gold",
+        "level_emerald": "textures/entity/villager2/levels/level_emerald",
+        "level_diamond": "textures/entity/villager2/levels/level_diamond",
+        "baby_base": "textures/entity/villager2/villager_baby",
+        "baby_base2": "textures/entity/villager2/villager_baby",
+        "baby_base3": "textures/entity/villager2/villager_baby",
+        "baby_base4": "textures/entity/villager2/villager_baby",
+        "baby_base5": "textures/entity/villager2/villager_baby",
+        "baby_base6": "textures/entity/villager2/villager_baby",
+        "baby_desert": "textures/entity/villager2/biomes/biome_desert_baby",
+        "baby_jungle": "textures/entity/villager2/biomes/biome_jungle_baby",
+        "baby_plains": "textures/entity/villager2/biomes/biome_plains_baby",
+        "baby_savanna": "textures/entity/villager2/biomes/biome_savanna_baby",
+        "baby_snow": "textures/entity/villager2/biomes/biome_snow_baby",
+        "baby_swamp": "textures/entity/villager2/biomes/biome_swamp_baby",
+        "baby_taiga": "textures/entity/villager2/biomes/biome_taiga_baby",
+        "mesh_villager_baby": "textures/entity/villager2/villager_mesh",
+        "mesh_villager_nitwit": "textures/entity/villager2/professions/villager_nitwit_mesh",
+        "mesh_villager_mason": "textures/entity/villager2/professions/villager_mason_mesh",
+        "mesh_villager_leatherworker": "textures/entity/villager2/professions/villager_leatherworker_mesh",
+        "mesh_villager_butcher": "textures/entity/villager2/professions/villager_butcher_mesh",
+        "mesh_villager_toolsmith": "textures/entity/villager2/professions/villager_toolsmith_mesh",
+        "mesh_villager_weaponsmith": "textures/entity/villager2/professions/villager_weaponsmith_mesh",
+        "mesh_villager_armorer": "textures/entity/villager2/professions/villager_armorer_mesh",
+        "mesh_villager_cleric": "textures/entity/villager2/professions/villager_cleric_mesh",
+        "mesh_villager_cartographer": "textures/entity/villager2/professions/villager_cartographer_mesh",
+        "mesh_villager_librarian": "textures/entity/villager2/professions/villager_librarian_mesh",
+        "mesh_villager_fletcher": "textures/entity/villager2/professions/villager_fletcher_mesh",
+        "mesh_villager_shepherd": "textures/entity/villager2/professions/villager_shepherd_mesh",
+        "mesh_villager_fisherman": "textures/entity/villager2/professions/villager_fisherman_mesh",
+        "mesh_villager_farmer": "textures/entity/villager2/professions/villager_farmer_mesh",
+        "mesh": "textures/entity/villager2/villager_mesh"
+      },
+      "geometry": {
+        "default": "geometry.villager_v2",
+        "baby": "geometry.villager.baby",
+        "mesh_villager_baby": "geometry.villager_baby.mesh",
+        "mesh_villager_nitwit": "geometry.villager_nitwit.mesh",
+        "mesh_villager_mason": "geometry.villager_mason.mesh",
+        "mesh_villager_leatherworker": "geometry.villager_leatherworker.mesh",
+        "mesh_villager_butcher": "geometry.villager_butcher.mesh",
+        "mesh_villager_toolsmith": "geometry.villager_toolsmith.mesh",
+        "mesh_villager_weaponsmith": "geometry.villager_weaponsmith.mesh",
+        "mesh_villager_armorer": "geometry.villager_armorer.mesh",
+        "mesh_villager_cleric": "geometry.villager_cleric.mesh",
+        "mesh_villager_cartographer": "geometry.villager_cartographer.mesh",
+        "mesh_villager_librarian": "geometry.villager_librarian.mesh",
+        "mesh_villager_fletcher": "geometry.villager_fletcher.mesh",
+        "mesh_villager_shepherd": "geometry.villager_shepherd.mesh",
+        "mesh_villager_fisherman": "geometry.villager_fisherman.mesh",
+        "mesh_villager_farmer": "geometry.villager_farmer.mesh",
+        "mesh": "geometry.villager.mesh"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? 2.0 : 0.9375",
+        "pre_animation": [
+          "variable.num_professions = 15;",
+          "variable.num_tiers = 3;",
+          "variable.profession_index = (query.variant < variable.num_professions ? query.variant : 0);",
+          "variable.level_index = query.trade_tier;"
+        ],
+        "animate": [
+          "general_controller",
+          "move_controller",
+          "raise_arms_controller"
+        ]
+      },
+      "animations": {
+        "general": "animation.villager.general",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.villager.move",
+        "raise_arms": "animation.villager.raise_arms",
+        "baby_transform": "animation.villager.mesh.baby_transform",
+        "get_in_bed": "animation.villager.get_in_bed",
+        "get_in_bed_baby": "animation.villager.get_in_bed_baby",
+        "general_controller": "controller.animation.villager_v2.general",
+        "move_controller": "controller.animation.villager_v2.move",
+        "raise_arms_controller": "controller.animation.villager_v2.raise_arms"
+      },
+      "render_controllers": [
+        "controller.render.villager_v3_base.mesh",
+        {
+          "controller.render.villager_v3_masked": "!((!query.is_baby && variable.profession_index == 0) || (!query.is_baby && variable.profession_index == 1) || (!query.is_baby && variable.profession_index == 2) || (!query.is_baby && variable.profession_index == 3) || (!query.is_baby && variable.profession_index == 4) || (!query.is_baby && variable.profession_index == 5) || (!query.is_baby && variable.profession_index == 6) || (!query.is_baby && variable.profession_index == 7) || (!query.is_baby && variable.profession_index == 8) || (!query.is_baby && variable.profession_index == 9) || (!query.is_baby && variable.profession_index == 10) || (!query.is_baby && variable.profession_index == 11) || (!query.is_baby && variable.profession_index == 12) || (!query.is_baby && variable.profession_index == 13) || (!query.is_baby && variable.profession_index == 14) || (query.is_baby && variable.profession_index == 0))"
+        },
+        {
+          "controller.render.villager_v3_level": "!((!query.is_baby && variable.profession_index == 0) || (!query.is_baby && variable.profession_index == 1) || (!query.is_baby && variable.profession_index == 2) || (!query.is_baby && variable.profession_index == 3) || (!query.is_baby && variable.profession_index == 4) || (!query.is_baby && variable.profession_index == 5) || (!query.is_baby && variable.profession_index == 6) || (!query.is_baby && variable.profession_index == 7) || (!query.is_baby && variable.profession_index == 8) || (!query.is_baby && variable.profession_index == 9) || (!query.is_baby && variable.profession_index == 10) || (!query.is_baby && variable.profession_index == 11) || (!query.is_baby && variable.profession_index == 12) || (!query.is_baby && variable.profession_index == 13) || (!query.is_baby && variable.profession_index == 14) || (query.is_baby && variable.profession_index == 0))"
+        }
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_villager"
+      }
+    }
+  }
+}

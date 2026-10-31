@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.evoker.mesh": {
+      "geometry": "Geometry.mesh",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "part_visibility": [
+        {
+          "*": true
+        },
+        {
+          "arms": "!(query.is_casting || query.is_celebrating)"
+        },
+        {
+          "leftarm": "1.0"
+        },
+        {
+          "rightarm": "1.0"
+        }
+      ],
+      "textures": [
+        "Texture.mesh"
+      ]
+    }
+  }
+}

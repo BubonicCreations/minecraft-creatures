@@ -1,0 +1,36 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.rabbit.v2.mesh": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.brown",
+            "Texture.white",
+            "Texture.black",
+            "Texture.white_splotched",
+            "Texture.gold",
+            "Texture.salt"
+          ],
+          "Array.baby_skins": [
+            "Texture.baby_brown",
+            "Texture.baby_white",
+            "Texture.baby_black",
+            "Texture.baby_white_splotched",
+            "Texture.baby_gold",
+            "Texture.baby_salt"
+          ]
+        }
+      },
+      "geometry": "(!query.is_baby && query.variant == 0) ? Geometry.mesh : ((!query.is_baby && query.variant == 1) ? Geometry.mesh_rabbit_white : ((!query.is_baby && query.variant == 2) ? Geometry.mesh_rabbit_black : ((!query.is_baby && query.variant == 3) ? Geometry.mesh_rabbit_white_splotched : ((!query.is_baby && query.variant == 4) ? Geometry.mesh_rabbit_gold : ((!query.is_baby && query.variant == 5) ? Geometry.mesh_rabbit_salt : ((query.is_baby && query.variant == 0) ? Geometry.mesh_rabbit_baby : ((query.is_baby && query.variant == 1) ? Geometry.mesh_rabbit_white_baby : ((query.is_baby && query.variant == 2) ? Geometry.mesh_rabbit_black_baby : ((query.is_baby && query.variant == 3) ? Geometry.mesh_rabbit_white_splotched_baby : ((query.is_baby && query.variant == 4) ? Geometry.mesh_rabbit_gold_baby : ((query.is_baby && query.variant == 5) ? Geometry.mesh_rabbit_salt_baby : (query.is_baby ? Geometry.baby : Geometry.default))))))))))))",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "(!query.is_baby && query.variant == 0) ? Texture.mesh : ((!query.is_baby && query.variant == 1) ? Texture.mesh_rabbit_white : ((!query.is_baby && query.variant == 2) ? Texture.mesh_rabbit_black : ((!query.is_baby && query.variant == 3) ? Texture.mesh_rabbit_white_splotched : ((!query.is_baby && query.variant == 4) ? Texture.mesh_rabbit_gold : ((!query.is_baby && query.variant == 5) ? Texture.mesh_rabbit_salt : ((query.is_baby && query.variant == 0) ? Texture.mesh_rabbit_baby : ((query.is_baby && query.variant == 1) ? Texture.mesh_rabbit_white_baby : ((query.is_baby && query.variant == 2) ? Texture.mesh_rabbit_black_baby : ((query.is_baby && query.variant == 3) ? Texture.mesh_rabbit_white_splotched_baby : ((query.is_baby && query.variant == 4) ? Texture.mesh_rabbit_gold_baby : ((query.is_baby && query.variant == 5) ? Texture.mesh_rabbit_salt_baby : (query.get_name == 'Toast' ? query.is_baby ? Texture.baby_toast: Texture.toast : query.is_baby ? Array.baby_skins[query.variant] : Array.skins[query.variant]))))))))))))"
+      ]
+    }
+  }
+}

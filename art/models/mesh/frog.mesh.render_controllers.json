@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.frog.mesh": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.temperate",
+            "Texture.cold",
+            "Texture.warm"
+          ]
+        }
+      },
+      "geometry": "(query.variant == 0) ? Geometry.mesh : ((query.variant == 1) ? Geometry.mesh_frog_cold : ((query.variant == 2) ? Geometry.mesh_frog_warm : (Geometry.default)))",
+      "part_visibility": [
+        {
+          "croaking_body": "!query.is_eating_mob"
+        }
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "(query.variant == 0) ? Texture.mesh : ((query.variant == 1) ? Texture.mesh_frog_cold : ((query.variant == 2) ? Texture.mesh_frog_warm : (Array.skins[query.variant])))"
+      ]
+    }
+  }
+}

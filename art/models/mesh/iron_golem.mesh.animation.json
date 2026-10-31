@@ -1,0 +1,38 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.iron_golem.mesh.walk": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            "(math.clamp(0.0, -30, 30))",
+            0.0,
+            "variable.modified_tcos0 / 1.5"
+          ]
+        },
+        "head": {
+          "rotation": [
+            "(math.clamp(0.0, -30, 30))",
+            0.0,
+            "variable.modified_tcos0 / 1.5"
+          ]
+        },
+        "leg0": {
+          "rotation": [
+            "(math.clamp(variable.modified_tcos0 * 6.0, -30, 30))",
+            0.0,
+            0.0
+          ]
+        },
+        "leg1": {
+          "rotation": [
+            "(math.clamp(-variable.modified_tcos0 * 6.0, -30, 30))",
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

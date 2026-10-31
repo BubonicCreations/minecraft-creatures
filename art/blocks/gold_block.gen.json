@@ -1,0 +1,10 @@
+{
+ "texture": "gold_block",
+ "model": "flux2",
+ "seed": 551,
+ "size": 1024,
+ "prompt": "Macro photograph of a flat sheet of matte satin-finished solid gold, cropped so the metal fills the entire image edge to edge: no edges, corners, rims or background visible. Rich warm yellow gold with a fine even satin grain and a few faint thin scratches, uniform brightness everywhere, no reflections, no highlights. Taken perfectly straight-on under flat even overcast light, sharp focus everywhere, photorealistic high-resolution material photograph.",
+ "negative": null,
+ "seconds": 25.5,
+ "picked": "flux2_s551"
+}

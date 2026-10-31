@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.copper_golem.mesh": {
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.default",
+            "Texture.exposed",
+            "Texture.weathered",
+            "Texture.oxidized"
+          ]
+        }
+      },
+      "geometry": "(v.index == 0) ? Geometry.mesh : ((v.index == 1) ? Geometry.mesh_copper_golem_exposed : ((v.index == 2) ? Geometry.mesh_copper_golem_weathered : ((v.index == 3) ? Geometry.mesh_copper_golem_oxidized : (Geometry.default))))",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "(v.index == 0) ? Texture.mesh : ((v.index == 1) ? Texture.mesh_copper_golem_exposed : ((v.index == 2) ? Texture.mesh_copper_golem_weathered : ((v.index == 3) ? Texture.mesh_copper_golem_oxidized : (Array.textures[v.index]))))"
+      ]
+    }
+  }
+}

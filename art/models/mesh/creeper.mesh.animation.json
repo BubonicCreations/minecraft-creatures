@@ -1,0 +1,53 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.creeper.mesh.creeper_head": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "relative_to": {
+            "rotation": "entity"
+          },
+          "rotation": [
+            "(math.clamp(query.target_x_rotation - this, -25, 25))",
+            "(math.clamp(query.target_y_rotation - this, -35, 35))",
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.creeper.mesh.creeper_legs": {
+      "loop": true,
+      "bones": {
+        "leg0": {
+          "rotation": [
+            "(math.clamp(variable.leg_rot - this, -30, 30))",
+            0.0,
+            0.0
+          ]
+        },
+        "leg1": {
+          "rotation": [
+            "(math.clamp(-variable.leg_rot - this, -30, 30))",
+            0.0,
+            0.0
+          ]
+        },
+        "leg2": {
+          "rotation": [
+            "(math.clamp(-variable.leg_rot - this, -30, 30))",
+            0.0,
+            0.0
+          ]
+        },
+        "leg3": {
+          "rotation": [
+            "(math.clamp(variable.leg_rot - this, -30, 30))",
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

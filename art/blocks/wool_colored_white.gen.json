@@ -1,0 +1,10 @@
+{
+ "texture": "wool_colored_white",
+ "model": "qwen",
+ "seed": 502,
+ "size": 1024,
+ "prompt": "Texture of thick white sheep's wool felt: dense soft white woollen fibres in small curly tufts, evenly spread over the whole image, matte. Orthographic photograph taken perfectly straight-on, flat even overcast lighting with uniform brightness at the left edge, centre and right edge, sharp focus everywhere, photorealistic high-resolution texture scan.",
+ "negative": "perspective, depth of field, vignette, raking light, deep shadows, cracks, repeating pattern, grid of tiles, frame, border, text, letters, watermark, signature, blurry",
+ "seconds": 4.5,
+ "picked": "qwen_s502"
+}

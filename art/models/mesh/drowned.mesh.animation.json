@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.drowned.mesh.humanoid_big_head": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "scale": [
+            "(query.is_baby) ? (1.0) : (1.4)",
+            "(query.is_baby) ? (1.0) : (1.4)",
+            "(query.is_baby) ? (1.0) : (1.4)"
+          ]
+        }
+      }
+    }
+  }
+}

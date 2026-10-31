@@ -1,0 +1,37 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cow.v3.mesh": {
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.default",
+            "Texture.warm",
+            "Texture.cold"
+          ],
+          "Array.baby_textures": [
+            "Texture.baby_default",
+            "Texture.baby_warm",
+            "Texture.baby_cold"
+          ]
+        },
+        "geometries": {
+          "Array.geos": [
+            "Geometry.default",
+            "Geometry.warm",
+            "Geometry.cold"
+          ]
+        }
+      },
+      "geometry": "(!query.is_baby && v.index == 1) ? Geometry.mesh : ((!query.is_baby && v.index == 2) ? Geometry.mesh_cow_cold : ((query.is_baby && v.index == 1) ? Geometry.mesh_cow_warm_baby : ((query.is_baby && v.index == 2) ? Geometry.mesh_cow_cold_baby : ((query.is_baby && v.index == 0) ? Geometry.mesh_cow_baby : (query.is_baby ? Geometry.baby : Array.geos[v.index])))))",
+      "materials": [
+        {
+          "*": "(!query.is_baby && v.index == 2) ? Material.mesh_cow_cold : ((query.is_baby && v.index == 2) ? Material.mesh_cow_cold_baby : (v.is_cold ? Material.cold : Material.default))"
+        }
+      ],
+      "textures": [
+        "(!query.is_baby && v.index == 1) ? Texture.mesh : ((!query.is_baby && v.index == 2) ? Texture.mesh_cow_cold : ((query.is_baby && v.index == 1) ? Texture.mesh_cow_warm_baby : ((query.is_baby && v.index == 2) ? Texture.mesh_cow_cold_baby : ((query.is_baby && v.index == 0) ? Texture.mesh_cow_baby : (query.is_baby ? Array.baby_textures[v.index] : Array.textures[v.index])))))"
+      ]
+    }
+  }
+}

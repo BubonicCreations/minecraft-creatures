@@ -1,0 +1,39 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.shulker.mesh": {
+      "arrays": {
+        "textures": {
+          "Array.variants": [
+            "Texture.black",
+            "Texture.red",
+            "Texture.green",
+            "Texture.brown",
+            "Texture.blue",
+            "Texture.purple",
+            "Texture.cyan",
+            "Texture.silver",
+            "Texture.gray",
+            "Texture.pink",
+            "Texture.lime",
+            "Texture.yellow",
+            "Texture.light_blue",
+            "Texture.magenta",
+            "Texture.orange",
+            "Texture.white",
+            "Texture.undyed"
+          ]
+        }
+      },
+      "geometry": "(query.variant == 16) ? Geometry.mesh : ((query.variant == 0) ? Geometry.mesh_shulker_black : ((query.variant == 1) ? Geometry.mesh_shulker_red : ((query.variant == 2) ? Geometry.mesh_shulker_green : ((query.variant == 3) ? Geometry.mesh_shulker_brown : ((query.variant == 4) ? Geometry.mesh_shulker_blue : ((query.variant == 5) ? Geometry.mesh_shulker_purple : ((query.variant == 6) ? Geometry.mesh_shulker_cyan : ((query.variant == 7) ? Geometry.mesh_shulker_silver : ((query.variant == 8) ? Geometry.mesh_shulker_gray : ((query.variant == 9) ? Geometry.mesh_shulker_pink : ((query.variant == 10) ? Geometry.mesh_shulker_lime : ((query.variant == 11) ? Geometry.mesh_shulker_yellow : ((query.variant == 12) ? Geometry.mesh_shulker_light_blue : ((query.variant == 13) ? Geometry.mesh_shulker_magenta : ((query.variant == 14) ? Geometry.mesh_shulker_orange : ((query.variant == 15) ? Geometry.mesh_shulker_white : (Geometry.default)))))))))))))))))",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "(query.variant == 16) ? Texture.mesh : ((query.variant == 0) ? Texture.mesh_shulker_black : ((query.variant == 1) ? Texture.mesh_shulker_red : ((query.variant == 2) ? Texture.mesh_shulker_green : ((query.variant == 3) ? Texture.mesh_shulker_brown : ((query.variant == 4) ? Texture.mesh_shulker_blue : ((query.variant == 5) ? Texture.mesh_shulker_purple : ((query.variant == 6) ? Texture.mesh_shulker_cyan : ((query.variant == 7) ? Texture.mesh_shulker_silver : ((query.variant == 8) ? Texture.mesh_shulker_gray : ((query.variant == 9) ? Texture.mesh_shulker_pink : ((query.variant == 10) ? Texture.mesh_shulker_lime : ((query.variant == 11) ? Texture.mesh_shulker_yellow : ((query.variant == 12) ? Texture.mesh_shulker_light_blue : ((query.variant == 13) ? Texture.mesh_shulker_magenta : ((query.variant == 14) ? Texture.mesh_shulker_orange : ((query.variant == 15) ? Texture.mesh_shulker_white : (Array.variants[query.variant])))))))))))))))))"
+      ]
+    }
+  }
+}

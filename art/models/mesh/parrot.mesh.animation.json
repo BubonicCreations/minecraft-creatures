@@ -1,0 +1,96 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.parrot.mesh.base": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [
+            "-this",
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (-this)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (0.0)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (0.0)"
+          ]
+        },
+        "feather": {
+          "rotation": [
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (-this)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (0.0)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (0.0)"
+          ]
+        },
+        "head": {
+          "position": [
+            "-this",
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (0.0)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (0.0)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (-this)"
+          ]
+        },
+        "leg0": {
+          "position": [
+            0.0,
+            "-6.0-this",
+            -0.5
+          ],
+          "rotation": [
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (-16.713-this)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (0.0)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (-this)"
+          ]
+        },
+        "leg1": {
+          "position": [
+            0.0,
+            "-6.0-this",
+            -0.5
+          ],
+          "rotation": [
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (-16.713-this)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (0.0)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (-this)"
+          ]
+        },
+        "tail": {
+          "position": [
+            "-this",
+            0.0,
+            0.0
+          ]
+        },
+        "wing0": {
+          "position": [
+            "1.5-this",
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (-40.0-this)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (-180.0-this)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (0.0)"
+          ]
+        },
+        "wing1": {
+          "position": [
+            "-1.5-this",
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (-40.0-this)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (-180.0-this)",
+            "((query.variant == 0) || (query.variant == 1) || (query.variant == 2) || (query.variant == 3) || (query.variant == 4)) ? (0.0) : (0.0)"
+          ]
+        }
+      }
+    }
+  }
+}

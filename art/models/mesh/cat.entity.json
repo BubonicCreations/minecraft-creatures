@@ -1,0 +1,133 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:cat",
+      "materials": {
+        "default": "cat"
+      },
+      "textures": {
+        "white": "textures/entity/cat/white",
+        "black": "textures/entity/cat/tuxedo",
+        "red": "textures/entity/cat/redtabby",
+        "siamese": "textures/entity/cat/siamesecat",
+        "british": "textures/entity/cat/britishshorthair",
+        "calico": "textures/entity/cat/calico",
+        "persian": "textures/entity/cat/persian",
+        "ragdoll": "textures/entity/cat/ragdoll",
+        "tabby": "textures/entity/cat/tabby",
+        "jellie": "textures/entity/cat/jellie",
+        "all_black": "textures/entity/cat/allblackcat",
+        "white_tame": "textures/entity/cat/white_tame",
+        "black_tame": "textures/entity/cat/tuxedo_tame",
+        "red_tame": "textures/entity/cat/redtabby_tame",
+        "siamese_tame": "textures/entity/cat/siamesecat_tame",
+        "british_tame": "textures/entity/cat/britishshorthair_tame",
+        "calico_tame": "textures/entity/cat/calico_tame",
+        "persian_tame": "textures/entity/cat/persian_tame",
+        "ragdoll_tame": "textures/entity/cat/ragdoll_tame",
+        "tabby_tame": "textures/entity/cat/tabby_tame",
+        "all_black_tame": "textures/entity/cat/allblackcat_tame",
+        "jellie_tame": "textures/entity/cat/jellie_tame",
+        "baby_white": "textures/entity/cat/white_baby",
+        "baby_black": "textures/entity/cat/tuxedo_baby",
+        "baby_red": "textures/entity/cat/redtabby_baby",
+        "baby_siamese": "textures/entity/cat/siamese_baby",
+        "baby_british": "textures/entity/cat/britishshorthair_baby",
+        "baby_calico": "textures/entity/cat/calico_baby",
+        "baby_persian": "textures/entity/cat/persian_baby",
+        "baby_ragdoll": "textures/entity/cat/ragdoll_baby",
+        "baby_tabby": "textures/entity/cat/tabby_baby",
+        "baby_jellie": "textures/entity/cat/jellie_baby",
+        "baby_all_black": "textures/entity/cat/allblackcat_baby",
+        "baby_white_tame": "textures/entity/cat/white_tame_baby",
+        "baby_black_tame": "textures/entity/cat/tuxedo_tame_baby",
+        "baby_red_tame": "textures/entity/cat/redtabby_tame_baby",
+        "baby_siamese_tame": "textures/entity/cat/siamese_tame_baby",
+        "baby_british_tame": "textures/entity/cat/britishshorthair_tame_baby",
+        "baby_calico_tame": "textures/entity/cat/calico_tame_baby",
+        "baby_persian_tame": "textures/entity/cat/persian_tame_baby",
+        "baby_ragdoll_tame": "textures/entity/cat/ragdoll_tame_baby",
+        "baby_tabby_tame": "textures/entity/cat/tabby_tame_baby",
+        "baby_all_black_tame": "textures/entity/cat/allblackcat_tame_baby",
+        "baby_jellie_tame": "textures/entity/cat/jellie_tame_baby",
+        "mesh_cat_jellie_baby": "textures/entity/cat/cat_jellie_mesh",
+        "mesh_cat_all_black_baby": "textures/entity/cat/cat_all_black_mesh",
+        "mesh_cat_ragdoll_baby": "textures/entity/cat/cat_ragdoll_mesh",
+        "mesh_cat_persian_baby": "textures/entity/cat/cat_persian_mesh",
+        "mesh_cat_calico_baby": "textures/entity/cat/cat_calico_mesh",
+        "mesh_cat_british_baby": "textures/entity/cat/cat_british_mesh",
+        "mesh_cat_siamese_baby": "textures/entity/cat/cat_siamese_mesh",
+        "mesh_cat_red_baby": "textures/entity/cat/cat_red_mesh",
+        "mesh_cat_black_baby": "textures/entity/cat/cat_black_mesh",
+        "mesh_cat_white_baby": "textures/entity/cat/cat_white_mesh",
+        "mesh_cat_baby": "textures/entity/cat/cat_mesh",
+        "mesh_cat_jellie": "textures/entity/cat/cat_jellie_mesh",
+        "mesh_cat_all_black": "textures/entity/cat/cat_all_black_mesh",
+        "mesh_cat_ragdoll": "textures/entity/cat/cat_ragdoll_mesh",
+        "mesh_cat_persian": "textures/entity/cat/cat_persian_mesh",
+        "mesh_cat_calico": "textures/entity/cat/cat_calico_mesh",
+        "mesh_cat_british": "textures/entity/cat/cat_british_mesh",
+        "mesh_cat_siamese": "textures/entity/cat/cat_siamese_mesh",
+        "mesh_cat_red": "textures/entity/cat/cat_red_mesh",
+        "mesh_cat_black": "textures/entity/cat/cat_black_mesh",
+        "mesh_cat_white": "textures/entity/cat/cat_white_mesh",
+        "mesh": "textures/entity/cat/cat_mesh"
+      },
+      "geometry": {
+        "default": "geometry.cat",
+        "baby": "geometry.cat.baby",
+        "mesh_cat_jellie_baby": "geometry.cat_jellie_baby.mesh",
+        "mesh_cat_all_black_baby": "geometry.cat_all_black_baby.mesh",
+        "mesh_cat_ragdoll_baby": "geometry.cat_ragdoll_baby.mesh",
+        "mesh_cat_persian_baby": "geometry.cat_persian_baby.mesh",
+        "mesh_cat_calico_baby": "geometry.cat_calico_baby.mesh",
+        "mesh_cat_british_baby": "geometry.cat_british_baby.mesh",
+        "mesh_cat_siamese_baby": "geometry.cat_siamese_baby.mesh",
+        "mesh_cat_red_baby": "geometry.cat_red_baby.mesh",
+        "mesh_cat_black_baby": "geometry.cat_black_baby.mesh",
+        "mesh_cat_white_baby": "geometry.cat_white_baby.mesh",
+        "mesh_cat_baby": "geometry.cat_baby.mesh",
+        "mesh_cat_jellie": "geometry.cat_jellie.mesh",
+        "mesh_cat_all_black": "geometry.cat_all_black.mesh",
+        "mesh_cat_ragdoll": "geometry.cat_ragdoll.mesh",
+        "mesh_cat_persian": "geometry.cat_persian.mesh",
+        "mesh_cat_calico": "geometry.cat_calico.mesh",
+        "mesh_cat_british": "geometry.cat_british.mesh",
+        "mesh_cat_siamese": "geometry.cat_siamese.mesh",
+        "mesh_cat_red": "geometry.cat_red.mesh",
+        "mesh_cat_black": "geometry.cat_black.mesh",
+        "mesh_cat_white": "geometry.cat_white.mesh",
+        "mesh": "geometry.cat.mesh"
+      },
+      "animations": {
+        "sneak": "animation.cat.sneak",
+        "walk": "animation.cat.mesh.walk",
+        "sprint": "animation.cat.mesh.sprint",
+        "sit": "animation.cat.mesh.sit",
+        "look_at_target": "animation.cat.mesh.look_at_target",
+        "baby_transform": "animation.cat.mesh.baby_transform",
+        "lie_down": "animation.cat.mesh.lie_down",
+        "baby_lie_down": "animation.cat.mesh.baby_lie_down",
+        "baby_sit": "animation.cat.mesh.baby_sit"
+      },
+      "animation_controllers": [
+        {
+          "look_at_target": "controller.animation.cat.look_at_target"
+        },
+        {
+          "move": "controller.animation.cat.move"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.cat.v2.mesh"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_cat"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? (1 / 0.4) : 1.0"
+      }
+    }
+  }
+}

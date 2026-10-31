@@ -1,0 +1,89 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.horse.v4.mesh": {
+      "part_visibility": [
+        {
+          "Saddle": "query.is_saddled"
+        },
+        {
+          "Bit*": "query.is_saddled"
+        },
+        {
+          "Bridle": "query.is_saddled"
+        },
+        {
+          "Reins*": "query.is_saddled && query.has_rider"
+        },
+        {
+          "Bag*": false
+        },
+        {
+          "MuleEar*": false
+        }
+      ],
+      "arrays": {
+        "textures": {
+          "Array.base": [
+            "Texture.base_white",
+            "Texture.base_creamy",
+            "Texture.base_chestnut",
+            "Texture.base_brown",
+            "Texture.base_black",
+            "Texture.base_gray",
+            "Texture.base_darkbrown"
+          ],
+          "Array.markings": [
+            "Texture.markings_none",
+            "Texture.markings_white",
+            "Texture.markings_whitefield",
+            "Texture.markings_whitedots",
+            "Texture.markings_blackdots"
+          ],
+          "Array.armor": [
+            "Texture.armor_none",
+            "Texture.armor_leather",
+            "Texture.armor_iron",
+            "Texture.armor_gold",
+            "Texture.armor_diamond",
+            "Texture.armor_copper",
+            "Texture.armor_netherite"
+          ],
+          "Array.baby_base": [
+            "Texture.baby_base_white",
+            "Texture.baby_base_creamy",
+            "Texture.baby_base_chestnut",
+            "Texture.baby_base_brown",
+            "Texture.baby_base_black",
+            "Texture.baby_base_gray",
+            "Texture.baby_base_darkbrown"
+          ],
+          "Array.baby_markings": [
+            "Texture.markings_none",
+            "Texture.baby_markings_white",
+            "Texture.baby_markings_whitefield",
+            "Texture.baby_markings_whitedots",
+            "Texture.baby_markings_blackdots"
+          ]
+        }
+      },
+      "geometry": "(!query.is_baby && query.variant == 2 && !variable.armor_texture_slot) ? Geometry.mesh : ((!query.is_baby && query.variant == 0 && !variable.armor_texture_slot) ? Geometry.mesh_horse_white : ((!query.is_baby && query.variant == 1 && !variable.armor_texture_slot) ? Geometry.mesh_horse_creamy : ((!query.is_baby && query.variant == 3 && !variable.armor_texture_slot) ? Geometry.mesh_horse_brown : ((!query.is_baby && query.variant == 4 && !variable.armor_texture_slot) ? Geometry.mesh_horse_black : ((!query.is_baby && query.variant == 5 && !variable.armor_texture_slot) ? Geometry.mesh_horse_gray : ((!query.is_baby && query.variant == 6 && !variable.armor_texture_slot) ? Geometry.mesh_horse_darkbrown : ((query.is_baby && query.variant == 2 && !variable.armor_texture_slot) ? Geometry.mesh_horse_baby : ((query.is_baby && query.variant == 0 && !variable.armor_texture_slot) ? Geometry.mesh_horse_white_baby : ((query.is_baby && query.variant == 1 && !variable.armor_texture_slot) ? Geometry.mesh_horse_creamy_baby : ((query.is_baby && query.variant == 3 && !variable.armor_texture_slot) ? Geometry.mesh_horse_brown_baby : ((query.is_baby && query.variant == 4 && !variable.armor_texture_slot) ? Geometry.mesh_horse_black_baby : ((query.is_baby && query.variant == 5 && !variable.armor_texture_slot) ? Geometry.mesh_horse_gray_baby : ((query.is_baby && query.variant == 6 && !variable.armor_texture_slot) ? Geometry.mesh_horse_darkbrown_baby : (query.is_baby ? Geometry.baby : Geometry.default))))))))))))))",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "(!query.is_baby && query.variant == 2 && !variable.armor_texture_slot) ? Texture.mesh : ((!query.is_baby && query.variant == 0 && !variable.armor_texture_slot) ? Texture.mesh_horse_white : ((!query.is_baby && query.variant == 1 && !variable.armor_texture_slot) ? Texture.mesh_horse_creamy : ((!query.is_baby && query.variant == 3 && !variable.armor_texture_slot) ? Texture.mesh_horse_brown : ((!query.is_baby && query.variant == 4 && !variable.armor_texture_slot) ? Texture.mesh_horse_black : ((!query.is_baby && query.variant == 5 && !variable.armor_texture_slot) ? Texture.mesh_horse_gray : ((!query.is_baby && query.variant == 6 && !variable.armor_texture_slot) ? Texture.mesh_horse_darkbrown : ((query.is_baby && query.variant == 2 && !variable.armor_texture_slot) ? Texture.mesh_horse_baby : ((query.is_baby && query.variant == 0 && !variable.armor_texture_slot) ? Texture.mesh_horse_white_baby : ((query.is_baby && query.variant == 1 && !variable.armor_texture_slot) ? Texture.mesh_horse_creamy_baby : ((query.is_baby && query.variant == 3 && !variable.armor_texture_slot) ? Texture.mesh_horse_brown_baby : ((query.is_baby && query.variant == 4 && !variable.armor_texture_slot) ? Texture.mesh_horse_black_baby : ((query.is_baby && query.variant == 5 && !variable.armor_texture_slot) ? Texture.mesh_horse_gray_baby : ((query.is_baby && query.variant == 6 && !variable.armor_texture_slot) ? Texture.mesh_horse_darkbrown_baby : (query.is_baby ? Array.baby_base[query.variant] : Array.base[query.variant]))))))))))))))",
+        "(!query.is_baby && query.variant == 2 && !variable.armor_texture_slot) ? Texture.markings_none : ((!query.is_baby && query.variant == 0 && !variable.armor_texture_slot) ? Texture.markings_none : ((!query.is_baby && query.variant == 1 && !variable.armor_texture_slot) ? Texture.markings_none : ((!query.is_baby && query.variant == 3 && !variable.armor_texture_slot) ? Texture.markings_none : ((!query.is_baby && query.variant == 4 && !variable.armor_texture_slot) ? Texture.markings_none : ((!query.is_baby && query.variant == 5 && !variable.armor_texture_slot) ? Texture.markings_none : ((!query.is_baby && query.variant == 6 && !variable.armor_texture_slot) ? Texture.markings_none : ((query.is_baby && query.variant == 2 && !variable.armor_texture_slot) ? Texture.markings_none : ((query.is_baby && query.variant == 0 && !variable.armor_texture_slot) ? Texture.markings_none : ((query.is_baby && query.variant == 1 && !variable.armor_texture_slot) ? Texture.markings_none : ((query.is_baby && query.variant == 3 && !variable.armor_texture_slot) ? Texture.markings_none : ((query.is_baby && query.variant == 4 && !variable.armor_texture_slot) ? Texture.markings_none : ((query.is_baby && query.variant == 5 && !variable.armor_texture_slot) ? Texture.markings_none : ((query.is_baby && query.variant == 6 && !variable.armor_texture_slot) ? Texture.markings_none : (query.is_baby ? Array.baby_markings[query.mark_variant] : Array.markings[query.mark_variant]))))))))))))))",
+        "query.is_baby ? Texture.armor_none : Array.armor[variable.armor_texture_slot]"
+      ],
+      "color": {
+        "r": "variable.armor_texture_slot ? query.armor_color_slot(4, 0) : this",
+        "g": "variable.armor_texture_slot ? query.armor_color_slot(4, 1) : this",
+        "b": "variable.armor_texture_slot ? query.armor_color_slot(4, 2) : this",
+        "a": "variable.armor_texture_slot ? query.armor_color_slot(4, 3) : this"
+      }
+    }
+  }
+}

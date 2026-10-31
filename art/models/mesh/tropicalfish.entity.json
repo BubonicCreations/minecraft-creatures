@@ -1,0 +1,88 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:tropicalfish",
+      "materials": {
+        "default": "tropicalfish",
+        "mesh_tropicalfish_b6": "cod",
+        "mesh_tropicalfish_b5": "cod",
+        "mesh_tropicalfish_b4": "cod",
+        "mesh_tropicalfish_b3": "cod",
+        "mesh_tropicalfish_b2": "cod",
+        "mesh_tropicalfish_b1": "cod",
+        "mesh_tropicalfish_a6": "cod",
+        "mesh_tropicalfish_a5": "cod",
+        "mesh_tropicalfish_a4": "cod",
+        "mesh_tropicalfish_a3": "cod",
+        "mesh_tropicalfish_a2": "cod",
+        "mesh": "cod"
+      },
+      "textures": {
+        "typeA": "textures/entity/fish/tropical_a",
+        "typeB": "textures/entity/fish/tropical_b",
+        "aPattern1": "textures/entity/fish/tropical_a_pattern_1",
+        "aPattern2": "textures/entity/fish/tropical_a_pattern_2",
+        "aPattern3": "textures/entity/fish/tropical_a_pattern_3",
+        "aPattern4": "textures/entity/fish/tropical_a_pattern_4",
+        "aPattern5": "textures/entity/fish/tropical_a_pattern_5",
+        "aPattern6": "textures/entity/fish/tropical_a_pattern_6",
+        "bPattern1": "textures/entity/fish/tropical_b_pattern_1",
+        "bPattern2": "textures/entity/fish/tropical_b_pattern_2",
+        "bPattern3": "textures/entity/fish/tropical_b_pattern_3",
+        "bPattern4": "textures/entity/fish/tropical_b_pattern_4",
+        "bPattern5": "textures/entity/fish/tropical_b_pattern_5",
+        "bPattern6": "textures/entity/fish/tropical_b_pattern_6",
+        "mesh_tropicalfish_b6": "textures/entity/fish/tropicalfish_b6_mesh",
+        "mesh_tropicalfish_b5": "textures/entity/fish/tropicalfish_b5_mesh",
+        "mesh_tropicalfish_b4": "textures/entity/fish/tropicalfish_b4_mesh",
+        "mesh_tropicalfish_b3": "textures/entity/fish/tropicalfish_b3_mesh",
+        "mesh_tropicalfish_b2": "textures/entity/fish/tropicalfish_b2_mesh",
+        "mesh_tropicalfish_b1": "textures/entity/fish/tropicalfish_b1_mesh",
+        "mesh_tropicalfish_a6": "textures/entity/fish/tropicalfish_a6_mesh",
+        "mesh_tropicalfish_a5": "textures/entity/fish/tropicalfish_a5_mesh",
+        "mesh_tropicalfish_a4": "textures/entity/fish/tropicalfish_a4_mesh",
+        "mesh_tropicalfish_a3": "textures/entity/fish/tropicalfish_a3_mesh",
+        "mesh_tropicalfish_a2": "textures/entity/fish/tropicalfish_a2_mesh",
+        "mesh": "textures/entity/fish/tropicalfish_mesh"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.ZRot = !query.is_in_water ? Math.cos((query.time_stamp + query.frame_alpha) * 0.25) * 90 : 0.0;",
+          "variable.AnimationAmountBlend = Math.lerp(variable.AnimationAmountPrev, variable.AnimationAmount, query.frame_alpha);"
+        ]
+      },
+      "geometry": {
+        "typeA": "geometry.tropicalfish_a",
+        "typeB": "geometry.tropicalfish_b",
+        "mesh_tropicalfish_b6": "geometry.tropicalfish_b6.mesh",
+        "mesh_tropicalfish_b5": "geometry.tropicalfish_b5.mesh",
+        "mesh_tropicalfish_b4": "geometry.tropicalfish_b4.mesh",
+        "mesh_tropicalfish_b3": "geometry.tropicalfish_b3.mesh",
+        "mesh_tropicalfish_b2": "geometry.tropicalfish_b2.mesh",
+        "mesh_tropicalfish_b1": "geometry.tropicalfish_b1.mesh",
+        "mesh_tropicalfish_a6": "geometry.tropicalfish_a6.mesh",
+        "mesh_tropicalfish_a5": "geometry.tropicalfish_a5.mesh",
+        "mesh_tropicalfish_a4": "geometry.tropicalfish_a4.mesh",
+        "mesh_tropicalfish_a3": "geometry.tropicalfish_a3.mesh",
+        "mesh_tropicalfish_a2": "geometry.tropicalfish_a2.mesh",
+        "mesh": "geometry.tropicalfish.mesh"
+      },
+      "animations": {
+        "flop": "animation.tropicalfish.flop",
+        "swim": "animation.tropicalfish.swim"
+      },
+      "animation_controllers": [
+        {
+          "general": "controller.animation.fish.general"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.tropicalfish.mesh"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_tropicalfish"
+      }
+    }
+  }
+}

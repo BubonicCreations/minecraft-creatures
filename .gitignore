@@ -1,0 +1,15 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Mojang's reference pack: a link to the reskin project's copy, or `uv run mcreskin fetch-vanilla` there (EULA-covered, never committed)
+vanilla
+
+# Regenerable, or too big for git: pictures and 3D runs (3 GB), builds, the packaged file
+work/
+build/
+dist/
+
+# Source meshes of the models (the build reads only each model's geometry and PNG)
+art/models/mesh/*_single_1500.glb

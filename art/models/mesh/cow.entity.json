@@ -1,0 +1,66 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:cow",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "cow",
+        "cold": "cow_cold",
+        "mesh_cow_cold_baby": "cow",
+        "mesh_cow_cold": "cow"
+      },
+      "textures": {
+        "default": "textures/entity/cow/cow_v2",
+        "warm": "textures/entity/cow/cow_warm",
+        "cold": "textures/entity/cow/cow_cold",
+        "baby_default": "textures/entity/cow/cow_temperate_baby",
+        "baby_cold": "textures/entity/cow/cow_cold_baby",
+        "baby_warm": "textures/entity/cow/cow_warm_baby",
+        "mesh_cow_baby": "textures/entity/cow/cow_v2",
+        "mesh_cow_cold_baby": "textures/entity/cow/cow_cold_mesh",
+        "mesh_cow_warm_baby": "textures/entity/cow/cow_warm_mesh",
+        "mesh_cow_cold": "textures/entity/cow/cow_cold_mesh",
+        "mesh": "textures/entity/cow/cow_warm_mesh"
+      },
+      "geometry": {
+        "default": "geometry.cow.v2",
+        "warm": "geometry.cow.warm",
+        "cold": "geometry.cow.cold",
+        "baby": "geometry.cow.baby",
+        "mesh_cow_baby": "geometry.cow_baby.mesh",
+        "mesh_cow_cold_baby": "geometry.cow_cold_baby.mesh",
+        "mesh_cow_warm_baby": "geometry.cow_warm_baby.mesh",
+        "mesh_cow_cold": "geometry.cow_cold.mesh",
+        "mesh": "geometry.cow_warm.mesh"
+      },
+      "animations": {
+        "setup": "animation.cow.setup",
+        "walk": "animation.cow_warm.mesh.walk",
+        "look_at_target": "animation.cow_warm.mesh.look_at_target",
+        "baby_transform": "animation.cow_warm.mesh.baby_transform"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          {
+            "walk": "query.modified_move_speed"
+          },
+          "look_at_target"
+        ],
+        "pre_animation": [
+          "t.variant = query.property('minecraft:climate_variant');",
+          "v.index = (t.variant == 'temperate') ? 0 : ((t.variant == 'warm') ? 1 : 2);",
+          "v.is_cold = t.variant == 'cold';"
+        ],
+        "scale": "query.is_baby ? 2.0 : 1.0"
+      },
+      "render_controllers": [
+        "controller.render.cow.v3.mesh"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_cow"
+      }
+    }
+  }
+}

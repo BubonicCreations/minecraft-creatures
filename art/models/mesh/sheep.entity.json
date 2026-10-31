@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:sheep",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "sheep"
+      },
+      "textures": {
+        "default": "textures/entity/sheep/sheep",
+        "baby": "textures/entity/sheep/sheep_baby",
+        "mesh_sheep_baby": "textures/entity/sheep/sheep_mesh",
+        "mesh_sheep_sheared": "textures/entity/sheep/sheep_sheared_mesh",
+        "mesh": "textures/entity/sheep/sheep_mesh"
+      },
+      "geometry": {
+        "default": "geometry.sheep.v1.8",
+        "sheared": "geometry.sheep.sheared.v1.8",
+        "baby": "geometry.sheep.baby",
+        "mesh_sheep_baby": "geometry.sheep_baby.mesh",
+        "mesh_sheep_sheared": "geometry.sheep_sheared.mesh",
+        "mesh": "geometry.sheep.mesh"
+      },
+      "animations": {
+        "setup": "animation.sheep.setup.v2",
+        "grazing": "animation.sheep.mesh.grazing",
+        "walk": "animation.sheep.mesh.walk",
+        "look_at_target": "animation.sheep.mesh.look_at_target",
+        "baby_transform": "animation.sheep.mesh.baby_transform",
+        "move": "controller.animation.sheep.move"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          "look_at_target",
+          "move"
+        ],
+        "scale": "query.is_baby ? 2.0 : 1.0"
+      },
+      "render_controllers": [
+        "controller.render.sheep.v2.mesh"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_sheep"
+      }
+    }
+  }
+}

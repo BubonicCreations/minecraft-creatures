@@ -1,0 +1,19 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.blaze.mesh": {
+      "geometry": "Geometry.mesh",
+      "materials": [
+        {
+          "*": "Material.body"
+        },
+        {
+          "head": "Material.head"
+        }
+      ],
+      "textures": [
+        "Texture.mesh"
+      ]
+    }
+  }
+}
